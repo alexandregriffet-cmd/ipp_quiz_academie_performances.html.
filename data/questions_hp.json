@@ -1,0 +1,32 @@
+[
+  {
+    "prompt": "Quand c’est trop simple, vous…",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Cherchez à optimiser la méthode",
+        "profil": "Garant"
+      },
+      {
+        "label": "Relevez un défi supplémentaire",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Aidez quelqu’un d’autre",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vérifiez l’alignement avec vos valeurs",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Complexifiez en ouvrant des pistes nouvelles",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Transformez en jeu stimulant",
+        "profil": "Spontané"
+      }
+    ]
+  }
+]

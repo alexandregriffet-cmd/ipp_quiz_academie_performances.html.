@@ -1,0 +1,62 @@
+[
+  {
+    "prompt": "Quand tu bosses un devoir important, qu'est-ce qui te ressemble le plus ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan carré et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je fonce et j’avance vite pour finir",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et je prends soin de l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends du recul et j’imagine une autre façon de faire",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une équipe, on apprécie surtout chez toi…",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Ta méthode et ton sérieux",
+        "profil": "Garant"
+      },
+      {
+        "label": "Ton énergie et tes résultats",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Ta chaleur humaine",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Ta loyauté et tes valeurs",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Tes idées originales",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Ton humour et ta créativité",
+        "profil": "Spontané"
+      }
+    ]
+  }
+]

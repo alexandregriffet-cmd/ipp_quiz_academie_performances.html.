@@ -1,0 +1,23 @@
+*{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial}
+body{margin:0;background:#f8fafc;color:#0f172a}
+header{display:flex;align-items:center;gap:16px;padding:20px 24px;background:#ffffff;border-bottom:1px solid #e2e8f0}
+.logo{width:56px;height:56px;object-fit:contain;mix-blend-multiply}
+h1{font-size:22px;margin:0}
+.subtitle{margin:0;color:#475569}
+main{max-width:1100px;margin:32px auto;padding:0 16px}
+section{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:24px;margin-bottom:20px}
+.modes button{margin-right:10px;margin-top:10px}
+.hidden{display:none}
+#q-container{min-height:160px}
+.question{margin-bottom:14px;padding:12px;border:1px solid #e2e8f0;border-radius:12px}
+.answers{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
+.answers button{padding:10px;border-radius:10px;border:1px solid #cbd5e1;background:#f1f5f9;cursor:pointer}
+.answers button.active{background:#2563eb;color:#fff;border-color:#2563eb}
+.nav{display:flex;gap:10px;margin-top:12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+#synthese table{width:100%;border-collapse:collapse}
+#synthese th,#synthese td{border:1px solid #e2e8f0;padding:8px;text-align:left}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:#eef2ff;border:1px solid #c7d2fe}
+.badge .dot{width:10px;height:10px;border-radius:50%}
+.actions{display:flex;gap:10px;margin-top:16px}
+footer{max-width:1100px;margin:0 auto 24px auto;padding:0 16px;color:#475569}

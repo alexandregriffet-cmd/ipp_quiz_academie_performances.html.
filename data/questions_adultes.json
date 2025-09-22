@@ -1,0 +1,32 @@
+[
+  {
+    "prompt": "Devant une deadline serrée, votre premier réflexe ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Structurer les tâches et contrôler la qualité",
+        "profil": "Garant"
+      },
+      {
+        "label": "Décider vite et viser le résultat",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Mobiliser l’équipe dans un climat positif",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Agir loyalement selon vos principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Imaginer une approche alternative",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Alléger la pression par l’humour",
+        "profil": "Spontané"
+      }
+    ]
+  }
+]
