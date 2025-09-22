@@ -225,7 +225,7 @@ async function buildPremiumPdfDoc(ADN, CAP, perc, reportData){
   cover.className = "page cover";
   cover.innerHTML = `
     <div class="wm"><img src="assets/logo.png" alt="wm"></div>
-    <img src="assets/logo.png" alt="Logo" style="width:120px;height:auto" class="brand">
+    <img src="assets/logo.png" alt="Logo" style="width:220px;height:auto;margin-bottom:20px" class="brand">
     <h1>Inventaire Psychologique de Performance</h1><div class="youth-badge">Jeunes · 12–25 ans</div>
     <h2>Inventaire Psychologique de Performances Jeunes – Académie de Performances</h2>
     <div class="kpi">
