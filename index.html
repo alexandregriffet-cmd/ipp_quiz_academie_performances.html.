@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IPP – Académie de Performances</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+<body>
+<header class="header-hero">
+  <img src="assets/logo.png" alt="Logo IPP" class="logo hero-logo">
+  <div class="hero-copy">
+    <h1>Inventaire Psychologique de Performance</h1>
+    <p class="subtitle">Par l’Académie de Performances – Alexandre Griffet</p>
+    <ul class="badges">
+      <li>🎯 Résultats personnalisés</li>
+      <li>🕒 Jusqu’à 45 minutes</li>
+      <li>📄 Rapport premium + PDF</li>
+    </ul>
+    <div class="cta"><button data-mode="ados" class="cta-main">Commencer – Jeunes (12–25 ans)</button></div><div style="margin:10px 0 0 0"><label style="font-size:13px;color:#334155">Photo de couverture (optionnelle) : <input type="file" id="coverPhoto" accept="image/*"></label></div>
+      <button data-mode="ados" class="cta-main">Commencer – Jeunes (12–25 ans)</button>
+    </div>
+  </div>
+</header><div class="modes" style="display:none"><button data-mode="ados"></button><button data-mode="adultes"></button><button data-mode="hp"></button></div>
+
+<main id="app">
+  <section class="rules">
+    <h2>📌 Règles de passation</h2>
+    <ul>
+      <li>Installez-vous dans un <b>moment calme</b> et <b>sans être dérangé(e)</b>.</li>
+      <li>Répondez avec <b>spontanéité</b> : ne suranalysez pas vos réponses.</li>
+      <li>Vous êtes tutoyé(e) nulle part : notre communication est au <b>vouvoiement</b>.</li>
+      <li>Le test peut durer <b>jusqu’à 45 minutes</b> selon votre rythme. Prenez le temps nécessaire.</li>
+    </ul>
+  </section>
+
+  <section id="questionnaire" class="hidden">
+    <div id="q-container"></div>
+    <div class="nav">
+      <button id="prev">Précédent</button>
+      <button id="next">Suivant</button>
+      <button id="finish" class="hidden">Terminer</button>
+    </div>
+    <div id="progress"></div>
+  </section>
+
+  <section id="rapport" class="hidden">
+    <h2>Votre rapport IPP</h2>
+    <div id="summary"></div>
+
+    <div class="grid2">
+      <canvas id="etoile" height="360"></canvas>
+      <div id="synthese"></div>
+    </div>
+
+    <div class="grid2">
+      <canvas id="boussole" height="320"></canvas>
+      <canvas id="pyramide" height="320"></canvas>
+    </div>
+
+    <article id="rapport-texte"></article>
+
+    <div class="actions">
+      <button id="downloadPdf">Télécharger en PDF</button>
+      <button id="restart">Recommencer</button>
+    </div>
+  </section>
+</main>
+
+<div id="pdfDoc">
+  <!-- Pages will be generated dynamically in app.js -->
+</div>
+<div id="pdfDoc"></div>
+<footer>
+  <small>© IPP – Académie de Performances</small>
+</footer>
+
+<script src="app.js"></script>
+<script>
+// brancher les CTA du hero sur le même mécanisme que les modes
+document.querySelectorAll('.cta button').forEach(btn=>{
+  btn.addEventListener('click', e => {
+    const event = new Event('click');
+    const target = document.querySelector(`.modes button[data-mode="${btn.dataset.mode}"]`);
+    if(target){ target.dispatchEvent(event); }
+  });
+});
+</script>
+</body>
+</html>

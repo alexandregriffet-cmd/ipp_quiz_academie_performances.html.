@@ -1,0 +1,57 @@
+*{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial}
+body{margin:0;background:#f8fafc;color:#0f172a}
+header{display:flex;align-items:center;gap:16px;padding:20px 24px;background:#ffffff;border-bottom:1px solid #e2e8f0}
+.logo{width:56px;height:56px;object-fit:contain;mix-blend-multiply}
+h1{font-size:22px;margin:0}
+.subtitle{margin:0;color:#475569}
+main{max-width:1100px;margin:32px auto;padding:0 16px}
+section{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:24px;margin-bottom:20px}
+.modes button{margin-right:10px;margin-top:10px}
+.hidden{display:none}
+#q-container{min-height:160px}
+.question{margin-bottom:14px;padding:12px;border:1px solid #e2e8f0;border-radius:12px}
+.answers{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
+.answers button{padding:10px;border-radius:10px;border:1px solid #cbd5e1;background:#f1f5f9;cursor:pointer}
+.answers button.active{background:#2563eb;color:#fff;border-color:#2563eb}
+.nav{display:flex;gap:10px;margin-top:12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+#synthese table{width:100%;border-collapse:collapse}
+#synthese th,#synthese td{border:1px solid #e2e8f0;padding:8px;text-align:left}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:#eef2ff;border:1px solid #c7d2fe}
+.badge .dot{width:10px;height:10px;border-radius:50%}
+.actions{display:flex;gap:10px;margin-top:16px}
+footer{max-width:1100px;margin:0 auto 24px auto;padding:0 16px;color:#475569}
+
+.header-hero{display:flex;align-items:center;gap:24px;padding:28px 24px;background:linear-gradient(135deg,#f8fbff,#eef6ff);border-bottom:1px solid #e2e8f0}
+.hero-logo{width:80px;height:80px;object-fit:contain}
+.hero-copy h1{font-size:28px;margin:0 0 4px 0}
+.badges{display:flex;gap:12px;list-style:none;padding:0;margin:8px 0 14px 0;color:#334155}
+.badges li{background:#fff;border:1px solid #e2e8f0;padding:6px 10px;border-radius:999px}
+.cta{display:flex;gap:10px;flex-wrap:wrap}
+.cta-main{background:#2563eb;color:#fff;border:1px solid #2563eb;padding:10px 14px;border-radius:10px;cursor:pointer}
+.cta-alt{background:#f1f5f9;border:1px solid #cbd5e1;padding:10px 14px;border-radius:10px;cursor:pointer}
+.rules{margin-top:16px}
+.rules ul{margin:0;padding-left:18px;line-height:1.6}
+
+
+/* --- PDF premium --- */
+#pdfDoc{display:none}
+.page{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:28px;margin:12px 0;position:relative}
+.page .wm{position:absolute;right:16px;top:12px;opacity:0.12}
+.page .wm img{width:120px;height:auto}
+.page-break{page-break-after:always}
+.cover{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:720px;text-align:center}
+.cover h1{font-size:28px;margin:12px 0 4px 0}
+.cover h2{font-size:18px;color:#475569;margin:0}
+.cover .brand{margin-top:16px;opacity:0.85}
+.section-title{font-size:18px;margin:0 0 8px 0;padding-bottom:6px;border-bottom:2px solid #e2e8f0}
+.kpi{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}
+.kpi .chip{background:#f1f5f9;border:1px solid #cbd5e1;padding:8px 10px;border-radius:10px}
+.fig{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0}
+.fig canvas{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:8px}
+@media print {.page{page-break-after:always}}
+
+
+/* --- Couverture PDF Jeunes 12–25 --- */
+.youth-badge{display:inline-block;background:#0ea5e9;color:#fff;padding:6px 10px;border-radius:999px;margin-top:8px;font-weight:600}
+.cover .client-photo{width:240px;height:240px;object-fit:cover;border-radius:14px;border:2px solid #e2e8f0;margin-top:12px}
