@@ -1,8 +1,9 @@
 const COLORS={Garant:"#1f77b4",Conquérant:"#d62728",Bienveillant:"#2ca02c",Fiable:"#800080",Visionnaire:"#87CEEB",Spontané:"#FFA500"};
-let QUESTIONS=[], answers=[], current=0, REPORT={};
+let QUESTIONS=[],answers=[],current=0,REPORT={};
 
 async function loadQuestions(){
-  const res = await fetch("data/questions_ados.json",{cache:"no-store"});
+  const url = `data/questions_ados.json?v=${window.__V__||Date.now()}`;
+  const res = await fetch(url,{cache:"no-store"});
   QUESTIONS = await res.json();
   answers = new Array(QUESTIONS.length).fill(null);
 }
@@ -13,57 +14,58 @@ function startQuiz(){
   current=0; renderQ();
 }
 
-const el=s=>document.querySelector(s);
-el("#prev").addEventListener("click",()=>{ if(current>0){current--;renderQ();}});
-el("#next").addEventListener("click",()=>{ if(current<QUESTIONS.length-1){current++;renderQ();}});
-el("#finish").addEventListener("click",finish);
+const $=s=>document.querySelector(s);
+$("#prev").addEventListener("click",()=>{ if(current>0){current--;renderQ();}});
+$("#next").addEventListener("click",()=>{ if(current<QUESTIONS.length-1){current++;renderQ();}});
+$("#finish").addEventListener("click",finish);
 
 function renderQ(){
   const q=QUESTIONS[current];
   if(!Array.isArray(answers[current])) answers[current]=[];
   const ranked=answers[current];
   const rankOf=i=>{const p=ranked.indexOf(i);return p===-1?null:p+1;}
-  el("#q").innerHTML=`<h3>${current+1}. ${q.prompt}</h3>
+  $("#q").innerHTML = `<h3>${current+1}. ${q.prompt}</h3>
   <div class="answers">
     ${q.options.map((o,i)=>`<div class="option ${rankOf(i)?'selected':''}" data-i="${i}">${o.label}${rankOf(i)?`<span class='rank-badge'>${rankOf(i)}</span>`:''}</div>`).join('')}
   </div>
   <p>Classez vos réponses par priorité (1→6). Il faut au minimum 3 choix pour continuer.</p>`;
-  el("#q").querySelectorAll(".option").forEach(op=>op.addEventListener("click",()=>{
+
+  $("#q").querySelectorAll(".option").forEach(op=>op.addEventListener("click",()=>{
     const i=+op.dataset.i; const p=ranked.indexOf(i);
-    if(p===-1){ if(ranked.length<6) ranked.push(i); } else { ranked.splice(p,1); }
+    if(p===-1){ if(ranked.length<6) ranked.push(i);} else { ranked.splice(p,1); }
     renderQ();
   }));
-  el("#prev").disabled = current===0;
+
+  $("#prev").disabled = current===0;
   const ok = ranked.length>=3;
-  el("#next").disabled = !ok || current===QUESTIONS.length-1;
-  el("#finish").classList.toggle("hidden", current!==QUESTIONS.length-1);
-  el("#finish").disabled = !ok;
-  el("#progress").textContent=`Progression : ${current+1}/${QUESTIONS.length} • Choix : ${ranked.length}`;
+  $("#next").disabled = !ok || current===QUESTIONS.length-1;
+  $("#finish").classList.toggle("hidden", current!==QUESTIONS.length-1);
+  $("#finish").disabled = !ok;
+  $("#progress").textContent = `Progression : ${current+1}/${QUESTIONS.length} • Choix : ${ranked.length}`;
 }
 
 async function finish(){
+  const weights=[6,5,4,3,2,1];
   const scores={Garant:0,Conquérant:0,Bienveillant:0,Fiable:0,Visionnaire:0,Spontané:0};
-  const WEIGHTS=[6,5,4,3,2,1];
-  QUESTIONS.forEach((q,i)=>{
-    const ranked = answers[i]||[];
-    ranked.forEach((opt, rpos)=>{ scores[q.options[opt].profil]+= (q.weight||1)*(WEIGHTS[rpos]||0); });
+  QUESTIONS.forEach((q,qi)=>{
+    const ranked = answers[qi]||[];
+    ranked.forEach((opt,idx)=>{ const p = q.options[opt].profil; scores[p]+= (q.weight||1)*(weights[idx]||0); });
   });
   const total = Object.values(scores).reduce((a,b)=>a+b,0)||1;
   const perc={}; Object.keys(scores).forEach(k=>perc[k]=Math.round(scores[k]/total*100));
   const sorted=Object.entries(perc).sort((a,b)=>b[1]-a[1]);
   const ADN=sorted[0][0], CAP=sorted[1][0], capsVecus=sorted.slice(2,4).map(x=>x[0]);
-
   REPORT={ADN,CAP,perc,capsVecus};
   document.getElementById("quiz").classList.add("hidden");
   document.getElementById("report").classList.remove("hidden");
   renderSummary(); renderStar(); renderTable(); renderBoussole(); renderPyramide(); await renderNarrative();
-  document.getElementById("downloadPdf").onclick = exportPDF;
+  document.getElementById("downloadPdf").onclick=exportPDF;
 }
 
+function dot(c){return `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${c};margin-right:6px"></span>`;}
 function renderSummary(){
   const {ADN,CAP,capsVecus}=REPORT;
-  const dot=(c)=>`<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${c};margin-right:6px"></span>`;
-  el("#summary").innerHTML = `<div class="badges">
+  document.getElementById("summary").innerHTML = `<div class="badges">
     <span class="badge">${dot(COLORS[ADN])}<b>ADN</b> : ${ADN} ❤️</span>
     <span class="badge">${dot(COLORS[CAP])}<b>Cap</b> : ${CAP} ⭐</span>
     ${capsVecus.map(c=>`<span class="badge"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#94a3b8;margin-right:6px"></span>${c} ⚪</span>`).join('')}
@@ -101,9 +103,9 @@ function renderBoussole(){
   ctx.fillText("Seul / Interne", 20, H-10);
   ctx.fillText("Groupe / Interne", W-190, H-10);
   const pos={"Garant":[W-70,H-40],"Conquérant":[W-70,40],"Bienveillant":[W-70,H-40],"Fiable":[W-70,H-40],"Visionnaire":[70,H-40],"Spontané":[W-70,H-40]};
-  const dot=(x,y,c)=>{ctx.fillStyle=c;ctx.beginPath();ctx.arc(x,y,8,0,Math.PI*2);ctx.fill();};
-  dot(...pos[ADN], COLORS[ADN]); ctx.fillText("❤️ "+ADN, pos[ADN][0]-18, pos[ADN][1]-14);
-  dot(...pos[CAP], COLORS[CAP]); ctx.fillText("⭐ "+CAP, pos[CAP][0]-18, pos[CAP][1]-14);
+  const draw=(x,y,c,l)=>{ctx.fillStyle=c;ctx.beginPath();ctx.arc(x,y,8,0,Math.PI*2);ctx.fill();ctx.fillStyle="#111";ctx.fillText(l,x-18,y-14);}
+  draw(...pos[ADN], COLORS[ADN], "❤️ "+ADN);
+  draw(...pos[CAP], COLORS[CAP], "⭐ "+CAP);
 }
 
 function renderPyramide(){
@@ -120,7 +122,7 @@ function renderPyramide(){
 
 async function renderNarrative(){
   const {ADN,CAP}=REPORT;
-  const res = await fetch("data/rapports_ipp.json",{cache:"no-store"});
+  const res = await fetch(`data/rapports_ipp.json?v=${window.__V__}`,{cache:"no-store"});
   const all = await res.json();
   const R = all[`${ADN}|${CAP}`];
   let html = `<h3>Message de bienvenue</h3><p>${R.bienvenue}</p>`;
@@ -133,7 +135,6 @@ async function renderNarrative(){
 
 async function exportPDF(){
   const { jsPDF } = window.jspdf;
-  // Construire un document multipage A4 à partir des blocs .like-a4
   const blocks = Array.from(document.querySelectorAll(".like-a4"));
   const doc = new jsPDF({unit:"pt",format:"a4"});
   const W=doc.internal.pageSize.getWidth(), H=doc.internal.pageSize.getHeight();
