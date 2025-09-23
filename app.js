@@ -34,11 +34,63 @@ el("#prev").addEventListener("click",()=>{ if(current>0){current--;renderQuestio
 el("#next").addEventListener("click",()=>{ if(current<QUESTIONS.length-1){current++;renderQuestion();}});
 el("#finish").addEventListener("click",finish);
 
+
 function renderQuestion(){
   const q = QUESTIONS[current];
-  qContainer.innerHTML=`<div class="question"><h3>${current+1}. ${q.prompt}</h3>
-    <div class="answers">
-      ${q.options.map((o,i)=>`<button data-i="${i}" class="${answers[current]===i?'active':''}">${o.label}</button>`).join("")}
+  // ensure answers[current] is an array of ranked indices
+  if(!Array.isArray(answers[current])) answers[current] = [];
+  const ranked = answers[current]; // e.g., [2,0,5] where index 0 is highest priority? We'll store in order of click: first = priorité 1.
+  const rankOf = (idx)=>{
+    const pos = ranked.indexOf(idx);
+    return pos===-1 ? null : (pos+1);
+  };
+  qContainer.innerHTML=`
+    <div class="question">
+      <h3>${current+1}. ${q.prompt}</h3>
+      <div class="answers">
+        ${q.options.map((opt,i)=>{
+          const r = rankOf(i);
+          return `<div class="option ${r? 'selected':''}" data-i="${i}">
+              ${opt.label}
+              ${r? `<span class="rank-badge">${r}</span>`:''}
+            </div>`;
+        }).join('')}
+      </div>
+      <div class="rank-legend">Cliquez pour classer vos réponses par ordre de priorité (1 = priorité maximale). Cliquez à nouveau pour retirer. Sélection : minimum 3, maximum 6.</div>
+      <button class="reset-q">Réinitialiser cette question</button>
+    </div>
+  `;
+
+  // interactions
+  qContainer.querySelectorAll(".answers .option").forEach(optEl=>{
+    optEl.addEventListener("click", ()=>{
+      const idx = +optEl.dataset.i;
+      const pos = ranked.indexOf(idx);
+      if(pos===-1){
+        if(ranked.length<6){
+          ranked.push(idx);
+        }
+      }else{
+        ranked.splice(pos,1);
+      }
+      renderQuestion();
+    });
+  });
+  qContainer.querySelector(".reset-q").addEventListener("click", ()=>{
+    answers[current] = [];
+    renderQuestion();
+  });
+
+  el("#prev").disabled = current===0;
+  el("#next").classList.toggle("hidden", current===QUESTIONS.length-1);
+  el("#finish").classList.toggle("hidden", current!==QUESTIONS.length-1);
+  // disable next/finish if no selection
+  const hasSel = (answers[current] && answers[current].length>=3);
+  el("#next").disabled = !hasSel;
+  el("#finish").disabled = !hasSel;
+  el("#progress").textContent = `Progression : ${current+1}/${QUESTIONS.length} — choix : ${answers[current].length}`;
+}
+
     </div></div>`;
   qContainer.querySelectorAll(".answers button").forEach(b=>b.addEventListener("click",()=>{answers[current]=+b.dataset.i;renderQuestion();}));
   el("#prev").disabled = current===0;
@@ -47,9 +99,19 @@ function renderQuestion(){
   el("#progress").textContent=`Progression : ${current+1}/${QUESTIONS.length}`;
 }
 
+
 async function finish(){
   const scores={Garant:0,Conquérant:0,Bienveillant:0,Fiable:0,Visionnaire:0,Spontané:0};
-  QUESTIONS.forEach((q,i)=>{ const a=answers[i]; if(a==null) return; scores[q.options[a].profil]+=q.weight||1; });
+  // pondération par rang : 1er=6, 2e=5, 3e=4, 4e=3, 5e=2, 6e=1
+  const RANK_WEIGHTS = [6,5,4,3,2,1];
+  QUESTIONS.forEach((q,i)=>{
+    const ranked = Array.isArray(answers[i]) ? answers[i] : [];
+    ranked.forEach((optIndex, rpos)=>{
+      const prof = q.options[optIndex].profil;
+      const w = RANK_WEIGHTS[rpos] || 0;
+      scores[prof] += (q.weight||1) * w;
+    });
+  });
   const total=Object.values(scores).reduce((a,b)=>a+b,0)||1;
   const perc={}; Object.keys(scores).forEach(k=>perc[k]=Math.round(scores[k]/total*100));
   const sorted=Object.entries(perc).sort((a,b)=>b[1]-a[1]);
@@ -64,6 +126,7 @@ async function finish(){
   await renderPyramide(ADN,CAP);
   await renderRapportTexte(ADN,CAP,capsVecus);
 }
+
 
 function renderSummary(ADN,CAP,perc,capsVecus){
   const dot=c=>`<span class="dot" style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${c}"></span>`;

@@ -4,27 +4,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un devoir maison à rendre demain et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un devoir maison à rendre demain et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un devoir maison à rendre demain.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un devoir maison à rendre demain avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un devoir maison à rendre demain.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un devoir maison à rendre demain avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -34,27 +34,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un exposé à faire en binôme et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un exposé à faire en binôme et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un exposé à faire en binôme.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un exposé à faire en binôme avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un exposé à faire en binôme.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un exposé à faire en binôme avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -64,27 +64,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour une matière que vous n’aimez pas et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque une matière que vous n’aimez pas tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de une matière que vous n’aimez pas.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de une matière que vous n’aimez pas et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de une matière que vous n’aimez pas.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends une matière que vous n’aimez pas plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -94,27 +94,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un prof exigeant et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un prof exigeant et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un prof exigeant.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un prof exigeant avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un prof exigeant.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un prof exigeant avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -124,27 +124,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de une dispute dans le groupe d’amis et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur une dispute dans le groupe d’amis et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur une dispute dans le groupe d’amis sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur une dispute dans le groupe d’amis.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier une dispute dans le groupe d’amis.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence une dispute dans le groupe d’amis d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -154,27 +154,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de un entraînement sportif important et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur un entraînement sportif important et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur un entraînement sportif important sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur un entraînement sportif important.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier un entraînement sportif important.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence un entraînement sportif important d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -184,27 +184,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour une semaine d’exams blancs et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour une semaine d’exams blancs et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur une semaine d’exams blancs.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à une semaine d’exams blancs avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder une semaine d’exams blancs.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre une semaine d’exams blancs avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -214,27 +214,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de un oral à préparer et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur un oral à préparer et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur un oral à préparer sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur un oral à préparer.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier un oral à préparer.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence un oral à préparer d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -244,27 +244,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un emploi du temps chargé et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un emploi du temps chargé et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un emploi du temps chargé.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un emploi du temps chargé avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un emploi du temps chargé.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un emploi du temps chargé avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -274,27 +274,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de une rumeur sur les réseaux et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur une rumeur sur les réseaux et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur une rumeur sur les réseaux sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur une rumeur sur les réseaux.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier une rumeur sur les réseaux.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence une rumeur sur les réseaux d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -304,27 +304,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un projet de classe à organiser et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un projet de classe à organiser et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un projet de classe à organiser.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un projet de classe à organiser avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un projet de classe à organiser.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un projet de classe à organiser avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -334,27 +334,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de une remarque injuste d’un adulte et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur une remarque injuste d’un adulte et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur une remarque injuste d’un adulte sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur une remarque injuste d’un adulte.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier une remarque injuste d’un adulte.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence une remarque injuste d’un adulte d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -364,27 +364,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de une opportunité de concours et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur une opportunité de concours et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur une opportunité de concours sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur une opportunité de concours.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier une opportunité de concours.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence une opportunité de concours d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -394,27 +394,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour une mauvaise note inattendue et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour une mauvaise note inattendue et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur une mauvaise note inattendue.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à une mauvaise note inattendue avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder une mauvaise note inattendue.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre une mauvaise note inattendue avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -424,27 +424,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je structure un retard accumulé dans un tableau/checklist et je m’y tiens.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je transforme un retard accumulé en défi chronométré et j’avance vite.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je cherche un partenaire/coach pour un retard accumulé et je joue collectif.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je sécurise la qualité de un retard accumulé en validant le cadre dès le départ.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je schématise un retard accumulé et je cherche un angle créatif.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je mets de l’énergie et un côté original dans un retard accumulé pour avancer.",
         "profil": "Spontané"
       }
     ]
@@ -454,27 +454,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je structure un voyage scolaire dans un tableau/checklist et je m’y tiens.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je transforme un voyage scolaire en défi chronométré et j’avance vite.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je cherche un partenaire/coach pour un voyage scolaire et je joue collectif.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je sécurise la qualité de un voyage scolaire en validant le cadre dès le départ.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je schématise un voyage scolaire et je cherche un angle créatif.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je mets de l’énergie et un côté original dans un voyage scolaire pour avancer.",
         "profil": "Spontané"
       }
     ]
@@ -484,27 +484,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un choix d’orientation et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un choix d’orientation et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un choix d’orientation.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un choix d’orientation avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un choix d’orientation.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un choix d’orientation avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -514,27 +514,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je structure une activité bénévole à lancer dans un tableau/checklist et je m’y tiens.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je transforme une activité bénévole à lancer en défi chronométré et j’avance vite.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je cherche un partenaire/coach pour une activité bénévole à lancer et je joue collectif.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je sécurise la qualité de une activité bénévole à lancer en validant le cadre dès le départ.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je schématise une activité bénévole à lancer et je cherche un angle créatif.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je mets de l’énergie et un côté original dans une activité bénévole à lancer pour avancer.",
         "profil": "Spontané"
       }
     ]
@@ -544,27 +544,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour un rendez-vous chez le CPE et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque un rendez-vous chez le CPE tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de un rendez-vous chez le CPE.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de un rendez-vous chez le CPE et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de un rendez-vous chez le CPE.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends un rendez-vous chez le CPE plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -574,27 +574,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour le stress avant un contrôle et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque le stress avant un contrôle tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de le stress avant un contrôle.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de le stress avant un contrôle et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de le stress avant un contrôle.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends le stress avant un contrôle plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -604,27 +604,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour la révision d’un chapitre difficile et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour la révision d’un chapitre difficile et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur la révision d’un chapitre difficile.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à la révision d’un chapitre difficile avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder la révision d’un chapitre difficile.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre la révision d’un chapitre difficile avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -634,27 +634,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour une présentation devant la classe et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque une présentation devant la classe tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de une présentation devant la classe.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de une présentation devant la classe et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de une présentation devant la classe.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends une présentation devant la classe plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -664,27 +664,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je structure un changement d’équipe au sport dans un tableau/checklist et je m’y tiens.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je transforme un changement d’équipe au sport en défi chronométré et j’avance vite.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je cherche un partenaire/coach pour un changement d’équipe au sport et je joue collectif.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je sécurise la qualité de un changement d’équipe au sport en validant le cadre dès le départ.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je schématise un changement d’équipe au sport et je cherche un angle créatif.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je mets de l’énergie et un côté original dans un changement d’équipe au sport pour avancer.",
         "profil": "Spontané"
       }
     ]
@@ -694,27 +694,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour un conflit dans le club et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque un conflit dans le club tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de un conflit dans le club.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de un conflit dans le club et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de un conflit dans le club.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends un conflit dans le club plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -724,27 +724,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je structure un manque d’envie de travailler dans un tableau/checklist et je m’y tiens.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je transforme un manque d’envie de travailler en défi chronométré et j’avance vite.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je cherche un partenaire/coach pour un manque d’envie de travailler et je joue collectif.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je sécurise la qualité de un manque d’envie de travailler en validant le cadre dès le départ.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je schématise un manque d’envie de travailler et je cherche un angle créatif.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je mets de l’énergie et un côté original dans un manque d’envie de travailler pour avancer.",
         "profil": "Spontané"
       }
     ]
@@ -754,27 +754,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour une nouvelle appli qui distrait et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque une nouvelle appli qui distrait tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de une nouvelle appli qui distrait.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de une nouvelle appli qui distrait et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de une nouvelle appli qui distrait.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends une nouvelle appli qui distrait plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -784,27 +784,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je structure une demande d’aide d’un ami dans un tableau/checklist et je m’y tiens.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je transforme une demande d’aide d’un ami en défi chronométré et j’avance vite.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je cherche un partenaire/coach pour une demande d’aide d’un ami et je joue collectif.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je sécurise la qualité de une demande d’aide d’un ami en validant le cadre dès le départ.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je schématise une demande d’aide d’un ami et je cherche un angle créatif.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je mets de l’énergie et un côté original dans une demande d’aide d’un ami pour avancer.",
         "profil": "Spontané"
       }
     ]
@@ -814,27 +814,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un défi scolaire intéressant et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un défi scolaire intéressant et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un défi scolaire intéressant.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un défi scolaire intéressant avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un défi scolaire intéressant.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un défi scolaire intéressant avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -844,27 +844,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour la gestion du temps le soir et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque la gestion du temps le soir tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de la gestion du temps le soir.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de la gestion du temps le soir et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de la gestion du temps le soir.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends la gestion du temps le soir plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -874,27 +874,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je structure l’organisation du cartable dans un tableau/checklist et je m’y tiens.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je transforme l’organisation du cartable en défi chronométré et j’avance vite.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je cherche un partenaire/coach pour l’organisation du cartable et je joue collectif.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je sécurise la qualité de l’organisation du cartable en validant le cadre dès le départ.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je schématise l’organisation du cartable et je cherche un angle créatif.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je mets de l’énergie et un côté original dans l’organisation du cartable pour avancer.",
         "profil": "Spontané"
       }
     ]
@@ -904,27 +904,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour des notifications qui interrompent et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour des notifications qui interrompent et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur des notifications qui interrompent.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à des notifications qui interrompent avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder des notifications qui interrompent.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre des notifications qui interrompent avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -934,27 +934,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de un prof absent remplaçant inconnu et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur un prof absent remplaçant inconnu et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur un prof absent remplaçant inconnu sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur un prof absent remplaçant inconnu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier un prof absent remplaçant inconnu.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence un prof absent remplaçant inconnu d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -964,27 +964,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je découpe la préparation du bac blanc en tâches simples avec un timing.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je me lance sans attendre sur la préparation du bac blanc et je vise un résultat rapide.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je propose de travailler la préparation du bac blanc avec quelqu’un pour nous entraider.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je vérifie que la préparation du bac blanc respecte mes principes et les règles fixées.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends du recul sur la préparation du bac blanc et je fais émerger une idée nouvelle.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je transforme la préparation du bac blanc en jeu/mini-défi pour m’activer.",
         "profil": "Spontané"
       }
     ]
@@ -994,27 +994,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un stage à trouver et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un stage à trouver et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un stage à trouver.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un stage à trouver avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un stage à trouver.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un stage à trouver avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -1024,27 +1024,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je découpe un triplé DS dans la semaine en tâches simples avec un timing.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je me lance sans attendre sur un triplé DS dans la semaine et je vise un résultat rapide.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je propose de travailler un triplé DS dans la semaine avec quelqu’un pour nous entraider.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je vérifie que un triplé DS dans la semaine respecte mes principes et les règles fixées.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends du recul sur un triplé DS dans la semaine et je fais émerger une idée nouvelle.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je transforme un triplé DS dans la semaine en jeu/mini-défi pour m’activer.",
         "profil": "Spontané"
       }
     ]
@@ -1054,27 +1054,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je découpe un parent qui met la pression en tâches simples avec un timing.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je me lance sans attendre sur un parent qui met la pression et je vise un résultat rapide.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je propose de travailler un parent qui met la pression avec quelqu’un pour nous entraider.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je vérifie que un parent qui met la pression respecte mes principes et les règles fixées.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends du recul sur un parent qui met la pression et je fais émerger une idée nouvelle.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je transforme un parent qui met la pression en jeu/mini-défi pour m’activer.",
         "profil": "Spontané"
       }
     ]
@@ -1084,27 +1084,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour une opportunité de concours d’éloquence et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque une opportunité de concours d’éloquence tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de une opportunité de concours d’éloquence.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de une opportunité de concours d’éloquence et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de une opportunité de concours d’éloquence.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends une opportunité de concours d’éloquence plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -1114,27 +1114,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un projet créatif perso et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un projet créatif perso et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un projet créatif perso.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un projet créatif perso avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un projet créatif perso.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un projet créatif perso avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -1144,27 +1144,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de un redoublement à éviter et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur un redoublement à éviter et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur un redoublement à éviter sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur un redoublement à éviter.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier un redoublement à éviter.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence un redoublement à éviter d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -1174,27 +1174,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un changement d’option et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un changement d’option et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un changement d’option.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un changement d’option avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un changement d’option.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un changement d’option avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -1204,27 +1204,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de une idée d’association lycéenne et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur une idée d’association lycéenne et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur une idée d’association lycéenne sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur une idée d’association lycéenne.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier une idée d’association lycéenne.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence une idée d’association lycéenne d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -1234,27 +1234,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour un oubli de devoir et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque un oubli de devoir tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de un oubli de devoir.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de un oubli de devoir et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de un oubli de devoir.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends un oubli de devoir plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -1264,27 +1264,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour un retard le matin et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque un retard le matin tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de un retard le matin.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de un retard le matin et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de un retard le matin.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends un retard le matin plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -1294,27 +1294,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je structure un contrôle surprise dans un tableau/checklist et je m’y tiens.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je transforme un contrôle surprise en défi chronométré et j’avance vite.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je cherche un partenaire/coach pour un contrôle surprise et je joue collectif.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je sécurise la qualité de un contrôle surprise en validant le cadre dès le départ.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je schématise un contrôle surprise et je cherche un angle créatif.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je mets de l’énergie et un côté original dans un contrôle surprise pour avancer.",
         "profil": "Spontané"
       }
     ]
@@ -1324,27 +1324,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour une note injuste selon vous et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque une note injuste selon vous tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de une note injuste selon vous.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de une note injuste selon vous et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de une note injuste selon vous.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends une note injuste selon vous plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
@@ -1354,27 +1354,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de un pote mis à l’écart et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur un pote mis à l’écart et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur un pote mis à l’écart sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur un pote mis à l’écart.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier un pote mis à l’écart.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence un pote mis à l’écart d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -1384,27 +1384,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de un message blessant reçu et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur un message blessant reçu et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur un message blessant reçu sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur un message blessant reçu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier un message blessant reçu.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence un message blessant reçu d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -1414,27 +1414,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je découpe une compétition le week-end en tâches simples avec un timing.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je me lance sans attendre sur une compétition le week-end et je vise un résultat rapide.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je propose de travailler une compétition le week-end avec quelqu’un pour nous entraider.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je vérifie que une compétition le week-end respecte mes principes et les règles fixées.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends du recul sur une compétition le week-end et je fais émerger une idée nouvelle.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je transforme une compétition le week-end en jeu/mini-défi pour m’activer.",
         "profil": "Spontané"
       }
     ]
@@ -1444,27 +1444,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je structure une audition musicale dans un tableau/checklist et je m’y tiens.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je transforme une audition musicale en défi chronométré et j’avance vite.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je cherche un partenaire/coach pour une audition musicale et je joue collectif.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je sécurise la qualité de une audition musicale en validant le cadre dès le départ.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je schématise une audition musicale et je cherche un angle créatif.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je mets de l’énergie et un côté original dans une audition musicale pour avancer.",
         "profil": "Spontané"
       }
     ]
@@ -1474,27 +1474,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un entretien d’orientation et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un entretien d’orientation et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un entretien d’orientation.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un entretien d’orientation avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un entretien d’orientation.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un entretien d’orientation avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -1504,27 +1504,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je découpe une panne de motivation en tâches simples avec un timing.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je me lance sans attendre sur une panne de motivation et je vise un résultat rapide.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je propose de travailler une panne de motivation avec quelqu’un pour nous entraider.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je vérifie que une panne de motivation respecte mes principes et les règles fixées.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends du recul sur une panne de motivation et je fais émerger une idée nouvelle.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je transforme une panne de motivation en jeu/mini-défi pour m’activer.",
         "profil": "Spontané"
       }
     ]
@@ -1534,27 +1534,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je découpe un groupe de travail chaotique en tâches simples avec un timing.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je me lance sans attendre sur un groupe de travail chaotique et je vise un résultat rapide.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je propose de travailler un groupe de travail chaotique avec quelqu’un pour nous entraider.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je vérifie que un groupe de travail chaotique respecte mes principes et les règles fixées.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends du recul sur un groupe de travail chaotique et je fais émerger une idée nouvelle.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je transforme un groupe de travail chaotique en jeu/mini-défi pour m’activer.",
         "profil": "Spontané"
       }
     ]
@@ -1564,27 +1564,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je structure un exercice trop facile dans un tableau/checklist et je m’y tiens.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je transforme un exercice trop facile en défi chronométré et j’avance vite.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je cherche un partenaire/coach pour un exercice trop facile et je joue collectif.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je sécurise la qualité de un exercice trop facile en validant le cadre dès le départ.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je schématise un exercice trop facile et je cherche un angle créatif.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je mets de l’énergie et un côté original dans un exercice trop facile pour avancer.",
         "profil": "Spontané"
       }
     ]
@@ -1594,27 +1594,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour un partiel blanc et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour un partiel blanc et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur un partiel blanc.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à un partiel blanc avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder un partiel blanc.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre un partiel blanc avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -1624,27 +1624,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je découpe une nouvelle matière en tâches simples avec un timing.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je me lance sans attendre sur une nouvelle matière et je vise un résultat rapide.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je propose de travailler une nouvelle matière avec quelqu’un pour nous entraider.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je vérifie que une nouvelle matière respecte mes principes et les règles fixées.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends du recul sur une nouvelle matière et je fais émerger une idée nouvelle.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je transforme une nouvelle matière en jeu/mini-défi pour m’activer.",
         "profil": "Spontané"
       }
     ]
@@ -1654,27 +1654,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour une contrainte familiale et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour une contrainte familiale et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur une contrainte familiale.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à une contrainte familiale avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder une contrainte familiale.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre une contrainte familiale avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -1684,27 +1684,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je clarifie l’objectif de un manque de sommeil et je prépare un mode d’emploi rapide.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je prends la tête sur un manque de sommeil et je mets un coup d’accélérateur.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je prends soin de la relation puis je progresse sur un manque de sommeil sereinement.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je m’assure d’être cohérent(e) et loyal(e) aux engagements sur un manque de sommeil.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je laisse venir une intuition qui pourrait simplifier un manque de sommeil.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je casse la routine et je commence un manque de sommeil d’une manière amusante.",
         "profil": "Spontané"
       }
     ]
@@ -1714,27 +1714,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je priorise ce qui compte pour une surcharge d’activités et j’avance méthodiquement.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "Je choisis l’action la plus impactante pour une surcharge d’activités et je fonce.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je m’assure que tout le monde se sent bien avant d’avancer sur une surcharge d’activités.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je contrôle les critères/valeurs liés à une surcharge d’activités avant d’agir.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je réfléchis en silence pour visualiser une autre manière d’aborder une surcharge d’activités.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je démarre une surcharge d’activités avec quelque chose de ludique pour me motiver.",
         "profil": "Spontané"
       }
     ]
@@ -1744,27 +1744,27 @@
     "weight": 1,
     "options": [
       {
-        "label": "Je fais un plan simple et je m’y tiens",
+        "label": "Je fais un plan clair pour le choix Parcoursup et j’organise par étapes.",
         "profil": "Garant"
       },
       {
-        "label": "Je me lance vite pour avancer",
+        "label": "J’attaque le choix Parcoursup tout de suite pour créer de l’élan.",
         "profil": "Conquérant"
       },
       {
-        "label": "Je demande un avis et j’apaise l’ambiance",
+        "label": "Je demande un avis/retour et je garde une bonne ambiance autour de le choix Parcoursup.",
         "profil": "Bienveillant"
       },
       {
-        "label": "Je vérifie que ça respecte mes principes",
+        "label": "Je relis les consignes de le choix Parcoursup et je m’aligne sur ce qui est attendu.",
         "profil": "Fiable"
       },
       {
-        "label": "Je cherche une autre manière d’y arriver",
+        "label": "Je prends 5 minutes seul(e) pour imaginer une approche plus maligne de le choix Parcoursup.",
         "profil": "Visionnaire"
       },
       {
-        "label": "Je rends ça plus fun pour me motiver",
+        "label": "Je rends le choix Parcoursup plus fun (musique, minute-challenge) et je me lance.",
         "profil": "Spontané"
       }
     ]
