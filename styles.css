@@ -13,8 +13,11 @@ main{max-width:1100px;margin:24px auto;padding:0 16px}
 section{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:24px;margin-bottom:20px}
 .hidden{display:none}
 .answers{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
-.answers button{padding:10px;border-radius:10px;border:1px solid #cbd5e1;background:#f1f5f9;cursor:pointer}
-.answers button.active{background:#2563eb;color:#fff;border-color:#2563eb}
+.answers .option{position:relative;border:1px solid #cbd5e1;background:#f8fafc;border-radius:10px;padding:10px;cursor:pointer}
+.answers .option.selected{border-color:#2563eb;background:#eff6ff}
+.answers .rank-badge{position:absolute;right:10px;top:10px;background:#2563eb;color:#fff;font-weight:700;border-radius:999px;width:26px;height:26px;display:flex;align-items:center;justify-content:center}
+.rank-legend{font-size:12px;color:#475569;margin-top:6px}
+.reset-q{margin-top:8px;background:#e11d48;color:#fff;border:1px solid #e11d48;padding:8px 10px;border-radius:8px;cursor:pointer}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 #synthese table{width:100%;border-collapse:collapse}
 #synthese th,#synthese td{border:1px solid #e2e8f0;padding:8px;text-align:left}
@@ -26,11 +29,3 @@ section{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:24px
 .cover h1{font-size:28px;margin:12px 0 4px 0}
 .cover .brand{width:220px;height:auto;margin-bottom:20px}
 .youth-badge{display:inline-block;background:#0ea5e9;color:#fff;padding:6px 10px;border-radius:999px;margin-top:8px;font-weight:600}
-
-
-/* --- Sélection par ordre de priorité (1 à 6) --- */
-.answers .option{position:relative;border:1px solid #cbd5e1;background:#f8fafc;border-radius:10px;padding:10px;cursor:pointer}
-.answers .option.selected{border-color:#2563eb;background:#eff6ff}
-.answers .rank-badge{position:absolute;right:10px;top:10px;background:#2563eb;color:#fff;font-weight:700;border-radius:999px;width:26px;height:26px;display:flex;align-items:center;justify-content:center}
-.rank-legend{font-size:12px;color:#475569;margin-top:6px}
-.reset-q{margin-top:8px;background:#e11d48;color:#fff;border:1px solid #e11d48;padding:8px 10px;border-radius:8px;cursor:pointer}

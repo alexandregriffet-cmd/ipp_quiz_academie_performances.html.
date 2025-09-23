@@ -1,59 +1,23 @@
-
-// --- Global starter to avoid binding issues ---
-window._IPP_start = async function(){
-  try{
-    console.log("[IPP] start clicked");
-    await loadQuestions();
-    if(typeof startQuiz === "function"){ startQuiz(); }
-    else if(typeof start === "function"){ start(); }
-    else { alert("Erreur : fonction startQuiz introuvable"); }
-  }catch(e){
-    console.error(e);
-    alert("Impossible de démarrer le test. Essayez d’actualiser la page (Ctrl/Cmd+Shift+R).");
-  }
-};
-
-
-  if(start){
-    start.addEventListener("click", async (e)=>{
-      e.preventDefault();
-      try{
-        await loadQuestions();
-        startQuiz();
-      }catch(err){
-        console.warn(err);
-        // fallback minimal
-        startQuiz();
-      }
-    });
-  }else{
-    // fallback: attach on any .cta button
-    document.querySelectorAll(".cta button").forEach(btn=>btn.addEventListener("click", async()=>{
-      await loadQuestions(); startQuiz();
-    }));
-  }
-});
-
-/* IPP – Jeunes (12–25), CTA unique. Robust loader + fallback + caps vécus + PDF cover */
-window.addEventListener('error', e=>{ console.warn(e); });
-
+/* IPP – Jeunes (12–25) minimal start binding + ranking min 3 */
 const COLORS = {Garant:"#1f77b4",Conquérant:"#d62728",Bienveillant:"#2ca02c",Fiable:"#800080",Visionnaire:"#87CEEB",Spontané:"#FFA500"};
 let QUESTIONS=[], answers=[], current=0;
 
-const Q_FALLBACK = [{"prompt": "Dans un devoir maison à rendre demain, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un exposé à faire en binôme, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une matière que vous n’aimez pas, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un prof exigeant, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une dispute dans le groupe d’amis, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un entraînement sportif important, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une semaine d’exams blancs, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un oral à préparer, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un emploi du temps chargé, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une rumeur sur les réseaux, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un projet de classe à organiser, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une remarque injuste d’un adulte, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une opportunité de concours, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une mauvaise note inattendue, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un retard accumulé, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un voyage scolaire, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un choix d’orientation, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une activité bénévole à lancer, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un rendez-vous chez le CPE, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans le stress avant un contrôle, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans la révision d’un chapitre difficile, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une présentation devant la classe, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un changement d’équipe au sport, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un conflit dans le club, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un manque d’envie de travailler, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une nouvelle appli qui distrait, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une demande d’aide d’un ami, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un défi scolaire intéressant, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans la gestion du temps le soir, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans l’organisation du cartable, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans des notifications qui interrompent, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un prof absent remplaçant inconnu, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans la préparation du bac blanc, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un stage à trouver, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un triplé DS dans la semaine, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un parent qui met la pression, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une opportunité de concours d’éloquence, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un projet créatif perso, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un redoublement à éviter, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un changement d’option, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une idée d’association lycéenne, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un oubli de devoir, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un retard le matin, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un contrôle surprise, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une note injuste selon vous, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un pote mis à l’écart, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un message blessant reçu, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une compétition le week-end, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une audition musicale, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un entretien d’orientation, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une panne de motivation, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un groupe de travail chaotique, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un exercice trop facile, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un partiel blanc, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une nouvelle matière, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une contrainte familiale, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans un manque de sommeil, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans une surcharge d’activités, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}, {"prompt": "Dans le choix Parcoursup, vous faites quoi en premier ?", "weight": 1, "options": [{"label": "Je fais un plan simple et je m’y tiens", "profil": "Garant"}, {"label": "Je me lance vite pour avancer", "profil": "Conquérant"}, {"label": "Je demande un avis et j’apaise l’ambiance", "profil": "Bienveillant"}, {"label": "Je vérifie que ça respecte mes principes", "profil": "Fiable"}, {"label": "Je cherche une autre manière d’y arriver", "profil": "Visionnaire"}, {"label": "Je rends ça plus fun pour me motiver", "profil": "Spontané"}]}];
-
-document.querySelectorAll(".cta button").forEach(btn=>btn.addEventListener("click", async()=>{
-  await loadQuestions(); startQuiz();
-}));
-
-async function loadQuestions() {
+async function loadQuestions(){
   try{
     const res = await fetch("data/questions_ados.json", {cache:"no-store"});
     if(!res.ok) throw new Error("HTTP "+res.status);
     QUESTIONS = await res.json();
-  }catch(err){
-    console.warn("Chargement via fetch impossible. Fallback intégré utilisé.", err);
-    QUESTIONS = Q_FALLBACK;
+  }catch(e){
+    // fallback embedded minimal (first 6 contexts) if fetch fails
+    QUESTIONS = [
+      {"prompt":"Dans un devoir maison à rendre demain, vous faites quoi en premier ?","weight":1,"options":[
+        {"label":"Je fais un plan clair et j’organise par étapes.","profil":"Garant"},
+        {"label":"Je me lance tout de suite pour créer de l’élan.","profil":"Conquérant"},
+        {"label":"Je demande un avis pour avancer sereinement.","profil":"Bienveillant"},
+        {"label":"Je relis les consignes et je m’aligne dessus.","profil":"Fiable"},
+        {"label":"Je réfléchis 5 min pour trouver une idée maligne.","profil":"Visionnaire"},
+        {"label":"Je rends ça plus fun pour démarrer.","profil":"Spontané"}]}
+    ];
   }
   answers = new Array(QUESTIONS.length).fill(null);
 }
@@ -70,17 +34,12 @@ el("#prev").addEventListener("click",()=>{ if(current>0){current--;renderQuestio
 el("#next").addEventListener("click",()=>{ if(current<QUESTIONS.length-1){current++;renderQuestion();}});
 el("#finish").addEventListener("click",finish);
 
-
 function renderQuestion(){
   const q = QUESTIONS[current];
-  // ensure answers[current] is an array of ranked indices
-  if(!Array.isArray(answers[current])) answers[current] = [];
-  const ranked = answers[current]; // e.g., [2,0,5] where index 0 is highest priority? We'll store in order of click: first = priorité 1.
-  const rankOf = (idx)=>{
-    const pos = ranked.indexOf(idx);
-    return pos===-1 ? null : (pos+1);
-  };
-  qContainer.innerHTML=`
+  if(!Array.isArray(answers[current])) answers[current]=[];
+  const ranked = answers[current];
+  const rankOf = idx => { const pos=ranked.indexOf(idx); return pos===-1?null:(pos+1); };
+  qContainer.innerHTML = `
     <div class="question">
       <h3>${current+1}. ${q.prompt}</h3>
       <div class="answers">
@@ -92,69 +51,48 @@ function renderQuestion(){
             </div>`;
         }).join('')}
       </div>
-      <div class="rank-legend">Cliquez pour classer vos réponses par ordre de priorité (1 = priorité maximale). Cliquez à nouveau pour retirer. Sélection : minimum 3, maximum 6.</div>
+      <div class="rank-legend">Classez vos réponses par priorité (1 à 6). Navigation possible quand vous en avez choisi au moins <b>3</b>.</div>
       <button class="reset-q">Réinitialiser cette question</button>
     </div>
   `;
-
-  // interactions
   qContainer.querySelectorAll(".answers .option").forEach(optEl=>{
-    optEl.addEventListener("click", ()=>{
+    optEl.addEventListener("click",()=>{
       const idx = +optEl.dataset.i;
       const pos = ranked.indexOf(idx);
-      if(pos===-1){
-        if(ranked.length<6){
-          ranked.push(idx);
-        }
-      }else{
-        ranked.splice(pos,1);
-      }
+      if(pos===-1){ if(ranked.length<6){ ranked.push(idx); } }
+      else{ ranked.splice(pos,1); }
       renderQuestion();
     });
   });
-  qContainer.querySelector(".reset-q").addEventListener("click", ()=>{
-    answers[current] = [];
-    renderQuestion();
-  });
-
+  qContainer.querySelector(".reset-q").addEventListener("click", ()=>{ answers[current]=[]; renderQuestion(); });
   el("#prev").disabled = current===0;
   el("#next").classList.toggle("hidden", current===QUESTIONS.length-1);
   el("#finish").classList.toggle("hidden", current!==QUESTIONS.length-1);
-  // disable next/finish if no selection
-  const hasSel = (answers[current] && answers[current].length>=3);
-  el("#next").disabled = !hasSel;
-  el("#finish").disabled = !hasSel;
-  el("#progress").textContent = `Progression : ${current+1}/${QUESTIONS.length} — choix : ${answers[current].length}`;
+  const ok = ranked.length>=3;
+  el("#next").disabled = !ok;
+  el("#finish").disabled = !ok;
+  el("#progress").textContent = `Progression : ${current+1}/${QUESTIONS.length} — choix : ${ranked.length}`;
 }
-
-    </div></div>`;
-  qContainer.querySelectorAll(".answers button").forEach(b=>b.addEventListener("click",()=>{answers[current]=+b.dataset.i;renderQuestion();}));
-  el("#prev").disabled = current===0;
-  el("#next").classList.toggle("hidden",current===QUESTIONS.length-1);
-  el("#finish").classList.toggle("hidden",current!==QUESTIONS.length-1);
-  el("#progress").textContent=`Progression : ${current+1}/${QUESTIONS.length}`;
-}
-
 
 async function finish(){
   const scores={Garant:0,Conquérant:0,Bienveillant:0,Fiable:0,Visionnaire:0,Spontané:0};
-  // pondération par rang : 1er=6, 2e=5, 3e=4, 4e=3, 5e=2, 6e=1
-  const RANK_WEIGHTS = [6,5,4,3,2,1];
+  const RANK_WEIGHTS=[6,5,4,3,2,1];
   QUESTIONS.forEach((q,i)=>{
     const ranked = Array.isArray(answers[i]) ? answers[i] : [];
     ranked.forEach((optIndex, rpos)=>{
       const prof = q.options[optIndex].profil;
-      const w = RANK_WEIGHTS[rpos] || 0;
-      scores[prof] += (q.weight||1) * w;
+      const w = RANK_WEIGHTS[rpos]||0;
+      scores[prof] += (q.weight||1)*w;
     });
   });
-  const total=Object.values(scores).reduce((a,b)=>a+b,0)||1;
+  const total = Object.values(scores).reduce((a,b)=>a+b,0)||1;
   const perc={}; Object.keys(scores).forEach(k=>perc[k]=Math.round(scores[k]/total*100));
-  const sorted=Object.entries(perc).sort((a,b)=>b[1]-a[1]);
+  const sorted = Object.entries(perc).sort((a,b)=>b[1]-a[1]);
   const ADN=sorted[0][0], CAP=sorted[1][0], capsVecus=sorted.slice(2,4).map(x=>x[0]);
   const percVisu={...perc}; percVisu[ADN]=100;
 
-  el("#questionnaire").classList.add("hidden"); el("#rapport").classList.remove("hidden");
+  document.querySelector("#questionnaire").classList.add("hidden");
+  document.querySelector("#rapport").classList.remove("hidden");
   renderSummary(ADN,CAP,percVisu,capsVecus);
   await renderEtoile(percVisu,ADN,CAP,capsVecus);
   renderSynthese(percVisu,ADN,CAP,capsVecus);
@@ -163,11 +101,10 @@ async function finish(){
   await renderRapportTexte(ADN,CAP,capsVecus);
 }
 
-
 function renderSummary(ADN,CAP,perc,capsVecus){
   const dot=c=>`<span class="dot" style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${c}"></span>`;
   const vecus=(capsVecus||[]).map(v=>`<div class="badge"><span class="dot" style="background:#94a3b8"></span> ${v} ⚪</div>`).join("");
-  el("#summary").innerHTML=`<div class="badge">${dot(COLORS[ADN])} <strong>ADN</strong> : ${ADN} ❤️</div>
+  document.querySelector("#summary").innerHTML=`<div class="badge">${dot(COLORS[ADN])} <strong>ADN</strong> : ${ADN} ❤️</div>
   <div class="badge">${dot(COLORS[CAP])} <strong>Cap</strong> : ${CAP} ⭐</div>${vecus}`;
 }
 
@@ -188,7 +125,7 @@ function renderSynthese(perc,ADN,CAP,capsVecus){
   const order=["Garant","Conquérant","Bienveillant","Fiable","Visionnaire","Spontané"];
   const badge=p=>p===ADN?"❤️ ADN":(p===CAP?"⭐ Cap":((capsVecus||[]).includes(p)?"⚪ vécu":""));
   const rows=order.map(p=>`<tr><td>${p}</td><td>${perc[p]||0} %</td><td>${badge(p)}</td></tr>`).join("");
-  el("#synthese").innerHTML=`<h3>Synthèse chifrée</h3><table><thead><tr><th>Profil</th><th>Énergie</th><th>Repère</th></tr></thead><tbody>${rows}</tbody></table>`;
+  document.querySelector("#synthese").innerHTML=`<h3>Synthèse chiffrée</h3><table><thead><tr><th>Profil</th><th>Énergie</th><th>Repère</th></tr></thead><tbody>${rows}</tbody></table>`;
 }
 
 async function renderBoussole(ADN,CAP){
@@ -220,15 +157,14 @@ async function renderPyramide(ADN,CAP){
 async function renderRapportTexte(ADN,CAP,capsVecus){
   const res=await fetch("data/rapports_ipp.json"); const all=await res.json();
   const key=`${ADN}|${CAP}`; const R=all[key]||{bienvenue:"Rapport en cours de rédaction.",sections:[]};
-  const container=el("#rapport-texte");
+  const container=document.querySelector("#rapport-texte");
   let html=`<h3>Message de bienvenue</h3><p>${R.bienvenue}</p>`;
   R.sections.forEach(s=>{ html+=`<h3>${s.titre}</h3>`; if(Array.isArray(s.points)){html+="<ul>"+s.points.map(p=>`<li>${p}</li>`).join("")+"</ul>";} else if(s.texte){html+=`<p>${s.texte}</p>`;} });
   container.innerHTML=html;
 
-  // Build PDF doc (cover + pages) and hook export
   await buildPremiumPdfDoc(ADN,CAP,{},R);
-  el("#downloadPdf").onclick = exportPremiumPDF;
-  el("#restart").onclick = ()=>location.reload();
+  document.querySelector("#downloadPdf").onclick = exportPremiumPDF;
+  document.querySelector("#restart").onclick = ()=>location.reload();
 }
 
 async function buildPremiumPdfDoc(ADN,CAP,perc,R){
