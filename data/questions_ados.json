@@ -1,0 +1,1802 @@
+[
+  {
+    "prompt": "Dans un devoir maison à rendre demain, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’établis un plan horaire détaillé pour avancer méthodiquement.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je commence immédiatement par l’exercice le plus difficile pour me challenger.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande à un ami s’il veut travailler avec moi pour que ce soit plus agréable.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je relis attentivement les consignes pour être certain(e) de respecter ce qu’on attend.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends 10 minutes seul(e) pour imaginer une manière originale d’aborder le travail.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets de la musique motivante pour rendre le devoir plus fun et commencer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Une dispute éclate dans votre groupe d’amis, que faites-vous d’abord ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’essaie de rétablir les faits pour que tout le monde comprenne clairement la situation.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends la parole et propose une solution rapide pour clore la dispute.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je cherche à apaiser les tensions en écoutant chaque personne.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle les règles de respect et d’amitié qu’on doit garder entre nous.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends du recul avant de proposer une idée qui change de l’ordinaire.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je fais une remarque drôle pour détendre l’ambiance et relancer le dialogue.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous avez un entraînement sportif important, première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je prépare mon sac et ma routine d’échauffement avec méthode.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me fixe l’objectif de battre mon propre record pendant l’entraînement.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’encourage mes coéquipiers pour qu’on se motive ensemble.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte le programme prévu par l’entraîneur sans rien oublier.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise les mouvements que je vais faire pour me projeter dans la réussite.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends l’entraînement ludique en transformant certains exercices en défi amusant.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous recevez une mauvaise note inattendue, votre premier réflexe ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’analyse où j’ai perdu des points pour corriger mes erreurs.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je décide de prouver à la prochaine évaluation que je peux faire beaucoup mieux.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je parle à un ami ou à un adulte de confiance pour être soutenu(e).",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "J’accepte la note comme un signe qu’il faut être encore plus rigoureux(se).",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je réfléchis à une autre manière d’apprendre pour mieux retenir la prochaine fois.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je relativise en me disant qu’une seule note ne définit pas ma valeur.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Une rumeur circule sur vous sur les réseaux, que faites-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’explique les faits calmement à ceux qui me demandent.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je réponds directement pour couper court à la rumeur.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je cherche du soutien auprès de mes amis proches.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je reste droit(e) dans mes valeurs et je ne me laisse pas influencer.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends du recul pour imaginer une manière plus intelligente de gérer ça.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je tourne la rumeur en dérision pour lui enlever son pouvoir.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous avez une présentation orale devant la classe, première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je prépare des fiches claires pour structurer mon discours.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je veux marquer les esprits avec une entrée en matière impactante.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je regarde mes camarades pour créer du lien pendant ma présentation.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte scrupuleusement le plan annoncé par le professeur.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je m’imagine réussir ma présentation avant de la faire.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "J’ajoute une touche d’humour pour capter l’attention.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous avez oublié de rendre un devoir, comment réagissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je reconnais mon erreur et je propose une nouvelle date précise.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je défends mon point de vue pour essayer de limiter les conséquences.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande pardon avec sincérité et douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle que ce n’est pas dans mes habitudes et que je suis habituellement fiable.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre façon de compenser cet oubli.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je dédramatise pour faire passer le message plus facilement.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un match/une compétition approche, que faites-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je révise ma stratégie en détail pour ne rien laisser au hasard.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me promets de donner tout pour gagner.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je motive mon équipe et je crée une bonne ambiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je me concentre sur le respect des règles et du fair-play.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise la victoire et j’imagine mes gestes réussis.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends le moment excitant en le transformant en jeu.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous devez choisir votre orientation scolaire, premier pas ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’étudie toutes les options et je fais un tableau comparatif.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis l’option qui me semble la plus ambitieuse et stimulante.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande conseil aux personnes qui me connaissent bien.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je prends en compte mes valeurs et ce qui fait sens pour moi.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je m’imagine dans chaque voie pour voir laquelle me correspond.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me fie à mon instinct et à ce qui m’amuse le plus.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un professeur vous fait une remarque injuste, réaction ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je reste calme et je demande des explications logiques.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je réponds avec fermeté pour défendre ma position.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’exprime calmement que ça m’a blessé.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je garde ma droiture et je montre que je reste fidèle à mes valeurs.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends du recul et j’attends le bon moment pour en parler.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je fais une remarque légère pour ne pas envenimer la situation.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un projet de classe est à organiser, vous commencez par quoi ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je propose de diviser les rôles clairement pour que chacun sache quoi faire.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends les choses en main et je lance directement l’organisation.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je fais en sorte que tout le monde se sente écouté avant de décider.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle les objectifs fixés par le prof pour qu’on reste alignés.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’imagine une façon originale de présenter le projet.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends l’organisation plus motivante en lançant un petit défi entre nous.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous avez accumulé du retard dans votre travail, premier geste ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je réorganise mon planning avec des priorités claires pour rattraper.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me mets un challenge de finir un maximum de choses rapidement.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande à un camarade de me soutenir pour ne pas décrocher.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je prends l’engagement de travailler chaque jour à heure fixe.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je trouve une méthode différente pour avancer plus efficacement.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends le rattrapage plus fun pour garder la motivation.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Une opportunité de concours ou d’audition se présente, que faites-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je prépare une checklist des étapes pour être fin prêt le jour J.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me fixe l’objectif de me démarquer et de gagner.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je partage ma joie avec mes proches pour me sentir soutenu(e).",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’assure de respecter toutes les règles du concours.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’imagine le moment où je réussirai sur scène ou devant le jury.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me lance en improvisant une touche personnelle pour surprendre.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Semaine chargée d’examens blancs, votre stratégie ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un planning précis de révisions pour chaque matière.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis les matières clés et je les révise à fond.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je révise en groupe pour me sentir soutenu(e).",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte le programme de révisions que je m’étais fixé.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je m’imagine réussir chaque examen pour me motiver.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "J’alterne révisions et pauses fun pour garder l’énergie.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un camarade vous fait une remarque blessante, réaction ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je lui demande de préciser ce qu’il voulait dire pour clarifier.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je réplique directement pour montrer que je ne me laisse pas faire.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’exprime calmement que ça m’a blessé.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je garde mon calme et je montre que je reste fidèle à mes valeurs.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends du recul et je réfléchis avant de répondre.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je réponds par une touche d’humour pour désamorcer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous lancez une activité bénévole, première étape ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je définis un plan d’action concret avec des étapes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je motive les autres en donnant l’exemple et en prenant les devants.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je fédère autour de la cause en créant un esprit de solidarité.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je choisis une mission alignée avec mes valeurs profondes.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’imagine une nouvelle manière de mener cette action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends le projet attractif en ajoutant une touche ludique.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Entretien d’orientation avec le conseiller, vous préparez quoi ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je prépare mes questions et mes dossiers à l’avance.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je mets en avant mes ambitions et mes objectifs futurs.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je partage mes doutes et mes émotions avec sincérité.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "J’explique les choix qui sont cohérents avec mes valeurs.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je parle de mes idées et de mes projets originaux.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends la discussion plus détendue avec un ton léger.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous recevez un message blessant sur les réseaux, que faites-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’analyse le message et je choisis une réponse claire et posée.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je réponds fermement pour ne pas montrer de faiblesse.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je cherche du soutien auprès de mes amis proches.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je décide de ne pas répondre et de rester droit(e) dans mes principes.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends du recul et j’imagine une manière plus intelligente de gérer.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je tourne le message en dérision pour qu’il perde son impact.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Compétition sportive le week-end, première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je révise ma stratégie et je prépare tout mon matériel.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me mets en tête que je dois gagner.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je renforce la cohésion de mon équipe avant le match.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte scrupuleusement le règlement et les consignes.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise chaque geste clé de la compétition.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme le match en un grand moment fun pour relâcher la pression.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Surcharge d’activités (cours, sport, vie perso), comment réagissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je réorganise mon emploi du temps en listant les priorités.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je décide d’avancer vite sur une tâche pour me libérer de la pression.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande du soutien autour de moi pour tenir le rythme.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte mes engagements même si c’est difficile.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je réfléchis à une façon plus simple d’aborder ma semaine.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends certaines tâches plus amusantes pour garder la motivation.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Révision d’un chapitre difficile, vous commencez par quoi ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe le chapitre en sous-parties pour mieux l’apprendre.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance un défi de mémoriser rapidement les points clés.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je révise avec un camarade pour me sentir accompagné(e).",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’appuie sur ma discipline pour me lancer malgré le manque d’envie.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’essaie de visualiser les concepts de manière imagée.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends l’exercice plus fun en créant un jeu de questions-réponses.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Présentation devant toute la classe, votre priorité ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’organise mon discours en trois parties claires.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je veux capter l’attention dès le début avec de l’énergie.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je cherche à instaurer une connexion bienveillante avec mes camarades.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte le plan annoncé sans m’éparpiller.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je m’imagine réussir avant de commencer.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "J’ajoute une anecdote amusante pour rendre la présentation vivante.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Conflit dans votre équipe sportive, premier pas ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je structure une discussion pour mettre les choses à plat.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche vite pour que l’équipe avance.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute chaque membre pour calmer les tensions.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle les règles de respect et de cohésion.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je propose une autre manière d’aborder le problème.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je fais une remarque légère pour détendre l’atmosphère.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Manque d’envie de travailler, quelle action lancez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je me fixe un petit objectif précis pour me remettre en route.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me force à attaquer directement pour ne pas perdre de temps.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je cherche quelqu’un pour travailler avec moi et me remotiver.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’appuie sur ma discipline pour me lancer malgré le manque d’envie.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’imagine le résultat positif une fois le travail terminé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends la tâche plus fun pour trouver l’énergie.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Une nouvelle appli vous distrait, que décidez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je planifie des moments précis pour l’utiliser afin de garder le contrôle.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je décide de l’ignorer quand j’ai un objectif à atteindre.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande à un proche de m’aider à rester concentré(e).",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je me fixe des limites strictes pour ne pas dévier.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je réfléchis à une manière plus utile d’utiliser cette appli.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme le fait de ne pas l’ouvrir en petit jeu perso.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Mauvaise ambiance dans le groupe de travail, premier réflexe ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je propose de clarifier les rôles de chacun pour avancer.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends la direction et impose un rythme pour débloquer.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’encourage chacun à dire ce qu’il ressent pour apaiser.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle les règles du projet et l’importance de tenir nos engagements.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je suggère une approche nouvelle pour relancer le groupe.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je détends l’ambiance avec de l’humour pour motiver.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Prof absent, remplacé par quelqu’un de nouveau : vous faites quoi ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je prends note de ses consignes pour rester organisé(e).",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je teste vite sa manière de faire pour m’adapter.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je me montre accueillant(e) et sympa avec lui/elle.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte ce qu’il/elle demande même si c’est différent.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’observe tranquillement avant de tirer des conclusions.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche à mettre une touche de fun pour détendre l’ambiance.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Trois contrôles d’affilée cette semaine, plan d’attaque ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je répartis mes révisions avec un planning serré.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je décide de donner tout sur les matières les plus importantes.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je révise en groupe pour ne pas me sentir seul(e).",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je reste fidèle à mon emploi du temps prévu.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le moment où j’aurai fini avec succès.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "J’alterne révisions et pauses fun pour garder l’énergie.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un parent vous met la pression pour vos résultats, réaction ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je montre que j’ai un plan clair pour rassurer.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je réponds avec détermination pour prouver ma motivation.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’exprime calmement ce que je ressens face à cette pression.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle que je prends mes responsabilités au sérieux.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends du recul et je réfléchis à ce que je veux vraiment.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je relativise la situation avec une touche légère.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un projet créatif personnel, première étape ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je planifie chaque étape pour avancer régulièrement.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance directement et je fonce pour avancer vite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je partage mes idées avec des proches pour me sentir soutenu(e).",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je choisis une idée qui correspond à mes valeurs.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’imagine plusieurs pistes originales avant de choisir.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "J’improvise avec créativité pour rendre le projet fun.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un redoublement est à éviter, que mettez-vous en place ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je construis un plan de travail serré pour montrer mes progrès.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je décide de prouver à tout le monde que je peux réussir coûte que coûte.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je cherche du soutien auprès d’un proche ou d’un prof de confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je prends l’engagement ferme de respecter mes révisions chaque jour.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me projette dans l’année prochaine réussie pour rester motivé(e).",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends mes révisions plus légères avec des méthodes amusantes.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous changez d’option scolaire, premier critère ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je liste les avantages et inconvénients de chaque option.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis celle qui me semble la plus stimulante.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande conseil à mes amis ou à ma famille.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie laquelle est la plus cohérente avec mes valeurs.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je m’imagine dans chaque option pour voir laquelle me correspond.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me fie à mon ressenti et à ce qui m’attire le plus.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous avez une idée d’association lycéenne, premier pas ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je prépare un plan détaillé du projet avec des étapes claires.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je veux lancer l’idée rapidement pour la concrétiser vite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je rassemble des personnes motivées pour créer une bonne ambiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’assure que l’association défend des valeurs importantes.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une idée originale qui sort du lot.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends la présentation de l’idée amusante pour attirer du monde.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Vous avez oublié un devoir, comment réagissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’assume mon erreur et je propose une nouvelle date de remise.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je cherche à négocier une seconde chance rapidement.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’excuse sincèrement pour mon oubli.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle que je suis habituellement sérieux(se) et fiable.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je trouve une autre manière de compenser ce devoir oublié.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je dédramatise la situation pour éviter la tension.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Contrôle surprise annoncé, première réaction ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’organise mes connaissances pour répondre de façon logique.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends ça comme un défi et je fonce.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je me rassure en me souvenant que je ne suis pas seul(e) dans cette situation.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je reste concentré(e) et j’applique ce que je sais avec rigueur.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’imagine comment relier mes idées pour répondre différemment.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je garde mon calme en prenant ça avec humour.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Une note injuste selon vous, que faites-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’apporte des arguments concrets pour demander une révision.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je défends fermement ma position auprès du professeur.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’exprime calmement mon ressenti sur l’injustice.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle que je suis quelqu’un de sérieux et appliqué.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends du recul avant de décider si je conteste.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je relativise la note pour ne pas me laisser miner.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un(e) ami(e) est mis(e) à l’écart, premier geste ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je propose une discussion claire pour réintégrer la personne.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends position et je défends ouvertement mon ami.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je montre de la chaleur et je vais vers lui/elle pour l’inclure.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle les valeurs de respect et de loyauté.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je propose une activité différente où tout le monde peut participer.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je lance une blague pour rétablir l’ambiance et inclure l’ami.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un message blessant reçu d’un camarade, réaction ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je demande une explication pour clarifier.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je réponds fermement pour montrer ma force.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’exprime que cela m’a fait de la peine.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je reste fidèle à mes valeurs et je ne riposte pas de manière excessive.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends du recul pour voir si ça vaut la peine de répondre.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je désamorce la tension avec humour.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Une audition musicale ou artistique arrive, première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je répète chaque partie avec rigueur avant l’audition.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je vise à impressionner le jury dès les premières secondes.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je partage ma passion avec sincérité pour toucher le public.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte fidèlement la partition ou le texte.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je m’imagine réussir sur scène avant d’y être.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "J’ajoute une touche personnelle improvisée pour surprendre.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un entretien d’orientation important, comment vous préparez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’arrive préparé(e) avec un dossier et des questions claires.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je mets en avant mes ambitions et mes projets futurs.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je parle de mes envies profondes avec sincérité.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’assure que mes choix sont alignés avec mes valeurs.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je partage mes idées originales et mes projets créatifs.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends l’échange détendu en restant naturel(le) et spontané(e).",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Une contrainte familiale perturbe votre travail, réaction ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je réorganise mon planning pour tenir compte de cette contrainte.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je décide de gérer ça rapidement pour continuer à avancer.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’en parle avec ma famille pour trouver un compromis.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte mon engagement envers eux tout en restant fidèle à mes objectifs.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je réfléchis à une manière différente d’aménager mon temps.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je relativise et je cherche à garder une ambiance légère.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un manque de sommeil affecte votre concentration, que faites-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je planifie mes révisions en tenant compte de ma fatigue.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me pousse à avancer malgré le manque de sommeil.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’explique à un proche que j’ai besoin de soutien.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte mon engagement même si je suis fatigué(e).",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je prends un moment pour réfléchir calmement avant de reprendre.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je fais une pause détente pour retrouver un peu d’énergie.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Surcharge d’activités extrascolaires, que décidez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je hiérarchise mes activités pour éviter d’être débordé(e).",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je garde les activités les plus stimulantes et j’élimine le reste.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande de l’aide pour alléger ma charge.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte mes engagements coûte que coûte.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je repense ma semaine pour équilibrer études et loisirs.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends mes activités plus ludiques pour ne pas perdre la motivation.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Le choix Parcoursup approche, premier pas ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un tableau comparatif des différentes formations.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis la voie la plus ambitieuse pour moi.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande conseil à mes proches et enseignants.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je sélectionne une orientation alignée avec mes valeurs profondes.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je m’imagine dans chaque option pour voir où je me sens le mieux.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je choisis ce qui m’attire le plus sur le moment.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Remarque décourageante d’un professeur, réaction ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je demande des explications pour savoir ce que je dois améliorer.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends ça comme un défi et je veux lui prouver qu’il a tort.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je partage mon ressenti avec quelqu’un de confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je reste droit(e) et je continue malgré tout.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je réfléchis à ce que je peux changer pour progresser.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je dédramatise avec humour pour ne pas me laisser atteindre.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Panne de motivation totale, premier pas ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je me fixe un micro-objectif concret pour me relancer.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me force à agir tout de suite pour casser l’inertie.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande à quelqu’un de m’encourager pour retrouver l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’appuie sur ma discipline et je fais malgré tout.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’imagine le résultat final pour me remotiver.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends la tâche plus fun pour retrouver l’envie.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Groupe de travail désorganisé, que proposez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je propose une méthode claire pour répartir les tâches.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le lead pour relancer le groupe.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je motive chacun en valorisant ses points forts.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle nos responsabilités et les délais à respecter.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je suggère une approche différente pour repartir sur de bonnes bases.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je détends l’atmosphère pour rebooster l’équipe.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Exercice trop facile, comment réagissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je l’exécute sérieusement pour garder de bonnes bases.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je cherche à l’accomplir encore plus vite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je propose d’aider un camarade qui a plus de mal.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte les consignes même si c’est simple.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’essaie de trouver une autre manière d’enrichir l’exercice.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends l’exercice plus amusant en y ajoutant une petite variante.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Partiel blanc important, votre plan ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je révise méthodiquement pour être prêt(e).",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je veux donner le meilleur et prouver mes capacités.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je révise avec des amis pour garder la motivation.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte mon emploi du temps de révisions sans déroger.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise ma réussite au partiel avant d’y aller.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "J’essaie de garder la pression légère pour rester efficace.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Nouvelle matière qui vous déstabilise, premier geste ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je prends des notes claires pour structurer mes apprentissages.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance le défi de la maîtriser rapidement.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande de l’aide à quelqu’un qui comprend mieux.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je reste assidu(e) pour progresser pas à pas.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche à voir les choses autrement pour comprendre.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends l’apprentissage plus fun pour ne pas décrocher.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Contrainte familiale qui vous empêche d’aller à un entraînement, que faites-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’explique calmement ma situation à l’entraîneur avec des faits précis.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je cherche une solution rapide pour être présent malgré tout.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’en parle à ma famille pour trouver un compromis.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte mon engagement familial mais je propose de rattraper l’entraînement.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je réfléchis à une alternative pour ne pas perdre le rythme.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je relativise et je garde le sourire pour ne pas envenimer la situation.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Surcharge de devoirs à rendre en même temps, première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un planning serré pour répartir le travail.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je commence par le plus gros pour montrer ma force.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande à un ami de réviser avec moi pour me motiver.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte mon engagement et j’avance pas à pas.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’imagine une autre méthode pour travailler plus vite.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends la révision plus ludique pour ne pas craquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Contrôle oral surprise, réaction initiale ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’organise mes idées en trois points clairs.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je parle avec assurance même si je n’ai pas tout préparé.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’essaie de créer une connexion avec le prof en étant sincère.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte les consignes données à l’instant.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’improvise une réponse originale pour surprendre positivement.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je dédramatise en parlant avec naturel.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Contrainte familiale le soir d’une révision importante, plan ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je réorganise mon emploi du temps pour garder une heure d’étude.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me dépêche de finir mes révisions malgré l’imprévu.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je partage mon stress avec mes proches pour être compris(e).",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je reste fidèle à mes engagements malgré la contrainte.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’imagine une autre manière d’apprendre en moins de temps.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je relativise et je rends la révision plus légère.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Épreuve sportive décisive, état d’esprit ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je révise ma stratégie point par point avant le match.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me promets de gagner et de donner tout.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je motive mon équipe avec des encouragements chaleureux.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte scrupuleusement le règlement et les consignes.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise ma victoire avant d’entrer sur le terrain.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends l’événement excitant en le vivant comme un jeu.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Changement d’équipe ou de groupe, première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "J’analyse comment je peux m’intégrer efficacement.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends ma place directement pour m’imposer.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je me présente avec bienveillance pour créer du lien.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je montre ma loyauté et mon sérieux dès le départ.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "J’observe tranquillement pour comprendre la dynamique.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je brise la glace avec une touche d’humour.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Professeur exigeant vous confie une tâche difficile, que faites-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je structure mon travail pour répondre point par point à sa demande.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends ça comme un défi à relever.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande des précisions pour être sûr(e) de répondre correctement.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’applique avec rigueur et loyauté.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une manière originale de traiter le sujet.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends la tâche plus agréable pour me motiver.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Activité scolaire qui ne vous intéresse pas, premier réflexe ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais le nécessaire en suivant les étapes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je cherche à la finir rapidement pour passer à autre chose.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je partage l’activité avec un ami pour la rendre plus supportable.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte les consignes même si ça ne m’attire pas.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je trouve un angle différent pour y mettre du sens.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "J’ajoute une touche ludique pour me donner envie.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Préparation au bac blanc, comment vous y prenez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un planning de révisions détaillé.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance le défi de réussir avec une bonne note.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je révise en groupe pour me sentir soutenu(e).",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je respecte mes horaires de travail jusqu’au bout.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le jour de l’examen comme une réussite.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "J’alterne révisions sérieuses et moments fun pour tenir.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Un choix important pour votre avenir, première étape ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je compare chaque option avec des critères précis.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis la voie la plus ambitieuse.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande conseil aux personnes qui me connaissent bien.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’assure que mon choix correspond à mes valeurs.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me projette dans chaque option pour voir laquelle me correspond.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me fie à mon intuition et à ce qui me donne envie.",
+        "profil": "Spontané"
+      }
+    ]
+  }
+]
