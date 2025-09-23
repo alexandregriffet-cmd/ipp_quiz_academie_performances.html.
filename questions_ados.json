@@ -1,0 +1,1772 @@
+[
+  {
+    "prompt": "Dans un devoir maison à rendre demain, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un exposé à faire en binôme, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une matière que vous n’aimez pas, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un prof exigeant, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une dispute dans le groupe d’amis, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un entraînement sportif important, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une semaine d’exams blancs, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un oral à préparer, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un emploi du temps chargé, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une rumeur sur les réseaux, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un projet de classe à organiser, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une remarque injuste d’un adulte, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une opportunité de concours, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une mauvaise note inattendue, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un retard accumulé, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un voyage scolaire, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un choix d’orientation, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une activité bénévole à lancer, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un rendez-vous chez le CPE, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans le stress avant un contrôle, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans la révision d’un chapitre difficile, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une présentation devant la classe, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un changement d’équipe au sport, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un conflit dans le club, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un manque d’envie de travailler, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une nouvelle appli qui distrait, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une demande d’aide d’un ami, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un défi scolaire intéressant, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans la gestion du temps le soir, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans l’organisation du cartable, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans des notifications qui interrompent, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un prof absent remplaçant inconnu, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans la préparation du bac blanc, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un stage à trouver, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un triplé DS dans la semaine, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un parent qui met la pression, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une opportunité de concours d’éloquence, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un projet créatif perso, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un redoublement à éviter, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un changement d’option, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une idée d’association lycéenne, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un oubli de devoir, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un retard le matin, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un contrôle surprise, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une note injuste selon vous, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un pote mis à l’écart, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un message blessant reçu, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une compétition le week-end, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une audition musicale, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un entretien d’orientation, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une panne de motivation, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un groupe de travail chaotique, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un exercice trop facile, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un partiel blanc, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une nouvelle matière, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une contrainte familiale, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans un manque de sommeil, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans une surcharge d’activités, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "Dans le choix Parcoursup, vous faites quoi en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fais un plan simple et je m’y tiens",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je me lance vite pour avancer",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande un avis et j’apaise l’ambiance",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que ça respecte mes principes",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je cherche une autre manière d’y arriver",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je rends ça plus fun pour me motiver",
+        "profil": "Spontané"
+      }
+    ]
+  }
+]

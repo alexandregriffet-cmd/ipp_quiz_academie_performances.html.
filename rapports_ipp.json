@@ -1,0 +1,3098 @@
+{
+  "Garant|Garant": {
+    "bienvenue": "Votre ADN Garant vous rend rigoureux(se), organisé(e), logique ; votre Cap Garant ajoute structuré.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Garant; énergie actuelle Cap Garant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Garant/Garant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Garant : qualité et logique reconnues.",
+          "Garant : qualité et logique reconnues."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Structuré ; accélération Structuré."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Garant → Groupe / Interne",
+          "Garant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Garant/Garant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Garant|Conquérant": {
+    "bienvenue": "Votre ADN Garant vous rend rigoureux(se), organisé(e), logique ; votre Cap Conquérant ajoute directif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Garant; énergie actuelle Cap Conquérant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Garant/Conquérant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Garant : qualité et logique reconnues.",
+          "Conquérant : défis et résultats rapides."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Structuré ; accélération Directif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Garant → Groupe / Interne",
+          "Conquérant → Groupe / Externe"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Garant/Conquérant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Garant|Bienveillant": {
+    "bienvenue": "Votre ADN Garant vous rend rigoureux(se), organisé(e), logique ; votre Cap Bienveillant ajoute chaleureux.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Garant; énergie actuelle Cap Bienveillant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Garant/Bienveillant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Garant : qualité et logique reconnues.",
+          "Bienveillant : reconnaissance personnelle et affection."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Structuré ; accélération Chaleureux."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Garant → Groupe / Interne",
+          "Bienveillant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Garant/Bienveillant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Garant|Fiable": {
+    "bienvenue": "Votre ADN Garant vous rend rigoureux(se), organisé(e), logique ; votre Cap Fiable ajoute engagé.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Garant; énergie actuelle Cap Fiable."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Garant/Fiable.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Garant : qualité et logique reconnues.",
+          "Fiable : reconnaissance des convictions et loyauté."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Structuré ; accélération Engagé."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Garant → Groupe / Interne",
+          "Fiable → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Garant/Fiable est une ressource à cultiver."
+      }
+    ]
+  },
+  "Garant|Visionnaire": {
+    "bienvenue": "Votre ADN Garant vous rend rigoureux(se), organisé(e), logique ; votre Cap Visionnaire ajoute imaginatif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Garant; énergie actuelle Cap Visionnaire."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Garant/Visionnaire.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Garant : qualité et logique reconnues.",
+          "Visionnaire : temps seul et reconnaissance des idées."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Structuré ; accélération Imaginatif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Garant → Groupe / Interne",
+          "Visionnaire → Seul / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Garant/Visionnaire est une ressource à cultiver."
+      }
+    ]
+  },
+  "Garant|Spontané": {
+    "bienvenue": "Votre ADN Garant vous rend rigoureux(se), organisé(e), logique ; votre Cap Spontané ajoute ludique.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Garant; énergie actuelle Cap Spontané."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Garant/Spontané.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Garant : qualité et logique reconnues.",
+          "Spontané : reconnaissance de l’humour et de l’originalité."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Structuré ; accélération Ludique."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Garant → Groupe / Interne",
+          "Spontané → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Garant/Spontané est une ressource à cultiver."
+      }
+    ]
+  },
+  "Conquérant|Garant": {
+    "bienvenue": "Votre ADN Conquérant vous rend ambitieux(se), énergique, orienté(e) action ; votre Cap Garant ajoute structuré.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Conquérant; énergie actuelle Cap Garant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Conquérant/Garant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Conquérant : défis et résultats rapides.",
+          "Garant : qualité et logique reconnues."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Directif ; accélération Structuré."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Conquérant → Groupe / Externe",
+          "Garant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Conquérant/Garant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Conquérant|Conquérant": {
+    "bienvenue": "Votre ADN Conquérant vous rend ambitieux(se), énergique, orienté(e) action ; votre Cap Conquérant ajoute directif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Conquérant; énergie actuelle Cap Conquérant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Conquérant/Conquérant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Conquérant : défis et résultats rapides.",
+          "Conquérant : défis et résultats rapides."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Directif ; accélération Directif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Conquérant → Groupe / Externe",
+          "Conquérant → Groupe / Externe"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Conquérant/Conquérant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Conquérant|Bienveillant": {
+    "bienvenue": "Votre ADN Conquérant vous rend ambitieux(se), énergique, orienté(e) action ; votre Cap Bienveillant ajoute chaleureux.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Conquérant; énergie actuelle Cap Bienveillant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Conquérant/Bienveillant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Conquérant : défis et résultats rapides.",
+          "Bienveillant : reconnaissance personnelle et affection."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Directif ; accélération Chaleureux."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Conquérant → Groupe / Externe",
+          "Bienveillant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Conquérant/Bienveillant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Conquérant|Fiable": {
+    "bienvenue": "Votre ADN Conquérant vous rend ambitieux(se), énergique, orienté(e) action ; votre Cap Fiable ajoute engagé.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Conquérant; énergie actuelle Cap Fiable."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Conquérant/Fiable.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Conquérant : défis et résultats rapides.",
+          "Fiable : reconnaissance des convictions et loyauté."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Directif ; accélération Engagé."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Conquérant → Groupe / Externe",
+          "Fiable → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Conquérant/Fiable est une ressource à cultiver."
+      }
+    ]
+  },
+  "Conquérant|Visionnaire": {
+    "bienvenue": "Votre ADN Conquérant vous rend ambitieux(se), énergique, orienté(e) action ; votre Cap Visionnaire ajoute imaginatif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Conquérant; énergie actuelle Cap Visionnaire."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Conquérant/Visionnaire.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Conquérant : défis et résultats rapides.",
+          "Visionnaire : temps seul et reconnaissance des idées."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Directif ; accélération Imaginatif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Conquérant → Groupe / Externe",
+          "Visionnaire → Seul / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Conquérant/Visionnaire est une ressource à cultiver."
+      }
+    ]
+  },
+  "Conquérant|Spontané": {
+    "bienvenue": "Votre ADN Conquérant vous rend ambitieux(se), énergique, orienté(e) action ; votre Cap Spontané ajoute ludique.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Conquérant; énergie actuelle Cap Spontané."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Conquérant/Spontané.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Conquérant : défis et résultats rapides.",
+          "Spontané : reconnaissance de l’humour et de l’originalité."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Directif ; accélération Ludique."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Conquérant → Groupe / Externe",
+          "Spontané → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Conquérant/Spontané est une ressource à cultiver."
+      }
+    ]
+  },
+  "Bienveillant|Garant": {
+    "bienvenue": "Votre ADN Bienveillant vous rend chaleureux(se), empathique, attentif(ve) ; votre Cap Garant ajoute structuré.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Bienveillant; énergie actuelle Cap Garant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Bienveillant/Garant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Bienveillant : reconnaissance personnelle et affection.",
+          "Garant : qualité et logique reconnues."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Chaleureux ; accélération Structuré."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Bienveillant → Groupe / Interne",
+          "Garant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Bienveillant/Garant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Bienveillant|Conquérant": {
+    "bienvenue": "Votre ADN Bienveillant vous rend chaleureux(se), empathique, attentif(ve) ; votre Cap Conquérant ajoute directif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Bienveillant; énergie actuelle Cap Conquérant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Bienveillant/Conquérant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Bienveillant : reconnaissance personnelle et affection.",
+          "Conquérant : défis et résultats rapides."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Chaleureux ; accélération Directif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Bienveillant → Groupe / Interne",
+          "Conquérant → Groupe / Externe"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Bienveillant/Conquérant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Bienveillant|Bienveillant": {
+    "bienvenue": "Votre ADN Bienveillant vous rend chaleureux(se), empathique, attentif(ve) ; votre Cap Bienveillant ajoute chaleureux.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Bienveillant; énergie actuelle Cap Bienveillant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Bienveillant/Bienveillant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Bienveillant : reconnaissance personnelle et affection.",
+          "Bienveillant : reconnaissance personnelle et affection."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Chaleureux ; accélération Chaleureux."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Bienveillant → Groupe / Interne",
+          "Bienveillant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Bienveillant/Bienveillant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Bienveillant|Fiable": {
+    "bienvenue": "Votre ADN Bienveillant vous rend chaleureux(se), empathique, attentif(ve) ; votre Cap Fiable ajoute engagé.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Bienveillant; énergie actuelle Cap Fiable."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Bienveillant/Fiable.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Bienveillant : reconnaissance personnelle et affection.",
+          "Fiable : reconnaissance des convictions et loyauté."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Chaleureux ; accélération Engagé."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Bienveillant → Groupe / Interne",
+          "Fiable → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Bienveillant/Fiable est une ressource à cultiver."
+      }
+    ]
+  },
+  "Bienveillant|Visionnaire": {
+    "bienvenue": "Votre ADN Bienveillant vous rend chaleureux(se), empathique, attentif(ve) ; votre Cap Visionnaire ajoute imaginatif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Bienveillant; énergie actuelle Cap Visionnaire."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Bienveillant/Visionnaire.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Bienveillant : reconnaissance personnelle et affection.",
+          "Visionnaire : temps seul et reconnaissance des idées."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Chaleureux ; accélération Imaginatif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Bienveillant → Groupe / Interne",
+          "Visionnaire → Seul / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Bienveillant/Visionnaire est une ressource à cultiver."
+      }
+    ]
+  },
+  "Bienveillant|Spontané": {
+    "bienvenue": "Votre ADN Bienveillant vous rend chaleureux(se), empathique, attentif(ve) ; votre Cap Spontané ajoute ludique.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Bienveillant; énergie actuelle Cap Spontané."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Bienveillant/Spontané.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Bienveillant : reconnaissance personnelle et affection.",
+          "Spontané : reconnaissance de l’humour et de l’originalité."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Chaleureux ; accélération Ludique."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Bienveillant → Groupe / Interne",
+          "Spontané → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Bienveillant/Spontané est une ressource à cultiver."
+      }
+    ]
+  },
+  "Fiable|Garant": {
+    "bienvenue": "Votre ADN Fiable vous rend loyal(e), engagé(e), intègre ; votre Cap Garant ajoute structuré.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Fiable; énergie actuelle Cap Garant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Fiable/Garant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Fiable : reconnaissance des convictions et loyauté.",
+          "Garant : qualité et logique reconnues."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Engagé ; accélération Structuré."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Fiable → Groupe / Interne",
+          "Garant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Fiable/Garant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Fiable|Conquérant": {
+    "bienvenue": "Votre ADN Fiable vous rend loyal(e), engagé(e), intègre ; votre Cap Conquérant ajoute directif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Fiable; énergie actuelle Cap Conquérant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Fiable/Conquérant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Fiable : reconnaissance des convictions et loyauté.",
+          "Conquérant : défis et résultats rapides."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Engagé ; accélération Directif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Fiable → Groupe / Interne",
+          "Conquérant → Groupe / Externe"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Fiable/Conquérant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Fiable|Bienveillant": {
+    "bienvenue": "Votre ADN Fiable vous rend loyal(e), engagé(e), intègre ; votre Cap Bienveillant ajoute chaleureux.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Fiable; énergie actuelle Cap Bienveillant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Fiable/Bienveillant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Fiable : reconnaissance des convictions et loyauté.",
+          "Bienveillant : reconnaissance personnelle et affection."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Engagé ; accélération Chaleureux."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Fiable → Groupe / Interne",
+          "Bienveillant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Fiable/Bienveillant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Fiable|Fiable": {
+    "bienvenue": "Votre ADN Fiable vous rend loyal(e), engagé(e), intègre ; votre Cap Fiable ajoute engagé.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Fiable; énergie actuelle Cap Fiable."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Fiable/Fiable.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Fiable : reconnaissance des convictions et loyauté.",
+          "Fiable : reconnaissance des convictions et loyauté."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Engagé ; accélération Engagé."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Fiable → Groupe / Interne",
+          "Fiable → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Fiable/Fiable est une ressource à cultiver."
+      }
+    ]
+  },
+  "Fiable|Visionnaire": {
+    "bienvenue": "Votre ADN Fiable vous rend loyal(e), engagé(e), intègre ; votre Cap Visionnaire ajoute imaginatif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Fiable; énergie actuelle Cap Visionnaire."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Fiable/Visionnaire.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Fiable : reconnaissance des convictions et loyauté.",
+          "Visionnaire : temps seul et reconnaissance des idées."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Engagé ; accélération Imaginatif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Fiable → Groupe / Interne",
+          "Visionnaire → Seul / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Fiable/Visionnaire est une ressource à cultiver."
+      }
+    ]
+  },
+  "Fiable|Spontané": {
+    "bienvenue": "Votre ADN Fiable vous rend loyal(e), engagé(e), intègre ; votre Cap Spontané ajoute ludique.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Fiable; énergie actuelle Cap Spontané."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Fiable/Spontané.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Fiable : reconnaissance des convictions et loyauté.",
+          "Spontané : reconnaissance de l’humour et de l’originalité."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Engagé ; accélération Ludique."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Fiable → Groupe / Interne",
+          "Spontané → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Fiable/Spontané est une ressource à cultiver."
+      }
+    ]
+  },
+  "Visionnaire|Garant": {
+    "bienvenue": "Votre ADN Visionnaire vous rend imaginatif(ve), introspectif(ve), créatif(ve) ; votre Cap Garant ajoute structuré.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Visionnaire; énergie actuelle Cap Garant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Visionnaire/Garant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Visionnaire : temps seul et reconnaissance des idées.",
+          "Garant : qualité et logique reconnues."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Imaginatif ; accélération Structuré."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Visionnaire → Seul / Interne",
+          "Garant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Visionnaire/Garant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Visionnaire|Conquérant": {
+    "bienvenue": "Votre ADN Visionnaire vous rend imaginatif(ve), introspectif(ve), créatif(ve) ; votre Cap Conquérant ajoute directif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Visionnaire; énergie actuelle Cap Conquérant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Visionnaire/Conquérant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Visionnaire : temps seul et reconnaissance des idées.",
+          "Conquérant : défis et résultats rapides."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Imaginatif ; accélération Directif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Visionnaire → Seul / Interne",
+          "Conquérant → Groupe / Externe"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Visionnaire/Conquérant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Visionnaire|Bienveillant": {
+    "bienvenue": "Votre ADN Visionnaire vous rend imaginatif(ve), introspectif(ve), créatif(ve) ; votre Cap Bienveillant ajoute chaleureux.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Visionnaire; énergie actuelle Cap Bienveillant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Visionnaire/Bienveillant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Visionnaire : temps seul et reconnaissance des idées.",
+          "Bienveillant : reconnaissance personnelle et affection."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Imaginatif ; accélération Chaleureux."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Visionnaire → Seul / Interne",
+          "Bienveillant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Visionnaire/Bienveillant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Visionnaire|Fiable": {
+    "bienvenue": "Votre ADN Visionnaire vous rend imaginatif(ve), introspectif(ve), créatif(ve) ; votre Cap Fiable ajoute engagé.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Visionnaire; énergie actuelle Cap Fiable."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Visionnaire/Fiable.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Visionnaire : temps seul et reconnaissance des idées.",
+          "Fiable : reconnaissance des convictions et loyauté."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Imaginatif ; accélération Engagé."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Visionnaire → Seul / Interne",
+          "Fiable → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Visionnaire/Fiable est une ressource à cultiver."
+      }
+    ]
+  },
+  "Visionnaire|Visionnaire": {
+    "bienvenue": "Votre ADN Visionnaire vous rend imaginatif(ve), introspectif(ve), créatif(ve) ; votre Cap Visionnaire ajoute imaginatif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Visionnaire; énergie actuelle Cap Visionnaire."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Visionnaire/Visionnaire.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Visionnaire : temps seul et reconnaissance des idées.",
+          "Visionnaire : temps seul et reconnaissance des idées."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Imaginatif ; accélération Imaginatif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Visionnaire → Seul / Interne",
+          "Visionnaire → Seul / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Visionnaire/Visionnaire est une ressource à cultiver."
+      }
+    ]
+  },
+  "Visionnaire|Spontané": {
+    "bienvenue": "Votre ADN Visionnaire vous rend imaginatif(ve), introspectif(ve), créatif(ve) ; votre Cap Spontané ajoute ludique.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Visionnaire; énergie actuelle Cap Spontané."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Visionnaire/Spontané.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Visionnaire : temps seul et reconnaissance des idées.",
+          "Spontané : reconnaissance de l’humour et de l’originalité."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Imaginatif ; accélération Ludique."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Visionnaire → Seul / Interne",
+          "Spontané → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Visionnaire/Spontané est une ressource à cultiver."
+      }
+    ]
+  },
+  "Spontané|Garant": {
+    "bienvenue": "Votre ADN Spontané vous rend joueur(se), original(e), réactif(ve) ; votre Cap Garant ajoute structuré.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Spontané; énergie actuelle Cap Garant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Spontané/Garant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Spontané : reconnaissance de l’humour et de l’originalité.",
+          "Garant : qualité et logique reconnues."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Ludique ; accélération Structuré."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Spontané → Groupe / Interne",
+          "Garant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Spontané/Garant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Spontané|Conquérant": {
+    "bienvenue": "Votre ADN Spontané vous rend joueur(se), original(e), réactif(ve) ; votre Cap Conquérant ajoute directif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Spontané; énergie actuelle Cap Conquérant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Spontané/Conquérant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Spontané : reconnaissance de l’humour et de l’originalité.",
+          "Conquérant : défis et résultats rapides."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Ludique ; accélération Directif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Spontané → Groupe / Interne",
+          "Conquérant → Groupe / Externe"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Spontané/Conquérant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Spontané|Bienveillant": {
+    "bienvenue": "Votre ADN Spontané vous rend joueur(se), original(e), réactif(ve) ; votre Cap Bienveillant ajoute chaleureux.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Spontané; énergie actuelle Cap Bienveillant."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Spontané/Bienveillant.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Spontané : reconnaissance de l’humour et de l’originalité.",
+          "Bienveillant : reconnaissance personnelle et affection."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Ludique ; accélération Chaleureux."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Spontané → Groupe / Interne",
+          "Bienveillant → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Spontané/Bienveillant est une ressource à cultiver."
+      }
+    ]
+  },
+  "Spontané|Fiable": {
+    "bienvenue": "Votre ADN Spontané vous rend joueur(se), original(e), réactif(ve) ; votre Cap Fiable ajoute engagé.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Spontané; énergie actuelle Cap Fiable."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Spontané/Fiable.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Spontané : reconnaissance de l’humour et de l’originalité.",
+          "Fiable : reconnaissance des convictions et loyauté."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Ludique ; accélération Engagé."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Spontané → Groupe / Interne",
+          "Fiable → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Spontané/Fiable est une ressource à cultiver."
+      }
+    ]
+  },
+  "Spontané|Visionnaire": {
+    "bienvenue": "Votre ADN Spontané vous rend joueur(se), original(e), réactif(ve) ; votre Cap Visionnaire ajoute imaginatif.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Spontané; énergie actuelle Cap Visionnaire."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Spontané/Visionnaire.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Spontané : reconnaissance de l’humour et de l’originalité.",
+          "Visionnaire : temps seul et reconnaissance des idées."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Ludique ; accélération Imaginatif."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Spontané → Groupe / Interne",
+          "Visionnaire → Seul / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Spontané/Visionnaire est une ressource à cultiver."
+      }
+    ]
+  },
+  "Spontané|Spontané": {
+    "bienvenue": "Votre ADN Spontané vous rend joueur(se), original(e), réactif(ve) ; votre Cap Spontané ajoute ludique.",
+    "sections": [
+      {
+        "titre": "Vos perceptions",
+        "texte": "Filtre ADN Spontané; énergie actuelle Cap Spontané."
+      },
+      {
+        "titre": "Points forts 💪",
+        "points": [
+          "Synergie Spontané/Spontané.",
+          "Leadership adapté.",
+          "Qualité durable.",
+          "Résilience."
+        ]
+      },
+      {
+        "titre": "Besoins psychologiques 💧",
+        "points": [
+          "Spontané : reconnaissance de l’humour et de l’originalité.",
+          "Spontané : reconnaissance de l’humour et de l’originalité."
+        ]
+      },
+      {
+        "titre": "Styles d’interaction",
+        "texte": "Expression Ludique ; accélération Ludique."
+      },
+      {
+        "titre": "Environnements préférés (Boussole 🧭)",
+        "points": [
+          "Spontané → Groupe / Interne",
+          "Spontané → Groupe / Interne"
+        ]
+      },
+      {
+        "titre": "Séquence de stress ⚠️",
+        "points": [
+          "Sur-utilisation de l’ADN.",
+          "Excès du Cap.",
+          "Risque de rupture."
+        ]
+      },
+      {
+        "titre": "Antidotes clés 💧",
+        "points": [
+          "Nommer le besoin.",
+          "1 action simple.",
+          "Environnement adéquat."
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Études : objectif + étape.",
+          "Sport : 3 consignes + feedback.",
+          "Projets : jalons courts.",
+          "Perso : moment ADN + action Cap."
+        ]
+      },
+      {
+        "titre": "Protocoles minute",
+        "points": [
+          "90 s respiration.",
+          "5 min micro-action.",
+          "15 min focus.",
+          "Hebdo bilan."
+        ]
+      },
+      {
+        "titre": "Communication",
+        "texte": "Structure pour Garant, résultats pour Conquérant, chaleur pour Bienveillant, valeurs pour Fiable, idées pour Visionnaire, humour pour Spontané."
+      },
+      {
+        "titre": "Mots nourrissants",
+        "points": [
+          "« Je reconnais ce que tu apportes. »",
+          "« Ton style est utile ici. »",
+          "« Merci, on progresse grâce à toi. »"
+        ]
+      },
+      {
+        "titre": "Synthèse",
+        "texte": "Votre combinaison Spontané/Spontané est une ressource à cultiver."
+      }
+    ]
+  }
+}
