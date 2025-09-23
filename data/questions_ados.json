@@ -1,0 +1,1802 @@
+[
+  {
+    "prompt": "1. Révisions de bac/blocus — Ton planning a dérapé hier.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première. (contexte: révisions de bac/blocus, Q1)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: révisions de bac/blocus, Q1)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: révisions de bac/blocus, Q1)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: révisions de bac/blocus, Q1)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: révisions de bac/blocus, Q1)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: révisions de bac/blocus, Q1)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "2. Révisions de bac/blocus — Tu as 3 chapitres à revoir ce soir.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes. (contexte: révisions de bac/blocus, Q2)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: révisions de bac/blocus, Q2)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: révisions de bac/blocus, Q2)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: révisions de bac/blocus, Q2)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: révisions de bac/blocus, Q2)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: révisions de bac/blocus, Q2)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "3. Révisions de bac/blocus — Ton planning a dérapé hier.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: révisions de bac/blocus, Q3)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: révisions de bac/blocus, Q3)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: révisions de bac/blocus, Q3)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: révisions de bac/blocus, Q3)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: révisions de bac/blocus, Q3)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: révisions de bac/blocus, Q3)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "4. Révisions de bac/blocus — Ton planning a dérapé hier.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: révisions de bac/blocus, Q4)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: révisions de bac/blocus, Q4)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: révisions de bac/blocus, Q4)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: révisions de bac/blocus, Q4)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: révisions de bac/blocus, Q4)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite. (contexte: révisions de bac/blocus, Q4)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "5. Révisions de bac/blocus — Ton planning a dérapé hier.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: révisions de bac/blocus, Q5)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles. (contexte: révisions de bac/blocus, Q5)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: révisions de bac/blocus, Q5)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre. (contexte: révisions de bac/blocus, Q5)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: révisions de bac/blocus, Q5)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus fun pour m’embarquer. (contexte: révisions de bac/blocus, Q5)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "6. Révisions de bac/blocus — Tu as 3 chapitres à revoir ce soir.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées. (contexte: révisions de bac/blocus, Q6)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe tout ce qui freine et j’accélère sur l’essentiel. (contexte: révisions de bac/blocus, Q6)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir. (contexte: révisions de bac/blocus, Q6)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: révisions de bac/blocus, Q6)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable. (contexte: révisions de bac/blocus, Q6)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: révisions de bac/blocus, Q6)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "7. Projet de groupe — L’équipe attend ton plan d’action.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: projet de groupe, Q7)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: projet de groupe, Q7)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: projet de groupe, Q7)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre. (contexte: projet de groupe, Q7)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends 10 minutes seul pour cadrer l’idée clé. (contexte: projet de groupe, Q7)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus fun pour m’embarquer. (contexte: projet de groupe, Q7)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "8. Projet de groupe — Deadline vendredi midi.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: projet de groupe, Q8)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite. (contexte: projet de groupe, Q8)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: projet de groupe, Q8)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: projet de groupe, Q8)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini-prototype et je regarde ce que ça donne. (contexte: projet de groupe, Q8)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: projet de groupe, Q8)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "9. Projet de groupe — L’équipe attend ton plan d’action.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: projet de groupe, Q9)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: projet de groupe, Q9)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: projet de groupe, Q9)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: projet de groupe, Q9)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: projet de groupe, Q9)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: projet de groupe, Q9)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "10. Projet de groupe — Deadline vendredi midi.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: projet de groupe, Q10)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: projet de groupe, Q10)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: projet de groupe, Q10)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: projet de groupe, Q10)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends 10 minutes seul pour cadrer l’idée clé. (contexte: projet de groupe, Q10)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite. (contexte: projet de groupe, Q10)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "11. Projet de groupe — L’équipe attend ton plan d’action.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: projet de groupe, Q11)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: projet de groupe, Q11)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: projet de groupe, Q11)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: projet de groupe, Q11)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini-prototype et je regarde ce que ça donne. (contexte: projet de groupe, Q11)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus fun pour m’embarquer. (contexte: projet de groupe, Q11)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "12. Projet de groupe — Deadline vendredi midi.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes. (contexte: projet de groupe, Q12)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite. (contexte: projet de groupe, Q12)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: projet de groupe, Q12)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: projet de groupe, Q12)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable. (contexte: projet de groupe, Q12)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: projet de groupe, Q12)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "13. Entraînement/compétition — Coach demande régularité.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: entraînement/compétition, Q13)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe tout ce qui freine et j’accélère sur l’essentiel. (contexte: entraînement/compétition, Q13)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: entraînement/compétition, Q13)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: entraînement/compétition, Q13)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends 10 minutes seul pour cadrer l’idée clé. (contexte: entraînement/compétition, Q13)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: entraînement/compétition, Q13)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "14. Entraînement/compétition — Coach demande régularité.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées. (contexte: entraînement/compétition, Q14)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide. (contexte: entraînement/compétition, Q14)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: entraînement/compétition, Q14)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: entraînement/compétition, Q14)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: entraînement/compétition, Q14)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi perso et je fonce. (contexte: entraînement/compétition, Q14)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "15. Entraînement/compétition — Match/compétition ce week-end.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: entraînement/compétition, Q15)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe tout ce qui freine et j’accélère sur l’essentiel. (contexte: entraînement/compétition, Q15)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: entraînement/compétition, Q15)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord. (contexte: entraînement/compétition, Q15)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: entraînement/compétition, Q15)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite. (contexte: entraînement/compétition, Q15)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "16. Entraînement/compétition — Match/compétition ce week-end.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première. (contexte: entraînement/compétition, Q16)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: entraînement/compétition, Q16)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: entraînement/compétition, Q16)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: entraînement/compétition, Q16)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini-prototype et je regarde ce que ça donne. (contexte: entraînement/compétition, Q16)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus fun pour m’embarquer. (contexte: entraînement/compétition, Q16)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "17. Entraînement/compétition — Séance technique importante.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées. (contexte: entraînement/compétition, Q17)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide. (contexte: entraînement/compétition, Q17)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: entraînement/compétition, Q17)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: entraînement/compétition, Q17)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: entraînement/compétition, Q17)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite. (contexte: entraînement/compétition, Q17)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "18. Entraînement/compétition — Match/compétition ce week-end.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: entraînement/compétition, Q18)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe tout ce qui freine et j’accélère sur l’essentiel. (contexte: entraînement/compétition, Q18)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir. (contexte: entraînement/compétition, Q18)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: entraînement/compétition, Q18)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable. (contexte: entraînement/compétition, Q18)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: entraînement/compétition, Q18)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "19. Réseaux sociaux/tempo digital — Notifications qui te coupent.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes. (contexte: réseaux sociaux/tempo digital, Q19)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide. (contexte: réseaux sociaux/tempo digital, Q19)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: réseaux sociaux/tempo digital, Q19)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: réseaux sociaux/tempo digital, Q19)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: réseaux sociaux/tempo digital, Q19)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: réseaux sociaux/tempo digital, Q19)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "20. Réseaux sociaux/tempo digital — Envie de scroller.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: réseaux sociaux/tempo digital, Q20)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles. (contexte: réseaux sociaux/tempo digital, Q20)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute 2 minutes puis je propose une voie simple. (contexte: réseaux sociaux/tempo digital, Q20)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: réseaux sociaux/tempo digital, Q20)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: réseaux sociaux/tempo digital, Q20)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: réseaux sociaux/tempo digital, Q20)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "21. Réseaux sociaux/tempo digital — Envie de scroller.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première. (contexte: réseaux sociaux/tempo digital, Q21)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: réseaux sociaux/tempo digital, Q21)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: réseaux sociaux/tempo digital, Q21)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: réseaux sociaux/tempo digital, Q21)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: réseaux sociaux/tempo digital, Q21)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: réseaux sociaux/tempo digital, Q21)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "22. Réseaux sociaux/tempo digital — Tu veux rester focus.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: réseaux sociaux/tempo digital, Q22)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide. (contexte: réseaux sociaux/tempo digital, Q22)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: réseaux sociaux/tempo digital, Q22)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre. (contexte: réseaux sociaux/tempo digital, Q22)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini-prototype et je regarde ce que ça donne. (contexte: réseaux sociaux/tempo digital, Q22)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: réseaux sociaux/tempo digital, Q22)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "23. Réseaux sociaux/tempo digital — Envie de scroller.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: réseaux sociaux/tempo digital, Q23)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite. (contexte: réseaux sociaux/tempo digital, Q23)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: réseaux sociaux/tempo digital, Q23)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: réseaux sociaux/tempo digital, Q23)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: réseaux sociaux/tempo digital, Q23)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite. (contexte: réseaux sociaux/tempo digital, Q23)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "24. Réseaux sociaux/tempo digital — Notifications qui te coupent.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes. (contexte: réseaux sociaux/tempo digital, Q24)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide. (contexte: réseaux sociaux/tempo digital, Q24)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute 2 minutes puis je propose une voie simple. (contexte: réseaux sociaux/tempo digital, Q24)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: réseaux sociaux/tempo digital, Q24)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable. (contexte: réseaux sociaux/tempo digital, Q24)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: réseaux sociaux/tempo digital, Q24)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "25. Orientation/choix d’études — Tu hésites.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: orientation/choix d’études, Q25)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: orientation/choix d’études, Q25)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir. (contexte: orientation/choix d’études, Q25)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: orientation/choix d’études, Q25)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: orientation/choix d’études, Q25)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite. (contexte: orientation/choix d’études, Q25)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "26. Orientation/choix d’études — Tu hésites.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: orientation/choix d’études, Q26)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: orientation/choix d’études, Q26)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: orientation/choix d’études, Q26)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: orientation/choix d’études, Q26)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: orientation/choix d’études, Q26)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus fun pour m’embarquer. (contexte: orientation/choix d’études, Q26)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "27. Orientation/choix d’études — Tu veux décider sans regret.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: orientation/choix d’études, Q27)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide. (contexte: orientation/choix d’études, Q27)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: orientation/choix d’études, Q27)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: orientation/choix d’études, Q27)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable. (contexte: orientation/choix d’études, Q27)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: orientation/choix d’études, Q27)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "28. Orientation/choix d’études — Tu veux décider sans regret.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: orientation/choix d’études, Q28)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: orientation/choix d’études, Q28)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: orientation/choix d’études, Q28)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: orientation/choix d’études, Q28)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini-prototype et je regarde ce que ça donne. (contexte: orientation/choix d’études, Q28)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: orientation/choix d’études, Q28)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "29. Orientation/choix d’études — Deux voies possibles.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: orientation/choix d’études, Q29)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite. (contexte: orientation/choix d’études, Q29)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: orientation/choix d’études, Q29)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: orientation/choix d’études, Q29)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: orientation/choix d’études, Q29)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: orientation/choix d’études, Q29)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "30. Orientation/choix d’études — Deux voies possibles.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première. (contexte: orientation/choix d’études, Q30)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe tout ce qui freine et j’accélère sur l’essentiel. (contexte: orientation/choix d’études, Q30)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir. (contexte: orientation/choix d’études, Q30)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: orientation/choix d’études, Q30)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: orientation/choix d’études, Q30)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: orientation/choix d’études, Q30)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "31. Prise de parole/oral — Présentation devant la classe.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes. (contexte: prise de parole/oral, Q31)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles. (contexte: prise de parole/oral, Q31)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: prise de parole/oral, Q31)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: prise de parole/oral, Q31)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable. (contexte: prise de parole/oral, Q31)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: prise de parole/oral, Q31)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "32. Prise de parole/oral — Tu veux être clair.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: prise de parole/oral, Q32)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: prise de parole/oral, Q32)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: prise de parole/oral, Q32)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: prise de parole/oral, Q32)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: prise de parole/oral, Q32)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: prise de parole/oral, Q32)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "33. Prise de parole/oral — Tu veux être clair.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: prise de parole/oral, Q33)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles. (contexte: prise de parole/oral, Q33)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: prise de parole/oral, Q33)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: prise de parole/oral, Q33)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable. (contexte: prise de parole/oral, Q33)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi perso et je fonce. (contexte: prise de parole/oral, Q33)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "34. Prise de parole/oral — Tu veux être clair.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: prise de parole/oral, Q34)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: prise de parole/oral, Q34)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: prise de parole/oral, Q34)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: prise de parole/oral, Q34)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends 10 minutes seul pour cadrer l’idée clé. (contexte: prise de parole/oral, Q34)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus fun pour m’embarquer. (contexte: prise de parole/oral, Q34)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "35. Prise de parole/oral — Présentation devant la classe.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: prise de parole/oral, Q35)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide. (contexte: prise de parole/oral, Q35)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: prise de parole/oral, Q35)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord. (contexte: prise de parole/oral, Q35)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: prise de parole/oral, Q35)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: prise de parole/oral, Q35)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "36. Prise de parole/oral — Présentation devant la classe.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes. (contexte: prise de parole/oral, Q36)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe tout ce qui freine et j’accélère sur l’essentiel. (contexte: prise de parole/oral, Q36)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: prise de parole/oral, Q36)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: prise de parole/oral, Q36)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends 10 minutes seul pour cadrer l’idée clé. (contexte: prise de parole/oral, Q36)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: prise de parole/oral, Q36)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "37. Conflit/limites — Tu veux dire non sans casser le lien.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première. (contexte: conflit/limites, Q37)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide. (contexte: conflit/limites, Q37)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: conflit/limites, Q37)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: conflit/limites, Q37)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: conflit/limites, Q37)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi perso et je fonce. (contexte: conflit/limites, Q37)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "38. Conflit/limites — On te demande trop.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: conflit/limites, Q38)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: conflit/limites, Q38)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: conflit/limites, Q38)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord. (contexte: conflit/limites, Q38)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: conflit/limites, Q38)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi perso et je fonce. (contexte: conflit/limites, Q38)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "39. Conflit/limites — On te demande trop.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: conflit/limites, Q39)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles. (contexte: conflit/limites, Q39)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: conflit/limites, Q39)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: conflit/limites, Q39)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends 10 minutes seul pour cadrer l’idée clé. (contexte: conflit/limites, Q39)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite. (contexte: conflit/limites, Q39)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "40. Conflit/limites — Tu veux dire non sans casser le lien.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: conflit/limites, Q40)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles. (contexte: conflit/limites, Q40)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir. (contexte: conflit/limites, Q40)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre. (contexte: conflit/limites, Q40)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: conflit/limites, Q40)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: conflit/limites, Q40)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "41. Conflit/limites — Situation sensible.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes. (contexte: conflit/limites, Q41)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe tout ce qui freine et j’accélère sur l’essentiel. (contexte: conflit/limites, Q41)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: conflit/limites, Q41)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: conflit/limites, Q41)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini-prototype et je regarde ce que ça donne. (contexte: conflit/limites, Q41)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite. (contexte: conflit/limites, Q41)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "42. Conflit/limites — Tu veux dire non sans casser le lien.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première. (contexte: conflit/limites, Q42)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: conflit/limites, Q42)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: conflit/limites, Q42)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: conflit/limites, Q42)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: conflit/limites, Q42)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi perso et je fonce. (contexte: conflit/limites, Q42)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "43. Organisation/rythme — Semaine chargée.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: organisation/rythme, Q43)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: organisation/rythme, Q43)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute 2 minutes puis je propose une voie simple. (contexte: organisation/rythme, Q43)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre. (contexte: organisation/rythme, Q43)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: organisation/rythme, Q43)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: organisation/rythme, Q43)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "44. Organisation/rythme — Tu veux garder de l’énergie.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: organisation/rythme, Q44)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: organisation/rythme, Q44)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: organisation/rythme, Q44)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: organisation/rythme, Q44)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: organisation/rythme, Q44)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: organisation/rythme, Q44)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "45. Organisation/rythme — Semaine chargée.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées. (contexte: organisation/rythme, Q45)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: organisation/rythme, Q45)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir. (contexte: organisation/rythme, Q45)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre. (contexte: organisation/rythme, Q45)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini-prototype et je regarde ce que ça donne. (contexte: organisation/rythme, Q45)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: organisation/rythme, Q45)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "46. Organisation/rythme — Tu veux garder de l’énergie.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première. (contexte: organisation/rythme, Q46)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: organisation/rythme, Q46)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir. (contexte: organisation/rythme, Q46)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: organisation/rythme, Q46)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini-prototype et je regarde ce que ça donne. (contexte: organisation/rythme, Q46)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus fun pour m’embarquer. (contexte: organisation/rythme, Q46)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "47. Organisation/rythme — Tu veux garder de l’énergie.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: organisation/rythme, Q47)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles. (contexte: organisation/rythme, Q47)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: organisation/rythme, Q47)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: organisation/rythme, Q47)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: organisation/rythme, Q47)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite. (contexte: organisation/rythme, Q47)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "48. Organisation/rythme — Trop de demandes.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: organisation/rythme, Q48)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: organisation/rythme, Q48)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: organisation/rythme, Q48)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: organisation/rythme, Q48)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: organisation/rythme, Q48)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: organisation/rythme, Q48)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "49. Créativité/projet perso — Tu veux avancer.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes. (contexte: créativité/projet perso, Q49)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide. (contexte: créativité/projet perso, Q49)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: créativité/projet perso, Q49)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: créativité/projet perso, Q49)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable. (contexte: créativité/projet perso, Q49)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: créativité/projet perso, Q49)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "50. Créativité/projet perso — Idée à prototyper.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: créativité/projet perso, Q50)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles. (contexte: créativité/projet perso, Q50)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: créativité/projet perso, Q50)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord. (contexte: créativité/projet perso, Q50)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: créativité/projet perso, Q50)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: créativité/projet perso, Q50)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "51. Créativité/projet perso — Tu veux avancer.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première. (contexte: créativité/projet perso, Q51)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: créativité/projet perso, Q51)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: créativité/projet perso, Q51)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord. (contexte: créativité/projet perso, Q51)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends 10 minutes seul pour cadrer l’idée clé. (contexte: créativité/projet perso, Q51)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite. (contexte: créativité/projet perso, Q51)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "52. Créativité/projet perso — Idée à prototyper.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme. (contexte: créativité/projet perso, Q52)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: créativité/projet perso, Q52)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: créativité/projet perso, Q52)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole. (contexte: créativité/projet perso, Q52)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: créativité/projet perso, Q52)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: créativité/projet perso, Q52)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "53. Créativité/projet perso — Idée à prototyper.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: créativité/projet perso, Q53)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: créativité/projet perso, Q53)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir. (contexte: créativité/projet perso, Q53)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: créativité/projet perso, Q53)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: créativité/projet perso, Q53)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: créativité/projet perso, Q53)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "54. Créativité/projet perso — Tu veux avancer.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: créativité/projet perso, Q54)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite. (contexte: créativité/projet perso, Q54)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: créativité/projet perso, Q54)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: créativité/projet perso, Q54)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: créativité/projet perso, Q54)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus fun pour m’embarquer. (contexte: créativité/projet perso, Q54)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "55. Bien-être/sommeil — Tu dors mal.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: bien-être/sommeil, Q55)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles. (contexte: bien-être/sommeil, Q55)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: bien-être/sommeil, Q55)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: bien-être/sommeil, Q55)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis. (contexte: bien-être/sommeil, Q55)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus fun pour m’embarquer. (contexte: bien-être/sommeil, Q55)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "56. Bien-être/sommeil — Tu veux retrouver un rythme.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique. (contexte: bien-être/sommeil, Q56)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite. (contexte: bien-être/sommeil, Q56)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur. (contexte: bien-être/sommeil, Q56)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre. (contexte: bien-être/sommeil, Q56)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: bien-être/sommeil, Q56)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge 2 minutes puis je me lance de manière créative. (contexte: bien-être/sommeil, Q56)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "57. Bien-être/sommeil — Tu dors mal.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première. (contexte: bien-être/sommeil, Q57)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide. (contexte: bien-être/sommeil, Q57)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande/Offre un soutien bref puis je lance ma première action. (contexte: bien-être/sommeil, Q57)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord. (contexte: bien-être/sommeil, Q57)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable. (contexte: bien-être/sommeil, Q57)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur 10 minutes pour voir jusqu’où j’arrive. (contexte: bien-être/sommeil, Q57)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "58. Bien-être/sommeil — Tu veux retrouver un rythme.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première. (contexte: bien-être/sommeil, Q58)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais. (contexte: bien-être/sommeil, Q58)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute 2 minutes puis je propose une voie simple. (contexte: bien-être/sommeil, Q58)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères. (contexte: bien-être/sommeil, Q58)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: bien-être/sommeil, Q58)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi perso et je fonce. (contexte: bien-être/sommeil, Q58)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "59. Bien-être/sommeil — Examens proches.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes. (contexte: bien-être/sommeil, Q59)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite. (contexte: bien-être/sommeil, Q59)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche qui rassure pour prendre de l’élan. (contexte: bien-être/sommeil, Q59)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret. (contexte: bien-être/sommeil, Q59)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter. (contexte: bien-être/sommeil, Q59)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint. (contexte: bien-être/sommeil, Q59)",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "60. Bien-être/sommeil — Examens proches.",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui apporte le plus de points/effet. (contexte: bien-être/sommeil, Q60)",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite. (contexte: bien-être/sommeil, Q60)",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance. (contexte: bien-être/sommeil, Q60)",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste. (contexte: bien-être/sommeil, Q60)",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action. (contexte: bien-être/sommeil, Q60)",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus fun pour m’embarquer. (contexte: bien-être/sommeil, Q60)",
+        "profil": "Spontané"
+      }
+    ]
+  }
+]
