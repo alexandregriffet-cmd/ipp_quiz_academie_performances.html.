@@ -1,0 +1,1802 @@
+[
+  {
+    "prompt": "1. Vous avez trois chapitres à réviser ce soir pour le bac : que faites-vous en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "2. Vous devez préparer un examen blanc demain matin : comment vous organisez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "3. Vous sentez du retard accumulé dans vos révisions : quelle est votre première étape ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini‑prototype et j’observe.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "4. Vous devez rendre un devoir écrit ce soir : que faites-vous en priorité ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "5. Il vous reste deux jours pour réviser un contrôle important : par quoi commencez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "6. Vous êtes fatigué(e) mais vous devez travailler : comment démarrez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "7. Votre équipe attend un plan d’action pour vendredi midi et deux membres ne répondent pas : quelle est votre première démarche ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "8. Vous devez répartir les rôles dans un projet collectif : que faites-vous en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute deux minutes puis je propose une voie simple.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "9. Votre groupe est en retard sur la présentation : comment réagissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe ce qui freine et j’accélère sur l’essentiel.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "10. Un camarade ne rend pas sa part du travail : quelle est votre priorité ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "11. Vous devez lancer une réunion de projet : quelle est votre première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends dix minutes seul pour cadrer l’idée clé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "12. Un travail de groupe doit être rendu demain et l’équipe n’est pas prête : que décidez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe ce qui freine et j’accélère sur l’essentiel.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends dix minutes seul pour cadrer l’idée clé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "13. Vous avez une séance technique importante avant un match ce week-end : par quoi commencez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande ou offre un soutien bref puis je lance la première action.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus amusante pour m’embarquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "14. Votre coach annonce un test chronométré demain : comment vous préparez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini‑prototype et j’observe.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "15. Vous ressentez de la pression avant une compétition : quelle est votre première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini‑prototype et j’observe.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "16. Vous avez fait une erreur en match : comment réagissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande ou offre un soutien bref puis je lance la première action.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends dix minutes seul pour cadrer l’idée clé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus amusante pour m’embarquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "17. Vous devez améliorer un geste technique précis : que faites-vous en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "18. Votre équipe compte sur vous dans une finale : quelle est votre première démarche ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends dix minutes seul pour cadrer l’idée clé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "19. Les notifications vous coupent pendant vos devoirs et vous voulez rester concentré(e) : que faites-vous en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe ce qui freine et j’accélère sur l’essentiel.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande ou offre un soutien bref puis je lance la première action.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "20. Vous perdez du temps sur votre téléphone avant de travailler : quelle est votre réaction ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande ou offre un soutien bref puis je lance la première action.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "21. Vous devez rédiger un devoir mais vous êtes tenté(e) par les réseaux sociaux : que décidez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini‑prototype et j’observe.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "22. Vous avez besoin de vous concentrer dans un environnement bruyant : quelle est votre première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe ce qui freine et j’accélère sur l’essentiel.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute deux minutes puis je propose une voie simple.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends dix minutes seul pour cadrer l’idée clé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "23. Votre attention décroche pendant une séance d’étude : que faites-vous immédiatement ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande ou offre un soutien bref puis je lance la première action.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "24. Un ami vous envoie un message pendant vos révisions : comment réagissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute deux minutes puis je propose une voie simple.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini‑prototype et j’observe.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "25. Vous hésitez entre deux filières d’études : quelle est votre première démarche ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "26. Vous devez choisir une option importante : que faites-vous en priorité ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe ce qui freine et j’accélère sur l’essentiel.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute deux minutes puis je propose une voie simple.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge deux minutes puis je me lance de manière créative.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "27. Vous doutez de votre orientation scolaire : quelle est votre première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande ou offre un soutien bref puis je lance la première action.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "28. Vous recevez deux propositions intéressantes : comment réagissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "29. Vous devez décider rapidement d’un parcours : que faites-vous en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe ce qui freine et j’accélère sur l’essentiel.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute deux minutes puis je propose une voie simple.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini‑prototype et j’observe.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus amusante pour m’embarquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "30. Vous avez peur de regretter un choix d’avenir : quelle est votre stratégie initiale ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "31. Vous devez préparer un oral important avec peu de temps : quelle est votre première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini‑prototype et j’observe.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "32. Vous devez parler devant la classe sans préparation : comment réagissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends dix minutes seul pour cadrer l’idée clé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus amusante pour m’embarquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "33. Vous êtes stressé(e) avant de prendre la parole : que faites-vous en priorité ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe ce qui freine et j’accélère sur l’essentiel.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "34. Vous devez convaincre un jury : quelle est votre première démarche ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "35. Vous préparez un exposé : par quoi commencez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus amusante pour m’embarquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "36. Vous devez improviser une réponse en public : quelle est votre première réaction ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute deux minutes puis je propose une voie simple.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "37. On vous demande trop de choses à la fois : comment réagissez-vous en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe ce qui freine et j’accélère sur l’essentiel.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends dix minutes seul pour cadrer l’idée clé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "38. Vous devez dire non à un ami sans le blesser : que faites-vous en priorité ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus amusante pour m’embarquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "39. Vous vous sentez débordé(e) par les attentes : quelle est votre première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je fais ce qui est juste, même si c’est discret.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "40. Un camarade vous met la pression : comment réagissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute deux minutes puis je propose une voie simple.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "41. Vous êtes en désaccord avec un coach ou un prof : que faites-vous d’abord ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends dix minutes seul pour cadrer l’idée clé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "42. Vous devez poser une limite claire : comment vous y prenez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "43. Votre semaine est chargée et vous voulez garder de l’énergie : par quoi commencez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends dix minutes seul pour cadrer l’idée clé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge deux minutes puis je me lance de manière créative.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "44. Vous avez plusieurs devoirs à rendre demain : quelle est votre première démarche ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute deux minutes puis je propose une voie simple.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "45. Vous devez organiser vos journées pour tenir vos objectifs : que faites-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini‑prototype et j’observe.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "46. Votre emploi du temps est déséquilibré : que décidez-vous en priorité ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je clarifie la consigne et j’avance dans l’ordre logique.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je prends le leadership et je distribue les rôles.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "47. Vous avez accumulé du retard dans vos tâches : comment redémarrez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je me prends dix minutes seul pour cadrer l’idée clé.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je bouge deux minutes puis je me lance de manière créative.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "48. Votre rythme est trop irrégulier : quelle est votre première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je cherche une approche originale pour démarrer tout de suite.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "49. Vous avez une idée à développer mais vous ne savez pas par où commencer : quelle est votre première démarche ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus amusante pour m’embarquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "50. Vous voulez lancer un projet personnel : que faites-vous d’abord ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "51. Vous avez beaucoup d’idées en tête : comment démarrez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "52. Vous voulez créer quelque chose de nouveau : quelle est votre première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je coupe ce qui freine et j’accélère sur l’essentiel.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je choisis une tâche rassurante pour prendre de l’élan.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je rappelle la règle et je m’y conforme d’abord.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "53. Vous devez trouver une solution originale à un problème : que faites-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je visualise le résultat final et j’écris la première action.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "54. Vous avez envie d’innover : quelle est votre première démarche ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je demande ou offre un soutien bref puis je lance la première action.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je m’aligne sur mes principes et j’annonce un engagement réaliste.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus amusante pour m’embarquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "55. Vous dormez mal à l’approche des examens : quelle est votre première action ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je pose un jalon mesurable à H+30 minutes et j’y vais.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je simplifie le concept pour le rendre actionnable.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je me donne un petit défi personnel et je fonce.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "56. Vous ressentez un gros coup de fatigue : que décidez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je découpe en blocs de 25 minutes avec pauses planifiées.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je m’encourage et j’encourage l’équipe avant d’agir.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus amusante pour m’embarquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "57. Vous voulez retrouver un rythme de sommeil régulier : par quoi commencez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je priorise ce qui rapporte le plus de points/effet.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je commence par ce qui renforce la confiance.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je transforme la tâche en jeu chronométré et je lance un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "58. Vous sentez que votre énergie baisse : quelle est votre priorité ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je fixe un standard 'suffisant' (80 %) pour éviter le perfectionnisme.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je m’engage sur un résultat clair et rapide.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "J’écoute deux minutes puis je propose une voie simple.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je confirme ma disponibilité et je respecte le cadre.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je formalise une image claire avant d’exécuter.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "59. Vous avez du mal à récupérer après un effort : que faites-vous en premier ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je note le plan minimal pour démarrer en 5 minutes.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je choisis le défi le plus utile et je le règle tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je clarifie qui fait quoi pour quand et je tiens parole.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je crée un mini‑prototype et j’observe.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je commence par la partie la plus amusante pour m’embarquer.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "60. Vous êtes stressé(e) avant de dormir : quelle est votre première démarche ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Je dresse une check‑list en 3 étapes et j’attaque la première.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Je tranche et j’avance vite, quitte à ajuster ensuite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Je crée un climat calme et je m’y mets en douceur.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Je vérifie que la solution respecte mes critères.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Je protège un court temps de réflexion, puis j’agis.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Je mets un minuteur de dix minutes pour voir jusqu’où j’arrive.",
+        "profil": "Spontané"
+      }
+    ]
+  }
+]
