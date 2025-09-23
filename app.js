@@ -1,6 +1,19 @@
 
-document.addEventListener("DOMContentLoaded", ()=>{
-  const start = document.getElementById("startBtn");
+// --- Global starter to avoid binding issues ---
+window._IPP_start = async function(){
+  try{
+    console.log("[IPP] start clicked");
+    await loadQuestions();
+    if(typeof startQuiz === "function"){ startQuiz(); }
+    else if(typeof start === "function"){ start(); }
+    else { alert("Erreur : fonction startQuiz introuvable"); }
+  }catch(e){
+    console.error(e);
+    alert("Impossible de démarrer le test. Essayez d’actualiser la page (Ctrl/Cmd+Shift+R).");
+  }
+};
+
+
   if(start){
     start.addEventListener("click", async (e)=>{
       e.preventDefault();
