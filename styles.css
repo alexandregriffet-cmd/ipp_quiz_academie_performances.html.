@@ -1,31 +1,29 @@
 *{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial}
 body{margin:0;background:#f8fafc;color:#0f172a}
-.header-hero{background:linear-gradient(135deg,#f8fbff,#eef6ff)}
-.header-hero.center-hero{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:36px 24px}
-.hero-logo{width:200px;height:auto;object-fit:contain;margin-bottom:10px}
-.center-copy h1{font-size:32px;margin:0}
-.subtitle{margin:0;color:#475569}
-.badges{display:flex;gap:12px;list-style:none;padding:0;margin:8px 0 14px 0;color:#334155}
-.badges li{background:#fff;border:1px solid #e2e8f0;padding:6px 10px;border-radius:999px}
-.cta.single{display:flex;justify-content:center}
-.cta-main{background:#2683c6;border:1px solid #2683c6;color:#fff;padding:10px 14px;border-radius:10px;cursor:pointer}
-main{max-width:1100px;margin:24px auto;padding:0 16px}
-section{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:24px;margin-bottom:20px}
+.hero{display:flex;flex-direction:column;align-items:center;gap:6px;padding:28px;background:#fff;border-bottom:1px solid #e5e7eb}
+.hero .logo{width:220px;height:auto;object-fit:contain}
+.hero .cta{background:#111827;color:#fff;border:1px solid #111827;border-radius:10px;padding:10px 14px;cursor:pointer}
+.subtitle{color:#475569;margin-top:-4px}
+main{max-width:1100px;margin:18px auto;padding:0 16px}
+section{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px;margin-bottom:16px}
 .hidden{display:none}
-.answers{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
-.answers .option{position:relative;border:1px solid #cbd5e1;background:#f8fafc;border-radius:10px;padding:10px;cursor:pointer}
-.answers .option.selected{border-color:#2563eb;background:#eff6ff}
-.answers .rank-badge{position:absolute;right:10px;top:10px;background:#2563eb;color:#fff;font-weight:700;border-radius:999px;width:26px;height:26px;display:flex;align-items:center;justify-content:center}
-.rank-legend{font-size:12px;color:#475569;margin-top:6px}
-.reset-q{margin-top:8px;background:#e11d48;color:#fff;border:1px solid #e11d48;padding:8px 10px;border-radius:8px;cursor:pointer}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-#synthese table{width:100%;border-collapse:collapse}
-#synthese th,#synthese td{border:1px solid #e2e8f0;padding:8px;text-align:left}
-.actions{display:flex;gap:10px;margin-top:16px}
-.page{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:28px;margin:12px 0;position:relative}
-.page .wm{position:absolute;right:16px;top:12px;opacity:0.12}
-.page .wm img{width:160px;height:auto}
-.cover{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:720px;text-align:center}
-.cover h1{font-size:28px;margin:12px 0 4px 0}
-.cover .brand{width:220px;height:auto;margin-bottom:20px}
-.youth-badge{display:inline-block;background:#0ea5e9;color:#fff;padding:6px 10px;border-radius:999px;margin-top:8px;font-weight:600}
+#q h3{margin-top:0}
+.answers{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.option{border:1px solid #cbd5e1;background:#f8fafc;border-radius:12px;padding:10px;cursor:pointer;position:relative}
+.option.selected{border-color:#2563eb;background:#eff6ff}
+.rank-badge{position:absolute;top:8px;right:8px;background:#2563eb;color:#fff;border-radius:999px;width:26px;height:26px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.nav{display:flex;gap:8px}
+.grid2{display:grid;grid-template-columns:1.1fr 0.9fr;gap:14px}
+.center{text-align:center}
+
+/* Results table */
+#tableWrap{display:flex;flex-direction:column}
+#resultTable{width:100%;border-collapse:collapse;font-size:14px}
+#resultTable th,#resultTable td{border:1px solid #e2e8f0;padding:8px 10px;text-align:left}
+#resultTable th:nth-child(2), #resultTable td:nth-child(2){text-align:right;width:80px}
+.legend{color:#64748b;margin-top:8px}
+
+/* A4 for PDF */
+@page { size: A4; margin: 12mm; }
+.like-a4{width:794px;min-height:1123px;margin:0 auto 16px auto;padding:18px;border:1px solid #e5e7eb;border-radius:10px}
+.pdf{background:#0f172a;color:#fff;border:1px solid #0f172a;border-radius:10px;padding:8px 12px}

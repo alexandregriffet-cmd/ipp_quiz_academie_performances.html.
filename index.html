@@ -3,42 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Inventaire Psychologique de Performance</title>
+  <title>IPP Jeunes – Académie de Performances</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 </head>
 <body>
-<header class="header-hero center-hero">
-  <img src="assets/logo.png" alt="Logo IPP" class="logo hero-logo">
-  <div class="hero-copy center-copy">
-    <h1>Inventaire Psychologique de Performance</h1>
-    <p class="subtitle">Par l’Académie de Performances – Alexandre Griffet</p>
-    <ul class="badges">
-      <li>🎯 Résultats personnalisés</li>
-      <li>🕒 Jusqu’à 45 minutes</li>
-      <li>📄 Rapport premium + PDF</li>
-    </ul>
-    <div class="cta single">
-      <button id="startBtn" class="cta-main">Commencer</button>
-    </div>
-  </div>
+<header class="hero">
+  <img src="assets/logo.png" alt="Logo IPP" class="logo">
+  <h1>Inventaire Psychologique de Performance</h1>
+  <p class="subtitle">Jeunes • 12–25 ans — Académie de Performances</p>
+  <button id="startBtn" class="cta">Commencer</button>
 </header>
 
 <main id="app">
   <section class="rules">
-    <h2>📌 Règles de passation</h2>
+    <h2>Règles du test</h2>
     <ul>
       <li>Installez-vous dans un <b>moment calme</b> et <b>sans être dérangé(e)</b>.</li>
-      <li>Répondez avec <b>spontanéité</b> : ne suranalysez pas vos réponses.</li>
-      <li>Nous vous vouvoyons tout au long du test.</li>
-      <li>Le test peut durer <b>jusqu’à 45 minutes</b>.</li>
+      <li>Répondez avec <b>spontanéité</b> : ne suranalysez pas.</li>
+      <li>Vous pouvez classer jusqu’à <b>6</b> réponses par priorité (min. <b>3</b> pour avancer).</li>
+      <li>Durée indicative : <b>jusqu’à 45 min</b>.</li>
     </ul>
   </section>
 
-  <section id="questionnaire" class="hidden">
-    <div id="q-container"></div>
+  <section id="quiz" class="hidden">
+    <div id="q"></div>
     <div class="nav">
       <button id="prev">Précédent</button>
       <button id="next" disabled>Suivant</button>
@@ -47,39 +38,50 @@
     <div id="progress"></div>
   </section>
 
-  <section id="rapport" class="hidden">
-    <h2>Votre rapport IPP</h2>
+  <section id="report" class="hidden">
+    <div id="reportHeader">
+      <h2>Votre rapport IPP</h2>
+      <button id="downloadPdf" class="pdf">Télécharger en PDF</button>
+    </div>
     <div id="summary"></div>
-    <div class="grid2">
-      <canvas id="etoile" height="360"></canvas>
-      <div id="synthese"></div>
+
+    <div class="page like-a4">
+      <h3 class="center">Étoile IPP & Résultats (%)</h3>
+      <div class="grid2">
+        <canvas id="etoile" height="380"></canvas>
+        <div id="tableWrap">
+          <table id="resultTable">
+            <thead><tr><th>Profil</th><th>%</th><th>Repère</th></tr></thead>
+            <tbody></tbody>
+          </table>
+          <p class="legend">❤️ ADN • ⭐ Cap • ⚪ Caps vécus</p>
+        </div>
+      </div>
     </div>
-    <div class="grid2">
-      <canvas id="boussole" height="320"></canvas>
-      <canvas id="pyramide" height="320"></canvas>
+
+    <div class="page like-a4">
+      <h3 class="center">Boussole & Pyramide</h3>
+      <div class="grid2">
+        <canvas id="boussole" height="380"></canvas>
+        <canvas id="pyramide" height="380"></canvas>
+      </div>
     </div>
-    <article id="rapport-texte"></article>
-    <div class="actions">
-      <button id="downloadPdf">Télécharger en PDF</button>
-      <button id="restart">Recommencer</button>
+
+    <div class="page like-a4">
+      <div id="rapportTexte"></div>
     </div>
   </section>
+
+  <section id="pdfDoc" class="hidden"></section>
 </main>
 
-<div id="pdfDoc"></div>
 <footer><small>© IPP – Académie de Performances</small></footer>
 <script src="app.js"></script>
 <script>
-async function startQuizIPP(){
-  try{
-    if(typeof loadQuestions === "function"){ await loadQuestions(); }
-    if(typeof startQuiz === "function"){ startQuiz(); }
-    else { alert("Fonction startQuiz introuvable"); }
-  }catch(e){
-    alert("Impossible de démarrer le test : "+e.message);
-  }
-}
-(function(){ var b=document.getElementById("startBtn"); if(b){ b.addEventListener("click", startQuizIPP); } })();
+document.getElementById('startBtn').addEventListener('click', async ()=>{
+  if(typeof loadQuestions==='function'){ await loadQuestions(); }
+  if(typeof startQuiz==='function'){ startQuiz(); }
+});
 </script>
 </body>
 </html>
