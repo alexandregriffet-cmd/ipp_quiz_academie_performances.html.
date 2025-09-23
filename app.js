@@ -1,9 +1,15 @@
 const COLORS={Garant:"#1f77b4",Conquérant:"#d62728",Bienveillant:"#2ca02c",Fiable:"#800080",Visionnaire:"#87CEEB",Spontané:"#FFA500"};
 let QUESTIONS=[],answers=[],current=0,REPORT={};
 
+const $=s=>document.querySelector(s);
+
+document.getElementById('startBtn').addEventListener('click', async ()=>{
+  await loadQuestions(); startQuiz();
+});
+
 async function loadQuestions(){
-  const url = `data/questions_ados.json?v=${window.__V__||Date.now()}`;
-  const res = await fetch(url,{cache:"no-store"});
+  const res = await fetch(`data/questions_ados.json?v=${window.__V__}`,{cache:"no-store"});
+  if(!res.ok){ throw new Error("questions_ados.json introuvable"); }
   QUESTIONS = await res.json();
   answers = new Array(QUESTIONS.length).fill(null);
 }
@@ -14,7 +20,6 @@ function startQuiz(){
   current=0; renderQ();
 }
 
-const $=s=>document.querySelector(s);
 $("#prev").addEventListener("click",()=>{ if(current>0){current--;renderQ();}});
 $("#next").addEventListener("click",()=>{ if(current<QUESTIONS.length-1){current++;renderQ();}});
 $("#finish").addEventListener("click",finish);
@@ -25,10 +30,11 @@ function renderQ(){
   const ranked=answers[current];
   const rankOf=i=>{const p=ranked.indexOf(i);return p===-1?null:p+1;}
   $("#q").innerHTML = `<h3>${current+1}. ${q.prompt}</h3>
-  <div class="answers">
-    ${q.options.map((o,i)=>`<div class="option ${rankOf(i)?'selected':''}" data-i="${i}">${o.label}${rankOf(i)?`<span class='rank-badge'>${rankOf(i)}</span>`:''}</div>`).join('')}
-  </div>
-  <p>Classez vos réponses par priorité (1→6). Il faut au minimum 3 choix pour continuer.</p>`;
+  <div class="answers">${q.options.map((o,i)=>`
+    <div class="option ${rankOf(i)?'selected':''}" data-i="${i}">${o.label}
+      ${rankOf(i)?`<span class='rank-badge'>${rankOf(i)}</span>`:''}
+    </div>`).join('')}</div>
+  <p>Classez vos réponses par priorité (1→6). Minimum 3 choix pour continuer.</p>`;
 
   $("#q").querySelectorAll(".option").forEach(op=>op.addEventListener("click",()=>{
     const i=+op.dataset.i; const p=ranked.indexOf(i);
@@ -49,23 +55,25 @@ async function finish(){
   const scores={Garant:0,Conquérant:0,Bienveillant:0,Fiable:0,Visionnaire:0,Spontané:0};
   QUESTIONS.forEach((q,qi)=>{
     const ranked = answers[qi]||[];
-    ranked.forEach((opt,idx)=>{ const p = q.options[opt].profil; scores[p]+= (q.weight||1)*(weights[idx]||0); });
+    ranked.forEach((opt,idx)=>{
+      const profil = q.options[opt].profil;
+      scores[profil]+= (q.weight||1)*(weights[idx]||0);
+    });
   });
   const total = Object.values(scores).reduce((a,b)=>a+b,0)||1;
   const perc={}; Object.keys(scores).forEach(k=>perc[k]=Math.round(scores[k]/total*100));
   const sorted=Object.entries(perc).sort((a,b)=>b[1]-a[1]);
-  const ADN=sorted[0][0], CAP=sorted[1][0], capsVecus=sorted.slice(2,4).map(x=>x[0]);
-  REPORT={ADN,CAP,perc,capsVecus};
+  REPORT={ADN:sorted[0][0], CAP:sorted[1][0], perc, capsVecus:sorted.slice(2,4).map(x=>x[0])};
   document.getElementById("quiz").classList.add("hidden");
   document.getElementById("report").classList.remove("hidden");
   renderSummary(); renderStar(); renderTable(); renderBoussole(); renderPyramide(); await renderNarrative();
-  document.getElementById("downloadPdf").onclick=exportPDF;
+  document.getElementById("downloadPdf").onclick = exportPDF;
 }
 
 function dot(c){return `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${c};margin-right:6px"></span>`;}
 function renderSummary(){
   const {ADN,CAP,capsVecus}=REPORT;
-  document.getElementById("summary").innerHTML = `<div class="badges">
+  $("#summary").innerHTML = `<div class="badges">
     <span class="badge">${dot(COLORS[ADN])}<b>ADN</b> : ${ADN} ❤️</span>
     <span class="badge">${dot(COLORS[CAP])}<b>Cap</b> : ${CAP} ⭐</span>
     ${capsVecus.map(c=>`<span class="badge"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#94a3b8;margin-right:6px"></span>${c} ⚪</span>`).join('')}
@@ -104,8 +112,8 @@ function renderBoussole(){
   ctx.fillText("Groupe / Interne", W-190, H-10);
   const pos={"Garant":[W-70,H-40],"Conquérant":[W-70,40],"Bienveillant":[W-70,H-40],"Fiable":[W-70,H-40],"Visionnaire":[70,H-40],"Spontané":[W-70,H-40]};
   const draw=(x,y,c,l)=>{ctx.fillStyle=c;ctx.beginPath();ctx.arc(x,y,8,0,Math.PI*2);ctx.fill();ctx.fillStyle="#111";ctx.fillText(l,x-18,y-14);}
-  draw(...pos[ADN], COLORS[ADN], "❤️ "+ADN);
-  draw(...pos[CAP], COLORS[CAP], "⭐ "+CAP);
+  draw(...pos[ADN], "#111", "❤️ "+ADN);
+  draw(...pos[CAP], "#111", "⭐ "+CAP);
 }
 
 function renderPyramide(){
