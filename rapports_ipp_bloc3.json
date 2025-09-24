@@ -1,0 +1,128 @@
+{
+  "Bienveillant|Garant": {
+    "bienvenue": "Bienvenue — ADN Bienveillant, Cap Garant.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  },
+  "Bienveillant|Conquérant": {
+    "bienvenue": "Bienvenue — ADN Bienveillant, Cap Conquérant.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  },
+  "Bienveillant|Bienveillant": {
+    "bienvenue": "Bienvenue — ADN Bienveillant, Cap Bienveillant.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  },
+  "Bienveillant|Fiable": {
+    "bienvenue": "Bienvenue — ADN Bienveillant, Cap Fiable.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  },
+  "Bienveillant|Visionnaire": {
+    "bienvenue": "Bienvenue — ADN Bienveillant, Cap Visionnaire.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  },
+  "Bienveillant|Spontané": {
+    "bienvenue": "Bienvenue — ADN Bienveillant, Cap Spontané.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  }
+}

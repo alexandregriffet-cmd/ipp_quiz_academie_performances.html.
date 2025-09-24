@@ -1,0 +1,128 @@
+{
+  "Spontané|Garant": {
+    "bienvenue": "Bienvenue — ADN Spontané, Cap Garant.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  },
+  "Spontané|Conquérant": {
+    "bienvenue": "Bienvenue — ADN Spontané, Cap Conquérant.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  },
+  "Spontané|Bienveillant": {
+    "bienvenue": "Bienvenue — ADN Spontané, Cap Bienveillant.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  },
+  "Spontané|Fiable": {
+    "bienvenue": "Bienvenue — ADN Spontané, Cap Fiable.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  },
+  "Spontané|Visionnaire": {
+    "bienvenue": "Bienvenue — ADN Spontané, Cap Visionnaire.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  },
+  "Spontané|Spontané": {
+    "bienvenue": "Bienvenue — ADN Spontané, Cap Spontané.",
+    "sections": [
+      {
+        "titre": "Forces",
+        "points": [
+          "Clarté",
+          "Cadre",
+          "Progression"
+        ]
+      },
+      {
+        "titre": "Plans d’action",
+        "points": [
+          "Premier pas < 5 min",
+          "Feedback court",
+          "Rituel hebdo"
+        ]
+      }
+    ]
+  }
+}

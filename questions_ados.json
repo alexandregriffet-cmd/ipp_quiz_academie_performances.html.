@@ -1,0 +1,302 @@
+[
+  {
+    "prompt": "1. Vous avez un objectif à atteindre : quelle première action choisissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Vous posez un plan simple et vous démarrez.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Vous attaquez le défi prioritaire tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Vous sécurisez un climat calme et rassurant.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vous prenez un engagement réaliste et vous le tenez.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Vous clarifiez l’idée clé et le pas concret.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Vous transformez la tâche en jeu et vous lancez un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "2. Vous avez un objectif à atteindre : quelle première action choisissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Vous posez un plan simple et vous démarrez.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Vous attaquez le défi prioritaire tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Vous sécurisez un climat calme et rassurant.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vous prenez un engagement réaliste et vous le tenez.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Vous clarifiez l’idée clé et le pas concret.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Vous transformez la tâche en jeu et vous lancez un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "3. Vous avez un objectif à atteindre : quelle première action choisissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Vous posez un plan simple et vous démarrez.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Vous attaquez le défi prioritaire tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Vous sécurisez un climat calme et rassurant.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vous prenez un engagement réaliste et vous le tenez.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Vous clarifiez l’idée clé et le pas concret.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Vous transformez la tâche en jeu et vous lancez un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "4. Vous avez un objectif à atteindre : quelle première action choisissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Vous posez un plan simple et vous démarrez.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Vous attaquez le défi prioritaire tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Vous sécurisez un climat calme et rassurant.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vous prenez un engagement réaliste et vous le tenez.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Vous clarifiez l’idée clé et le pas concret.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Vous transformez la tâche en jeu et vous lancez un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "5. Vous avez un objectif à atteindre : quelle première action choisissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Vous posez un plan simple et vous démarrez.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Vous attaquez le défi prioritaire tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Vous sécurisez un climat calme et rassurant.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vous prenez un engagement réaliste et vous le tenez.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Vous clarifiez l’idée clé et le pas concret.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Vous transformez la tâche en jeu et vous lancez un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "6. Vous avez un objectif à atteindre : quelle première action choisissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Vous posez un plan simple et vous démarrez.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Vous attaquez le défi prioritaire tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Vous sécurisez un climat calme et rassurant.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vous prenez un engagement réaliste et vous le tenez.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Vous clarifiez l’idée clé et le pas concret.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Vous transformez la tâche en jeu et vous lancez un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "7. Vous avez un objectif à atteindre : quelle première action choisissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Vous posez un plan simple et vous démarrez.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Vous attaquez le défi prioritaire tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Vous sécurisez un climat calme et rassurant.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vous prenez un engagement réaliste et vous le tenez.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Vous clarifiez l’idée clé et le pas concret.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Vous transformez la tâche en jeu et vous lancez un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "8. Vous avez un objectif à atteindre : quelle première action choisissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Vous posez un plan simple et vous démarrez.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Vous attaquez le défi prioritaire tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Vous sécurisez un climat calme et rassurant.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vous prenez un engagement réaliste et vous le tenez.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Vous clarifiez l’idée clé et le pas concret.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Vous transformez la tâche en jeu et vous lancez un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "9. Vous avez un objectif à atteindre : quelle première action choisissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Vous posez un plan simple et vous démarrez.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Vous attaquez le défi prioritaire tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Vous sécurisez un climat calme et rassurant.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vous prenez un engagement réaliste et vous le tenez.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Vous clarifiez l’idée clé et le pas concret.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Vous transformez la tâche en jeu et vous lancez un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  },
+  {
+    "prompt": "10. Vous avez un objectif à atteindre : quelle première action choisissez-vous ?",
+    "weight": 1,
+    "options": [
+      {
+        "label": "Vous posez un plan simple et vous démarrez.",
+        "profil": "Garant"
+      },
+      {
+        "label": "Vous attaquez le défi prioritaire tout de suite.",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Vous sécurisez un climat calme et rassurant.",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Vous prenez un engagement réaliste et vous le tenez.",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Vous clarifiez l’idée clé et le pas concret.",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Vous transformez la tâche en jeu et vous lancez un sprint.",
+        "profil": "Spontané"
+      }
+    ]
+  }
+]
