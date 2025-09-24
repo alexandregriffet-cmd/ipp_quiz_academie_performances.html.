@@ -1,0 +1,800 @@
+{
+  "Fiable|Garant": {
+    "bienvenue": "Bienvenue — Votre ADN Fiable constitue la structure profonde de votre manière d’agir et de réussir. En ce moment, votre cap met en avant Garant. Ce duo crée une dynamique singulière que ce rapport va traduire en leviers concrets, applicables dès aujourd’hui.\n\nLa lecture est conçue pour être directe et utile : des exemples, des plans d’action et des antidotes au stress vous permettent d’expérimenter immédiatement.",
+    "sections": [
+      {
+        "titre": "Portrait détaillé — ADN",
+        "texte": "Votre ADN Fiable représente votre façon optimale de prendre des décisions, d’apprendre et de vous organiser quand votre énergie est bien nourrie.\n\nCe socle explique vos réflexes naturels sous pression, vos besoins de reconnaissance et les contextes où vous atteignez votre meilleure performance."
+      },
+      {
+        "titre": "Expression actuelle — Cap",
+        "texte": "En ce moment, vous mobilisez prioritairement l’énergie Garant. Cela colore votre manière de lancer l’action, d’interagir et d’évaluer vos résultats.\n\nLe cap n’annule pas l’ADN : il l’oriente. Quand le cap est bien nourri, vous ressentez fluidité, clarté et envie de continuer."
+      },
+      {
+        "titre": "Leviers de motivation durables",
+        "points": [
+          "Définir un but lisible et mesurable (critères de réussite simples).",
+          "Ritualiser le démarrage : première action < 5 minutes, visible.",
+          "Mettre en place un feedback court (auto-évaluation ou pair).",
+          "Sécuriser l’environnement physique : calme, matériel, repères."
+        ]
+      },
+      {
+        "titre": "Environnements qui vous réussissent",
+        "points": [
+          "Espaces ordonnés et repères visuels (checklists, planning).",
+          "Groupes engagés et bienveillants, règles claires.",
+          "Moments seuls pour cadrer puis partages ciblés pour valider.",
+          "Défis progressifs avec degré de difficulté ajusté."
+        ]
+      },
+      {
+        "titre": "Modes d’apprentissage efficaces",
+        "points": [
+          "Alternance compréhension → restitution (fiches + quiz).",
+          "Séquences courtes (25/5) puis récapitulatif 60 secondes.",
+          "Schémas / mindmaps pour structurer la pensée.",
+          "Auto-tests fréquents pour valider l’acquis."
+        ]
+      },
+      {
+        "titre": "Organisation de haute fiabilité",
+        "points": [
+          "Plan hebdo : 3 objectifs max, 1 prioritaire/jour.",
+          "Bilan vendredi 15 min : garder / ajuster / supprimer.",
+          "Rituels de début/fin de journée (préparer le terrain).",
+          "Système anti-distorsion du temps (minuteur, limites)."
+        ]
+      },
+      {
+        "titre": "Communication efficace",
+        "points": [
+          "Formule Fait → Impact → Besoin → Demande.",
+          "Questions de clarification avant décision engageante.",
+          "Deux options acceptables pour accélérer le choix.",
+          "Feedback spécifique (comportement + effet + prochaine étape)."
+        ]
+      },
+      {
+        "titre": "Stress — signes et stratégies",
+        "texte": "Niveau 1 — Signaux précoces : tension, rigidité, dispersion discrète. Agir vite et doux.\n\nNiveau 2 — Défenses : perfectionnisme, impulsivité ou retrait selon les contextes. Découpler enjeu et identité, reprioriser.\n\nNiveau 3 — Rupture : blocage, conflits, abandon. Protocole court : respiration guidée 90 secondes, premier pas de 3 minutes, demander un regard externe.",
+        "points": [
+          "Antidote 1 : ancrage (respiration 4‑6 pendant 90s).",
+          "Antidote 2 : réduire l’objectif à un micro‑pas actionnable.",
+          "Antidote 3 : demander un feedback clair et court."
+        ]
+      },
+      {
+        "titre": "Études — exemples concrets",
+        "points": [
+          "Révisions d’histoire : 2 fiches synthèse + 1 quiz 5 questions.",
+          "Maths : 3 exos gradués, correction active, notez l’erreur type.",
+          "Langues : 10 minutes shadowing + 10 minutes traduction.",
+          "Oral : trame 5 points, répétition 2×, feedback pair."
+        ]
+      },
+      {
+        "titre": "Sport — exemples concrets",
+        "points": [
+          "Pré-compétition : ancrage 2 min + image du geste clé.",
+          "Entraînement : 1 repère technique par série, consigne unique.",
+          "Récupération : 8 min mobilité douce + hydratation.",
+          "Post-compétition : 3 faits / 1 axe / 1 action."
+        ]
+      },
+      {
+        "titre": "Social — exemples concrets",
+        "points": [
+          "Dire non : « J’aimerais aider, et je peux le faire demain 17h. »",
+          "Conflit : « Voilà ce que je vois / ce que je propose pour avancer. »",
+          "Travail en groupe : rôle clair + échéance + canal unique.",
+          "Demande d’aide : « J’ai besoin d’un regard sur ce point précis. »"
+        ]
+      },
+      {
+        "titre": "Leadership & Collaboration",
+        "points": [
+          "Donner une direction sobre et mesurable.",
+          "Distribuer des rôles exploitant les forces naturelles.",
+          "Rendre les décisions visibles (tableau d’avancement).",
+          "Célébrer les petits succès, ajuster sans blâme."
+        ]
+      },
+      {
+        "titre": "Plan 30‑60‑90 — mise en œuvre",
+        "points": [
+          "J+30 : 1 rituel quotidien installé (10–15 minutes).",
+          "J+60 : bilans hebdo automatiques + retours pairs.",
+          "J+90 : environnement et outils stabilisés, progression visible."
+        ]
+      },
+      {
+        "titre": "Erreurs fréquentes à éviter",
+        "points": [
+          "Empiler les objectifs au lieu d’en choisir un.",
+          "Sur-analyser le démarrage : privilégier le premier pas.",
+          "Chercher 100 % partout au lieu d’accepter 80 % suffisant.",
+          "Oublier de demander de l’aide tôt."
+        ]
+      },
+      {
+        "titre": "Routine quotidienne suggérée (15 à 25 min)",
+        "points": [
+          "1) Préparer l’environnement (2 min).",
+          "2) Premier pas mesurable (5–10 min).",
+          "3) Auto‑feedback et prochaine étape (3 min).",
+          "4) Hygiène d’énergie (respiration / eau / micro‑pause)."
+        ]
+      },
+      {
+        "titre": "Conclusion — cap sur la durée",
+        "texte": "Votre performance durable naît de l’addition : ADN (stabilité) + Cap (expression du moment) + environnement ajusté.\n\nExpérimentez, observez, ajustez. De petites actions cohérentes, répétées avec bienveillance, fabriquent les grands progrès."
+      }
+    ]
+  },
+  "Fiable|Conquérant": {
+    "bienvenue": "Bienvenue — Votre ADN Fiable constitue la structure profonde de votre manière d’agir et de réussir. En ce moment, votre cap met en avant Conquérant. Ce duo crée une dynamique singulière que ce rapport va traduire en leviers concrets, applicables dès aujourd’hui.\n\nLa lecture est conçue pour être directe et utile : des exemples, des plans d’action et des antidotes au stress vous permettent d’expérimenter immédiatement.",
+    "sections": [
+      {
+        "titre": "Portrait détaillé — ADN",
+        "texte": "Votre ADN Fiable représente votre façon optimale de prendre des décisions, d’apprendre et de vous organiser quand votre énergie est bien nourrie.\n\nCe socle explique vos réflexes naturels sous pression, vos besoins de reconnaissance et les contextes où vous atteignez votre meilleure performance."
+      },
+      {
+        "titre": "Expression actuelle — Cap",
+        "texte": "En ce moment, vous mobilisez prioritairement l’énergie Conquérant. Cela colore votre manière de lancer l’action, d’interagir et d’évaluer vos résultats.\n\nLe cap n’annule pas l’ADN : il l’oriente. Quand le cap est bien nourri, vous ressentez fluidité, clarté et envie de continuer."
+      },
+      {
+        "titre": "Leviers de motivation durables",
+        "points": [
+          "Définir un but lisible et mesurable (critères de réussite simples).",
+          "Ritualiser le démarrage : première action < 5 minutes, visible.",
+          "Mettre en place un feedback court (auto-évaluation ou pair).",
+          "Sécuriser l’environnement physique : calme, matériel, repères."
+        ]
+      },
+      {
+        "titre": "Environnements qui vous réussissent",
+        "points": [
+          "Espaces ordonnés et repères visuels (checklists, planning).",
+          "Groupes engagés et bienveillants, règles claires.",
+          "Moments seuls pour cadrer puis partages ciblés pour valider.",
+          "Défis progressifs avec degré de difficulté ajusté."
+        ]
+      },
+      {
+        "titre": "Modes d’apprentissage efficaces",
+        "points": [
+          "Alternance compréhension → restitution (fiches + quiz).",
+          "Séquences courtes (25/5) puis récapitulatif 60 secondes.",
+          "Schémas / mindmaps pour structurer la pensée.",
+          "Auto-tests fréquents pour valider l’acquis."
+        ]
+      },
+      {
+        "titre": "Organisation de haute fiabilité",
+        "points": [
+          "Plan hebdo : 3 objectifs max, 1 prioritaire/jour.",
+          "Bilan vendredi 15 min : garder / ajuster / supprimer.",
+          "Rituels de début/fin de journée (préparer le terrain).",
+          "Système anti-distorsion du temps (minuteur, limites)."
+        ]
+      },
+      {
+        "titre": "Communication efficace",
+        "points": [
+          "Formule Fait → Impact → Besoin → Demande.",
+          "Questions de clarification avant décision engageante.",
+          "Deux options acceptables pour accélérer le choix.",
+          "Feedback spécifique (comportement + effet + prochaine étape)."
+        ]
+      },
+      {
+        "titre": "Stress — signes et stratégies",
+        "texte": "Niveau 1 — Signaux précoces : tension, rigidité, dispersion discrète. Agir vite et doux.\n\nNiveau 2 — Défenses : perfectionnisme, impulsivité ou retrait selon les contextes. Découpler enjeu et identité, reprioriser.\n\nNiveau 3 — Rupture : blocage, conflits, abandon. Protocole court : respiration guidée 90 secondes, premier pas de 3 minutes, demander un regard externe.",
+        "points": [
+          "Antidote 1 : ancrage (respiration 4‑6 pendant 90s).",
+          "Antidote 2 : réduire l’objectif à un micro‑pas actionnable.",
+          "Antidote 3 : demander un feedback clair et court."
+        ]
+      },
+      {
+        "titre": "Études — exemples concrets",
+        "points": [
+          "Révisions d’histoire : 2 fiches synthèse + 1 quiz 5 questions.",
+          "Maths : 3 exos gradués, correction active, notez l’erreur type.",
+          "Langues : 10 minutes shadowing + 10 minutes traduction.",
+          "Oral : trame 5 points, répétition 2×, feedback pair."
+        ]
+      },
+      {
+        "titre": "Sport — exemples concrets",
+        "points": [
+          "Pré-compétition : ancrage 2 min + image du geste clé.",
+          "Entraînement : 1 repère technique par série, consigne unique.",
+          "Récupération : 8 min mobilité douce + hydratation.",
+          "Post-compétition : 3 faits / 1 axe / 1 action."
+        ]
+      },
+      {
+        "titre": "Social — exemples concrets",
+        "points": [
+          "Dire non : « J’aimerais aider, et je peux le faire demain 17h. »",
+          "Conflit : « Voilà ce que je vois / ce que je propose pour avancer. »",
+          "Travail en groupe : rôle clair + échéance + canal unique.",
+          "Demande d’aide : « J’ai besoin d’un regard sur ce point précis. »"
+        ]
+      },
+      {
+        "titre": "Leadership & Collaboration",
+        "points": [
+          "Donner une direction sobre et mesurable.",
+          "Distribuer des rôles exploitant les forces naturelles.",
+          "Rendre les décisions visibles (tableau d’avancement).",
+          "Célébrer les petits succès, ajuster sans blâme."
+        ]
+      },
+      {
+        "titre": "Plan 30‑60‑90 — mise en œuvre",
+        "points": [
+          "J+30 : 1 rituel quotidien installé (10–15 minutes).",
+          "J+60 : bilans hebdo automatiques + retours pairs.",
+          "J+90 : environnement et outils stabilisés, progression visible."
+        ]
+      },
+      {
+        "titre": "Erreurs fréquentes à éviter",
+        "points": [
+          "Empiler les objectifs au lieu d’en choisir un.",
+          "Sur-analyser le démarrage : privilégier le premier pas.",
+          "Chercher 100 % partout au lieu d’accepter 80 % suffisant.",
+          "Oublier de demander de l’aide tôt."
+        ]
+      },
+      {
+        "titre": "Routine quotidienne suggérée (15 à 25 min)",
+        "points": [
+          "1) Préparer l’environnement (2 min).",
+          "2) Premier pas mesurable (5–10 min).",
+          "3) Auto‑feedback et prochaine étape (3 min).",
+          "4) Hygiène d’énergie (respiration / eau / micro‑pause)."
+        ]
+      },
+      {
+        "titre": "Conclusion — cap sur la durée",
+        "texte": "Votre performance durable naît de l’addition : ADN (stabilité) + Cap (expression du moment) + environnement ajusté.\n\nExpérimentez, observez, ajustez. De petites actions cohérentes, répétées avec bienveillance, fabriquent les grands progrès."
+      }
+    ]
+  },
+  "Fiable|Bienveillant": {
+    "bienvenue": "Bienvenue — Votre ADN Fiable constitue la structure profonde de votre manière d’agir et de réussir. En ce moment, votre cap met en avant Bienveillant. Ce duo crée une dynamique singulière que ce rapport va traduire en leviers concrets, applicables dès aujourd’hui.\n\nLa lecture est conçue pour être directe et utile : des exemples, des plans d’action et des antidotes au stress vous permettent d’expérimenter immédiatement.",
+    "sections": [
+      {
+        "titre": "Portrait détaillé — ADN",
+        "texte": "Votre ADN Fiable représente votre façon optimale de prendre des décisions, d’apprendre et de vous organiser quand votre énergie est bien nourrie.\n\nCe socle explique vos réflexes naturels sous pression, vos besoins de reconnaissance et les contextes où vous atteignez votre meilleure performance."
+      },
+      {
+        "titre": "Expression actuelle — Cap",
+        "texte": "En ce moment, vous mobilisez prioritairement l’énergie Bienveillant. Cela colore votre manière de lancer l’action, d’interagir et d’évaluer vos résultats.\n\nLe cap n’annule pas l’ADN : il l’oriente. Quand le cap est bien nourri, vous ressentez fluidité, clarté et envie de continuer."
+      },
+      {
+        "titre": "Leviers de motivation durables",
+        "points": [
+          "Définir un but lisible et mesurable (critères de réussite simples).",
+          "Ritualiser le démarrage : première action < 5 minutes, visible.",
+          "Mettre en place un feedback court (auto-évaluation ou pair).",
+          "Sécuriser l’environnement physique : calme, matériel, repères."
+        ]
+      },
+      {
+        "titre": "Environnements qui vous réussissent",
+        "points": [
+          "Espaces ordonnés et repères visuels (checklists, planning).",
+          "Groupes engagés et bienveillants, règles claires.",
+          "Moments seuls pour cadrer puis partages ciblés pour valider.",
+          "Défis progressifs avec degré de difficulté ajusté."
+        ]
+      },
+      {
+        "titre": "Modes d’apprentissage efficaces",
+        "points": [
+          "Alternance compréhension → restitution (fiches + quiz).",
+          "Séquences courtes (25/5) puis récapitulatif 60 secondes.",
+          "Schémas / mindmaps pour structurer la pensée.",
+          "Auto-tests fréquents pour valider l’acquis."
+        ]
+      },
+      {
+        "titre": "Organisation de haute fiabilité",
+        "points": [
+          "Plan hebdo : 3 objectifs max, 1 prioritaire/jour.",
+          "Bilan vendredi 15 min : garder / ajuster / supprimer.",
+          "Rituels de début/fin de journée (préparer le terrain).",
+          "Système anti-distorsion du temps (minuteur, limites)."
+        ]
+      },
+      {
+        "titre": "Communication efficace",
+        "points": [
+          "Formule Fait → Impact → Besoin → Demande.",
+          "Questions de clarification avant décision engageante.",
+          "Deux options acceptables pour accélérer le choix.",
+          "Feedback spécifique (comportement + effet + prochaine étape)."
+        ]
+      },
+      {
+        "titre": "Stress — signes et stratégies",
+        "texte": "Niveau 1 — Signaux précoces : tension, rigidité, dispersion discrète. Agir vite et doux.\n\nNiveau 2 — Défenses : perfectionnisme, impulsivité ou retrait selon les contextes. Découpler enjeu et identité, reprioriser.\n\nNiveau 3 — Rupture : blocage, conflits, abandon. Protocole court : respiration guidée 90 secondes, premier pas de 3 minutes, demander un regard externe.",
+        "points": [
+          "Antidote 1 : ancrage (respiration 4‑6 pendant 90s).",
+          "Antidote 2 : réduire l’objectif à un micro‑pas actionnable.",
+          "Antidote 3 : demander un feedback clair et court."
+        ]
+      },
+      {
+        "titre": "Études — exemples concrets",
+        "points": [
+          "Révisions d’histoire : 2 fiches synthèse + 1 quiz 5 questions.",
+          "Maths : 3 exos gradués, correction active, notez l’erreur type.",
+          "Langues : 10 minutes shadowing + 10 minutes traduction.",
+          "Oral : trame 5 points, répétition 2×, feedback pair."
+        ]
+      },
+      {
+        "titre": "Sport — exemples concrets",
+        "points": [
+          "Pré-compétition : ancrage 2 min + image du geste clé.",
+          "Entraînement : 1 repère technique par série, consigne unique.",
+          "Récupération : 8 min mobilité douce + hydratation.",
+          "Post-compétition : 3 faits / 1 axe / 1 action."
+        ]
+      },
+      {
+        "titre": "Social — exemples concrets",
+        "points": [
+          "Dire non : « J’aimerais aider, et je peux le faire demain 17h. »",
+          "Conflit : « Voilà ce que je vois / ce que je propose pour avancer. »",
+          "Travail en groupe : rôle clair + échéance + canal unique.",
+          "Demande d’aide : « J’ai besoin d’un regard sur ce point précis. »"
+        ]
+      },
+      {
+        "titre": "Leadership & Collaboration",
+        "points": [
+          "Donner une direction sobre et mesurable.",
+          "Distribuer des rôles exploitant les forces naturelles.",
+          "Rendre les décisions visibles (tableau d’avancement).",
+          "Célébrer les petits succès, ajuster sans blâme."
+        ]
+      },
+      {
+        "titre": "Plan 30‑60‑90 — mise en œuvre",
+        "points": [
+          "J+30 : 1 rituel quotidien installé (10–15 minutes).",
+          "J+60 : bilans hebdo automatiques + retours pairs.",
+          "J+90 : environnement et outils stabilisés, progression visible."
+        ]
+      },
+      {
+        "titre": "Erreurs fréquentes à éviter",
+        "points": [
+          "Empiler les objectifs au lieu d’en choisir un.",
+          "Sur-analyser le démarrage : privilégier le premier pas.",
+          "Chercher 100 % partout au lieu d’accepter 80 % suffisant.",
+          "Oublier de demander de l’aide tôt."
+        ]
+      },
+      {
+        "titre": "Routine quotidienne suggérée (15 à 25 min)",
+        "points": [
+          "1) Préparer l’environnement (2 min).",
+          "2) Premier pas mesurable (5–10 min).",
+          "3) Auto‑feedback et prochaine étape (3 min).",
+          "4) Hygiène d’énergie (respiration / eau / micro‑pause)."
+        ]
+      },
+      {
+        "titre": "Conclusion — cap sur la durée",
+        "texte": "Votre performance durable naît de l’addition : ADN (stabilité) + Cap (expression du moment) + environnement ajusté.\n\nExpérimentez, observez, ajustez. De petites actions cohérentes, répétées avec bienveillance, fabriquent les grands progrès."
+      }
+    ]
+  },
+  "Fiable|Fiable": {
+    "bienvenue": "Bienvenue — Votre ADN Fiable constitue la structure profonde de votre manière d’agir et de réussir. En ce moment, votre cap met en avant Fiable. Ce duo crée une dynamique singulière que ce rapport va traduire en leviers concrets, applicables dès aujourd’hui.\n\nLa lecture est conçue pour être directe et utile : des exemples, des plans d’action et des antidotes au stress vous permettent d’expérimenter immédiatement.",
+    "sections": [
+      {
+        "titre": "Portrait détaillé — ADN",
+        "texte": "Votre ADN Fiable représente votre façon optimale de prendre des décisions, d’apprendre et de vous organiser quand votre énergie est bien nourrie.\n\nCe socle explique vos réflexes naturels sous pression, vos besoins de reconnaissance et les contextes où vous atteignez votre meilleure performance."
+      },
+      {
+        "titre": "Expression actuelle — Cap",
+        "texte": "En ce moment, vous mobilisez prioritairement l’énergie Fiable. Cela colore votre manière de lancer l’action, d’interagir et d’évaluer vos résultats.\n\nLe cap n’annule pas l’ADN : il l’oriente. Quand le cap est bien nourri, vous ressentez fluidité, clarté et envie de continuer."
+      },
+      {
+        "titre": "Leviers de motivation durables",
+        "points": [
+          "Définir un but lisible et mesurable (critères de réussite simples).",
+          "Ritualiser le démarrage : première action < 5 minutes, visible.",
+          "Mettre en place un feedback court (auto-évaluation ou pair).",
+          "Sécuriser l’environnement physique : calme, matériel, repères."
+        ]
+      },
+      {
+        "titre": "Environnements qui vous réussissent",
+        "points": [
+          "Espaces ordonnés et repères visuels (checklists, planning).",
+          "Groupes engagés et bienveillants, règles claires.",
+          "Moments seuls pour cadrer puis partages ciblés pour valider.",
+          "Défis progressifs avec degré de difficulté ajusté."
+        ]
+      },
+      {
+        "titre": "Modes d’apprentissage efficaces",
+        "points": [
+          "Alternance compréhension → restitution (fiches + quiz).",
+          "Séquences courtes (25/5) puis récapitulatif 60 secondes.",
+          "Schémas / mindmaps pour structurer la pensée.",
+          "Auto-tests fréquents pour valider l’acquis."
+        ]
+      },
+      {
+        "titre": "Organisation de haute fiabilité",
+        "points": [
+          "Plan hebdo : 3 objectifs max, 1 prioritaire/jour.",
+          "Bilan vendredi 15 min : garder / ajuster / supprimer.",
+          "Rituels de début/fin de journée (préparer le terrain).",
+          "Système anti-distorsion du temps (minuteur, limites)."
+        ]
+      },
+      {
+        "titre": "Communication efficace",
+        "points": [
+          "Formule Fait → Impact → Besoin → Demande.",
+          "Questions de clarification avant décision engageante.",
+          "Deux options acceptables pour accélérer le choix.",
+          "Feedback spécifique (comportement + effet + prochaine étape)."
+        ]
+      },
+      {
+        "titre": "Stress — signes et stratégies",
+        "texte": "Niveau 1 — Signaux précoces : tension, rigidité, dispersion discrète. Agir vite et doux.\n\nNiveau 2 — Défenses : perfectionnisme, impulsivité ou retrait selon les contextes. Découpler enjeu et identité, reprioriser.\n\nNiveau 3 — Rupture : blocage, conflits, abandon. Protocole court : respiration guidée 90 secondes, premier pas de 3 minutes, demander un regard externe.",
+        "points": [
+          "Antidote 1 : ancrage (respiration 4‑6 pendant 90s).",
+          "Antidote 2 : réduire l’objectif à un micro‑pas actionnable.",
+          "Antidote 3 : demander un feedback clair et court."
+        ]
+      },
+      {
+        "titre": "Études — exemples concrets",
+        "points": [
+          "Révisions d’histoire : 2 fiches synthèse + 1 quiz 5 questions.",
+          "Maths : 3 exos gradués, correction active, notez l’erreur type.",
+          "Langues : 10 minutes shadowing + 10 minutes traduction.",
+          "Oral : trame 5 points, répétition 2×, feedback pair."
+        ]
+      },
+      {
+        "titre": "Sport — exemples concrets",
+        "points": [
+          "Pré-compétition : ancrage 2 min + image du geste clé.",
+          "Entraînement : 1 repère technique par série, consigne unique.",
+          "Récupération : 8 min mobilité douce + hydratation.",
+          "Post-compétition : 3 faits / 1 axe / 1 action."
+        ]
+      },
+      {
+        "titre": "Social — exemples concrets",
+        "points": [
+          "Dire non : « J’aimerais aider, et je peux le faire demain 17h. »",
+          "Conflit : « Voilà ce que je vois / ce que je propose pour avancer. »",
+          "Travail en groupe : rôle clair + échéance + canal unique.",
+          "Demande d’aide : « J’ai besoin d’un regard sur ce point précis. »"
+        ]
+      },
+      {
+        "titre": "Leadership & Collaboration",
+        "points": [
+          "Donner une direction sobre et mesurable.",
+          "Distribuer des rôles exploitant les forces naturelles.",
+          "Rendre les décisions visibles (tableau d’avancement).",
+          "Célébrer les petits succès, ajuster sans blâme."
+        ]
+      },
+      {
+        "titre": "Plan 30‑60‑90 — mise en œuvre",
+        "points": [
+          "J+30 : 1 rituel quotidien installé (10–15 minutes).",
+          "J+60 : bilans hebdo automatiques + retours pairs.",
+          "J+90 : environnement et outils stabilisés, progression visible."
+        ]
+      },
+      {
+        "titre": "Erreurs fréquentes à éviter",
+        "points": [
+          "Empiler les objectifs au lieu d’en choisir un.",
+          "Sur-analyser le démarrage : privilégier le premier pas.",
+          "Chercher 100 % partout au lieu d’accepter 80 % suffisant.",
+          "Oublier de demander de l’aide tôt."
+        ]
+      },
+      {
+        "titre": "Routine quotidienne suggérée (15 à 25 min)",
+        "points": [
+          "1) Préparer l’environnement (2 min).",
+          "2) Premier pas mesurable (5–10 min).",
+          "3) Auto‑feedback et prochaine étape (3 min).",
+          "4) Hygiène d’énergie (respiration / eau / micro‑pause)."
+        ]
+      },
+      {
+        "titre": "Conclusion — cap sur la durée",
+        "texte": "Votre performance durable naît de l’addition : ADN (stabilité) + Cap (expression du moment) + environnement ajusté.\n\nExpérimentez, observez, ajustez. De petites actions cohérentes, répétées avec bienveillance, fabriquent les grands progrès."
+      }
+    ]
+  },
+  "Fiable|Visionnaire": {
+    "bienvenue": "Bienvenue — Votre ADN Fiable constitue la structure profonde de votre manière d’agir et de réussir. En ce moment, votre cap met en avant Visionnaire. Ce duo crée une dynamique singulière que ce rapport va traduire en leviers concrets, applicables dès aujourd’hui.\n\nLa lecture est conçue pour être directe et utile : des exemples, des plans d’action et des antidotes au stress vous permettent d’expérimenter immédiatement.",
+    "sections": [
+      {
+        "titre": "Portrait détaillé — ADN",
+        "texte": "Votre ADN Fiable représente votre façon optimale de prendre des décisions, d’apprendre et de vous organiser quand votre énergie est bien nourrie.\n\nCe socle explique vos réflexes naturels sous pression, vos besoins de reconnaissance et les contextes où vous atteignez votre meilleure performance."
+      },
+      {
+        "titre": "Expression actuelle — Cap",
+        "texte": "En ce moment, vous mobilisez prioritairement l’énergie Visionnaire. Cela colore votre manière de lancer l’action, d’interagir et d’évaluer vos résultats.\n\nLe cap n’annule pas l’ADN : il l’oriente. Quand le cap est bien nourri, vous ressentez fluidité, clarté et envie de continuer."
+      },
+      {
+        "titre": "Leviers de motivation durables",
+        "points": [
+          "Définir un but lisible et mesurable (critères de réussite simples).",
+          "Ritualiser le démarrage : première action < 5 minutes, visible.",
+          "Mettre en place un feedback court (auto-évaluation ou pair).",
+          "Sécuriser l’environnement physique : calme, matériel, repères."
+        ]
+      },
+      {
+        "titre": "Environnements qui vous réussissent",
+        "points": [
+          "Espaces ordonnés et repères visuels (checklists, planning).",
+          "Groupes engagés et bienveillants, règles claires.",
+          "Moments seuls pour cadrer puis partages ciblés pour valider.",
+          "Défis progressifs avec degré de difficulté ajusté."
+        ]
+      },
+      {
+        "titre": "Modes d’apprentissage efficaces",
+        "points": [
+          "Alternance compréhension → restitution (fiches + quiz).",
+          "Séquences courtes (25/5) puis récapitulatif 60 secondes.",
+          "Schémas / mindmaps pour structurer la pensée.",
+          "Auto-tests fréquents pour valider l’acquis."
+        ]
+      },
+      {
+        "titre": "Organisation de haute fiabilité",
+        "points": [
+          "Plan hebdo : 3 objectifs max, 1 prioritaire/jour.",
+          "Bilan vendredi 15 min : garder / ajuster / supprimer.",
+          "Rituels de début/fin de journée (préparer le terrain).",
+          "Système anti-distorsion du temps (minuteur, limites)."
+        ]
+      },
+      {
+        "titre": "Communication efficace",
+        "points": [
+          "Formule Fait → Impact → Besoin → Demande.",
+          "Questions de clarification avant décision engageante.",
+          "Deux options acceptables pour accélérer le choix.",
+          "Feedback spécifique (comportement + effet + prochaine étape)."
+        ]
+      },
+      {
+        "titre": "Stress — signes et stratégies",
+        "texte": "Niveau 1 — Signaux précoces : tension, rigidité, dispersion discrète. Agir vite et doux.\n\nNiveau 2 — Défenses : perfectionnisme, impulsivité ou retrait selon les contextes. Découpler enjeu et identité, reprioriser.\n\nNiveau 3 — Rupture : blocage, conflits, abandon. Protocole court : respiration guidée 90 secondes, premier pas de 3 minutes, demander un regard externe.",
+        "points": [
+          "Antidote 1 : ancrage (respiration 4‑6 pendant 90s).",
+          "Antidote 2 : réduire l’objectif à un micro‑pas actionnable.",
+          "Antidote 3 : demander un feedback clair et court."
+        ]
+      },
+      {
+        "titre": "Études — exemples concrets",
+        "points": [
+          "Révisions d’histoire : 2 fiches synthèse + 1 quiz 5 questions.",
+          "Maths : 3 exos gradués, correction active, notez l’erreur type.",
+          "Langues : 10 minutes shadowing + 10 minutes traduction.",
+          "Oral : trame 5 points, répétition 2×, feedback pair."
+        ]
+      },
+      {
+        "titre": "Sport — exemples concrets",
+        "points": [
+          "Pré-compétition : ancrage 2 min + image du geste clé.",
+          "Entraînement : 1 repère technique par série, consigne unique.",
+          "Récupération : 8 min mobilité douce + hydratation.",
+          "Post-compétition : 3 faits / 1 axe / 1 action."
+        ]
+      },
+      {
+        "titre": "Social — exemples concrets",
+        "points": [
+          "Dire non : « J’aimerais aider, et je peux le faire demain 17h. »",
+          "Conflit : « Voilà ce que je vois / ce que je propose pour avancer. »",
+          "Travail en groupe : rôle clair + échéance + canal unique.",
+          "Demande d’aide : « J’ai besoin d’un regard sur ce point précis. »"
+        ]
+      },
+      {
+        "titre": "Leadership & Collaboration",
+        "points": [
+          "Donner une direction sobre et mesurable.",
+          "Distribuer des rôles exploitant les forces naturelles.",
+          "Rendre les décisions visibles (tableau d’avancement).",
+          "Célébrer les petits succès, ajuster sans blâme."
+        ]
+      },
+      {
+        "titre": "Plan 30‑60‑90 — mise en œuvre",
+        "points": [
+          "J+30 : 1 rituel quotidien installé (10–15 minutes).",
+          "J+60 : bilans hebdo automatiques + retours pairs.",
+          "J+90 : environnement et outils stabilisés, progression visible."
+        ]
+      },
+      {
+        "titre": "Erreurs fréquentes à éviter",
+        "points": [
+          "Empiler les objectifs au lieu d’en choisir un.",
+          "Sur-analyser le démarrage : privilégier le premier pas.",
+          "Chercher 100 % partout au lieu d’accepter 80 % suffisant.",
+          "Oublier de demander de l’aide tôt."
+        ]
+      },
+      {
+        "titre": "Routine quotidienne suggérée (15 à 25 min)",
+        "points": [
+          "1) Préparer l’environnement (2 min).",
+          "2) Premier pas mesurable (5–10 min).",
+          "3) Auto‑feedback et prochaine étape (3 min).",
+          "4) Hygiène d’énergie (respiration / eau / micro‑pause)."
+        ]
+      },
+      {
+        "titre": "Conclusion — cap sur la durée",
+        "texte": "Votre performance durable naît de l’addition : ADN (stabilité) + Cap (expression du moment) + environnement ajusté.\n\nExpérimentez, observez, ajustez. De petites actions cohérentes, répétées avec bienveillance, fabriquent les grands progrès."
+      }
+    ]
+  },
+  "Fiable|Spontané": {
+    "bienvenue": "Bienvenue — Votre ADN Fiable constitue la structure profonde de votre manière d’agir et de réussir. En ce moment, votre cap met en avant Spontané. Ce duo crée une dynamique singulière que ce rapport va traduire en leviers concrets, applicables dès aujourd’hui.\n\nLa lecture est conçue pour être directe et utile : des exemples, des plans d’action et des antidotes au stress vous permettent d’expérimenter immédiatement.",
+    "sections": [
+      {
+        "titre": "Portrait détaillé — ADN",
+        "texte": "Votre ADN Fiable représente votre façon optimale de prendre des décisions, d’apprendre et de vous organiser quand votre énergie est bien nourrie.\n\nCe socle explique vos réflexes naturels sous pression, vos besoins de reconnaissance et les contextes où vous atteignez votre meilleure performance."
+      },
+      {
+        "titre": "Expression actuelle — Cap",
+        "texte": "En ce moment, vous mobilisez prioritairement l’énergie Spontané. Cela colore votre manière de lancer l’action, d’interagir et d’évaluer vos résultats.\n\nLe cap n’annule pas l’ADN : il l’oriente. Quand le cap est bien nourri, vous ressentez fluidité, clarté et envie de continuer."
+      },
+      {
+        "titre": "Leviers de motivation durables",
+        "points": [
+          "Définir un but lisible et mesurable (critères de réussite simples).",
+          "Ritualiser le démarrage : première action < 5 minutes, visible.",
+          "Mettre en place un feedback court (auto-évaluation ou pair).",
+          "Sécuriser l’environnement physique : calme, matériel, repères."
+        ]
+      },
+      {
+        "titre": "Environnements qui vous réussissent",
+        "points": [
+          "Espaces ordonnés et repères visuels (checklists, planning).",
+          "Groupes engagés et bienveillants, règles claires.",
+          "Moments seuls pour cadrer puis partages ciblés pour valider.",
+          "Défis progressifs avec degré de difficulté ajusté."
+        ]
+      },
+      {
+        "titre": "Modes d’apprentissage efficaces",
+        "points": [
+          "Alternance compréhension → restitution (fiches + quiz).",
+          "Séquences courtes (25/5) puis récapitulatif 60 secondes.",
+          "Schémas / mindmaps pour structurer la pensée.",
+          "Auto-tests fréquents pour valider l’acquis."
+        ]
+      },
+      {
+        "titre": "Organisation de haute fiabilité",
+        "points": [
+          "Plan hebdo : 3 objectifs max, 1 prioritaire/jour.",
+          "Bilan vendredi 15 min : garder / ajuster / supprimer.",
+          "Rituels de début/fin de journée (préparer le terrain).",
+          "Système anti-distorsion du temps (minuteur, limites)."
+        ]
+      },
+      {
+        "titre": "Communication efficace",
+        "points": [
+          "Formule Fait → Impact → Besoin → Demande.",
+          "Questions de clarification avant décision engageante.",
+          "Deux options acceptables pour accélérer le choix.",
+          "Feedback spécifique (comportement + effet + prochaine étape)."
+        ]
+      },
+      {
+        "titre": "Stress — signes et stratégies",
+        "texte": "Niveau 1 — Signaux précoces : tension, rigidité, dispersion discrète. Agir vite et doux.\n\nNiveau 2 — Défenses : perfectionnisme, impulsivité ou retrait selon les contextes. Découpler enjeu et identité, reprioriser.\n\nNiveau 3 — Rupture : blocage, conflits, abandon. Protocole court : respiration guidée 90 secondes, premier pas de 3 minutes, demander un regard externe.",
+        "points": [
+          "Antidote 1 : ancrage (respiration 4‑6 pendant 90s).",
+          "Antidote 2 : réduire l’objectif à un micro‑pas actionnable.",
+          "Antidote 3 : demander un feedback clair et court."
+        ]
+      },
+      {
+        "titre": "Études — exemples concrets",
+        "points": [
+          "Révisions d’histoire : 2 fiches synthèse + 1 quiz 5 questions.",
+          "Maths : 3 exos gradués, correction active, notez l’erreur type.",
+          "Langues : 10 minutes shadowing + 10 minutes traduction.",
+          "Oral : trame 5 points, répétition 2×, feedback pair."
+        ]
+      },
+      {
+        "titre": "Sport — exemples concrets",
+        "points": [
+          "Pré-compétition : ancrage 2 min + image du geste clé.",
+          "Entraînement : 1 repère technique par série, consigne unique.",
+          "Récupération : 8 min mobilité douce + hydratation.",
+          "Post-compétition : 3 faits / 1 axe / 1 action."
+        ]
+      },
+      {
+        "titre": "Social — exemples concrets",
+        "points": [
+          "Dire non : « J’aimerais aider, et je peux le faire demain 17h. »",
+          "Conflit : « Voilà ce que je vois / ce que je propose pour avancer. »",
+          "Travail en groupe : rôle clair + échéance + canal unique.",
+          "Demande d’aide : « J’ai besoin d’un regard sur ce point précis. »"
+        ]
+      },
+      {
+        "titre": "Leadership & Collaboration",
+        "points": [
+          "Donner une direction sobre et mesurable.",
+          "Distribuer des rôles exploitant les forces naturelles.",
+          "Rendre les décisions visibles (tableau d’avancement).",
+          "Célébrer les petits succès, ajuster sans blâme."
+        ]
+      },
+      {
+        "titre": "Plan 30‑60‑90 — mise en œuvre",
+        "points": [
+          "J+30 : 1 rituel quotidien installé (10–15 minutes).",
+          "J+60 : bilans hebdo automatiques + retours pairs.",
+          "J+90 : environnement et outils stabilisés, progression visible."
+        ]
+      },
+      {
+        "titre": "Erreurs fréquentes à éviter",
+        "points": [
+          "Empiler les objectifs au lieu d’en choisir un.",
+          "Sur-analyser le démarrage : privilégier le premier pas.",
+          "Chercher 100 % partout au lieu d’accepter 80 % suffisant.",
+          "Oublier de demander de l’aide tôt."
+        ]
+      },
+      {
+        "titre": "Routine quotidienne suggérée (15 à 25 min)",
+        "points": [
+          "1) Préparer l’environnement (2 min).",
+          "2) Premier pas mesurable (5–10 min).",
+          "3) Auto‑feedback et prochaine étape (3 min).",
+          "4) Hygiène d’énergie (respiration / eau / micro‑pause)."
+        ]
+      },
+      {
+        "titre": "Conclusion — cap sur la durée",
+        "texte": "Votre performance durable naît de l’addition : ADN (stabilité) + Cap (expression du moment) + environnement ajusté.\n\nExpérimentez, observez, ajustez. De petites actions cohérentes, répétées avec bienveillance, fabriquent les grands progrès."
+      }
+    ]
+  }
+}
