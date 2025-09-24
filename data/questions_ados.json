@@ -1,0 +1,31 @@
+[
+  {
+    "prompt": "1. Exemple question de démonstration",
+    "options": [
+      {
+        "label": "Option Garant",
+        "profil": "Garant"
+      },
+      {
+        "label": "Option Conquérant",
+        "profil": "Conquérant"
+      },
+      {
+        "label": "Option Bienveillant",
+        "profil": "Bienveillant"
+      },
+      {
+        "label": "Option Fiable",
+        "profil": "Fiable"
+      },
+      {
+        "label": "Option Visionnaire",
+        "profil": "Visionnaire"
+      },
+      {
+        "label": "Option Spontané",
+        "profil": "Spontané"
+      }
+    ]
+  }
+]

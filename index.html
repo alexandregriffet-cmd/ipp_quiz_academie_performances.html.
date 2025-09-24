@@ -3,60 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IPP – Académie de Performances</title>
+  <title>Inventaire Psychologique de Performance</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
-<header class="hero">
-  <img src="assets/logo.png" class="logo" alt="Logo">
-  <h1>Inventaire Psychologique de Performance</h1>
-  <p class="subtitle">Jeunes • 12–25 ans — Académie de Performances</p>
-  <button id="startBtn" class="cta">Commencer</button>
-  <div class="rules">
+  <header class="hero">
+    <img src="assets/logo.png" class="logo" alt="Logo">
+    <h1>Inventaire Psychologique de Performance</h1>
+    <p>Jeunes • 12–25 ans — Académie de Performances</p>
+    <button id="startBtn" class="cta">Commencer</button>
     <ul>
       <li>Installez-vous dans un moment calme, sans dérangement.</li>
       <li>Répondez avec spontanéité — ne suranalysez pas.</li>
       <li>À chaque question, classez 3 à 6 propositions (1→6).</li>
       <li>Durée : jusqu’à 45 minutes.</li>
     </ul>
-  </div>
-</header>
-<main id="app" class="hidden">
-  <section id="quiz" class="card"></section>
-  <section id="report" class="card hidden">
-    <div class="toolbar">
-      <h2>Votre rapport IPP</h2>
-      <button id="pdf" class="primary">Exporter PDF</button>
-    </div>
-    <div class="page like-a4" id="pg1">
-      <h3 class="center">Étoile IPP (ADN ❤️, Cap ⭐, Caps vécus ⚪)</h3>
-      <div class="grid2">
-        <canvas id="etoile" height="380"></canvas>
-        <div>
-          <table id="resultTable">
-            <thead><tr><th>Profil</th><th>%</th><th>Repère</th></tr></thead>
-            <tbody></tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-    <div class="page like-a4">
-      <h3 class="center">Boussole & Pyramide</h3>
-      <div class="grid2">
-        <canvas id="boussole" height="380"></canvas>
-        <canvas id="pyramide" height="380"></canvas>
-      </div>
-    </div>
-    <div class="page like-a4" id="pgNarratif">
-      <div id="welcome"></div>
-      <div id="sections"></div>
-    </div>
-  </section>
-</main>
-<footer><small>© IPP — Académie de Performances</small></footer>
+  </header>
+  <main id="app" class="hidden">
+    <section id="quiz"></section>
+    <section id="report" class="hidden">
+      <button id="pdf" class="cta">Exporter PDF</button>
+      <div id="reportContent"></div>
+    </section>
+  </main>
+  <footer>© IPP — Académie de Performances</footer>
 </body>
 </html>
