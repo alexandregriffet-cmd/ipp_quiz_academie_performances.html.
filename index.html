@@ -1,18 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Inventaire Psychologique de Performance – Académie de Performances</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test IPP – Inventaire Psychologique de Performance</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <meta name="description" content="Test IPP – questionnaire, scoring et rapport PDF (20–30 pages).">
 </head>
 <body>
-  <header>
-    <h1>Inventaire Psychologique de Performance</h1>
-    <p>Jeunes 12–25 ans — Académie de Performances</p>
-    <button onclick="document.getElementById('app').style.display='block'">Commencer</button>
-  </header>
-  <main id="app" style="display:none">
-    <p>Ici s'affichera le questionnaire complet avec 60 vignettes × 6 profils, et à la fin un rapport détaillé avec visuels et export PDF.</p>
-  </main>
+  <div class="container">
+    <header class="header">
+      <img src="assets/img/logo.png" class="logo" alt="Académie de Performances">
+      <div class="hgroup">
+        <h1>Test IPP – Inventaire Psychologique de Performance</h1>
+        <p>Questionnaire (≈ 8–10 min) • Rapport narratif 20–30 pages • Export PDF</p>
+      </div>
+    </header>
+
+    <section id="intro" class="card">
+      <div class="grid">
+        <div>
+          <label for="fullName">Votre nom et prénom</label>
+          <input type="text" id="fullName" placeholder="Ex : Alexandre Griffet" autocomplete="name">
+        </div>
+        <div>
+          <label for="context">Contexte principal</label>
+          <select id="context">
+            <option>Sport de compétition</option>
+            <option>Études / examens</option>
+            <option>Professionnel</option>
+            <option>Autre</option>
+          </select>
+        </div>
+      </div>
+      <p class="small">Échelle de réponse : 1 = Pas du tout d'accord • 5 = Tout à fait d'accord</p>
+      <button class="btn no-print" id="startBtn">Démarrer le questionnaire</button>
+    </section>
+
+    <section id="quiz" class="card hidden">
+      <div id="questions"></div>
+      <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:10px">
+        <button class="btn sec no-print" id="resetBtn">Recommencer</button>
+        <button class="btn no-print" id="finishBtn">Voir mon rapport</button>
+      </div>
+    </section>
+
+    <section id="results" class="card hidden results">
+      <h2 style="margin:0 0 6px">Rapport IPP – <span id="rName"></span></h2>
+      <div class="small" id="rMeta"></div>
+      <hr class="sep">
+      <div id="rSummary"></div>
+      <hr class="sep">
+      <div id="rDetails"></div>
+
+      <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:14px">
+        <button class="btn sec no-print" id="backBtn">Modifier mes réponses</button>
+        <button class="btn no-print" id="pdfBtn">Télécharger le PDF (20–30 pages)</button>
+      </div>
+
+      <div class="print-only" id="printFooter">
+        <hr class="sep">
+        <div class="small">
+          Test IPP – Académie de Performances • Rapport généré automatiquement.
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © Académie de Performances – IPP Final • Statique (GitHub Pages).
+    </footer>
+  </div>
+
+  <script src="assets/js/app.js"></script>
 </body>
 </html>
