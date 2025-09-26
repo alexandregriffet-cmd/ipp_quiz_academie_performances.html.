@@ -1,0 +1,1 @@
+Uploadez tout le ZIP à la racine de votre dépôt GitHub Pages (main, root). Ouvrez l’URL publique.
