@@ -1,1 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>IPP — Inventaire Psychologique de Performance</title>
+<style>
+:root{--ink:#0f172a;--line:#e5e7eb;--muted:#475569}
+*{box-sizing:border-box}html,body{margin:0;background:#fff;color:var(--ink);font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Arial}
+header.hero{display:flex;flex-direction:column;align-items:center;gap:14px;padding:28px 12px;background:#fff;border-bottom:1px solid var(--line)}
+.logo{width:420px;max-width:92vw;height:auto;object-fit:contain;display:block}
+.subtitle{color:var(--muted)}.rules{max-width:980px}
+.rules ul{margin:8px 0 0 0;padding-left:18px;color:#334155;line-height:1.6}
+.cta{background:var(--ink);color:#fff;border:1px solid var(--ink);border-radius:10px;padding:12px 18px;cursor:pointer}
+.hidden{display:none}main{max-width:1200px;margin:18px auto;padding:0 14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:16px}
+.answers{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.option{border:1px solid #cbd5e1;background:#f8fafc;border-radius:12px;padding:10px;cursor:pointer;position:relative}
+.option.selected{border-color:#2563eb;background:#eff6ff}
+.rank-badge{position:absolute;top:8px;right:8px;background:#2563eb;color:#fff;border-radius:999px;width:26px;height:26px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.nav{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}.nav .info{margin-left:auto;color:#475569}
+.primary{background:var(--ink);color:#fff;border:1px solid var(--ink);border-radius:10px;padding:8px 12px}
+.grid2{display:grid;grid-template-columns:1.1fr 0.9fr;gap:14px}.center{text-align:center}
+#resultTable{width:100%;border-collapse:collapse;font-size:14px}#resultTable th,#resultTable td{border:1px solid #e2e8f0;padding:8px 10px;text-align:left;vertical-align:top}
+#resultTable th:nth-child(2),#resultTable td:nth-child(2){text-align:right;width:70px}
+.kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0}.kpi .b{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:10px;padding:8px}
+@page { size: A4; margin: 12mm; }.like-a4{width:794px;min-height:1123px;margin:0 auto 16px auto;padding:18px;border:1px solid #e2e8f0;border-radius:10px;background:#fff}
+#pgNarratif h3{margin:18px 0 6px}#pgNarratif p{line-height:1.6;margin:6px 0}
+.toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}footer{padding:12px;text-align:center;color:#64748b}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;background:#eef2ff;border:1px solid #c7d2fe;color:#1e293b;font-size:12px;margin-left:6px}
+blockquote{background:#f8fafc;border-left:4px solid #94a3b8;margin:8px 0;padding:8px 10px;border-radius:6px}
+ul{padding-left:18px}.dot{width:12px;height:12px;border-radius:50%;display:inline-block}
+.dot.garant{background:#1f77b4}.dot.conq{background:#d62728}.dot.bienv{background:#2ca02c}.dot.fiable{background:#6b21a8}.dot.vision{background:#0284c7}.dot.spont{background:#f59e0b}
+.legend{display:flex;gap:10px;justify-content:center;margin:6px 0 12px}hr.sep{border:0;border-top:1px solid #e2e8f0;margin:10px 0}
+@media print{ header.hero, .toolbar button, #quiz { display: none !important; } body{ background:#fff } .like-a4{ page-break-after:always; box-shadow:none; border:0 } }
+</style>
+</head>
+<body>
+<header class="hero">
+  <!-- Remplace la data-URI ci-dessous par ton vrai logo si tu veux -->
+  <img class="logo" alt="Logo — Académie de Performances"
+       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACElEQVR4nGNgYAAAAgABC+cCngAAAABJRU5ErkJggg==">
+  <h1>Test IPP — Inventaire Psychologique de Performance</h1>
+  <p class="subtitle">Jeunes • 12–25 ans — Académie de Performances</p>
+  <button id="startBtn" class="cta">Commencer</button>
+  <div class="rules"><ul>
+    <li>Moment calme, sans dérangement.</li>
+    <li>Répondez avec spontanéité — ne suranalysez pas.</li>
+    <li>À chaque question, classez <b>3 à 6</b> propositions (1→6).</li>
+    <li>Durée : jusqu’à 45 minutes.</li>
+  </ul></div>
+</header>
 
+<main id="app" class="hidden">
+  <section id="quiz" class="card"></section>
+  <section id="report" class="card hidden">
+    <div class="toolbar">
+      <h2 style="margin:0">Votre rapport IPP <span id="badgeADN" class="badge"></span><span id="badgeCAP" class="badge"></span></h2>
+      <div><button id="print" class="primary">Exporter PDF</button></div>
+    </div>
+
+    <div class="page like-a4" id="pg1">
+      <h3 class="center">Étoile IPP — ❤️ ADN (100%) • ⭐ Cap (actuel) • ⚪ Caps vécus</h3>
+      <div class="legend">
+        <span><span class="dot garant"></span> Garant</span>
+        <span><span class="dot conq"></span> Conquérant</span>
+        <span><span class="dot bienv"></span> Bienveillant</span>
+        <span><span class="dot fiable"></span> Fiable</span>
+        <span><span class="dot vision"></span> Visionnaire</span>
+        <span><span class="dot spont"></span> Spontané</span>
+      </div>
+      <div class="grid2">
+        <canvas id="etoile" height="380"></canvas>
+        <div>
+          <div class="kpi">
+            <div class="b"><strong>ADN :</strong> <span id="kpiADN"></span></div>
+            <div class="b"><strong>Cap actuel :</strong> <span id="kpiCAP"></span></div>
+            <div class="b"><strong>Caps vécus :</strong> <span id="kpiLived"></span></div>
+          </div>
+          <table id="resultTable"><thead><tr><th>Profil</th><th>%</th><th>Repère</th></tr></thead><tbody></tbody></table>
+        </div>
+      </div>
+    </div>
+
+    <div class="page like-a4" id="pg2">
+      <h3 class="center">Boussole & Pyramide</h3>
+      <div class="grid2">
+        <canvas id="boussole" height="380"></canvas>
+        <canvas id="pyramide" height="380"></canvas>
+      </div>
+      <blockquote><strong>Lecture rapide :</strong> environnements porteurs & montée d’activation maîtrisée.</blockquote>
+    </div>
+
+    <div class="page like-a4" id="pgNarratif">
+      <div id="welcome"></div><hr class="sep"/><div id="sections"></div>
+    </div>
+  </section>
+</main>
+<footer><small>© IPP — Académie de Performances</small></footer>
+
+<script>
+/* ====== Mini-charts (radar + bar) sans librairie ====== */
+(function(){
+  function radar(ctx,vals,labels){
+    var w=ctx.canvas.width,h=ctx.canvas.height,cx=w/2,cy=h/2,R=Math.min(w,h)/2-10;
+    ctx.clearRect(0,0,w,h); ctx.strokeStyle="#e5e7eb";
+    for(var r=1;r<=4;r++){ctx.beginPath();ctx.arc(cx,cy,R*r/4,0,6.283);ctx.stroke();}
+    var n=labels.length, pts=[];
+    for(var i=0;i<n;i++){var a=-1.5708+i*6.283/n, v=(vals[i]||0)/100, x=cx+R*v*Math.cos(a), y=cy+R*v*Math.sin(a);
+      pts.push([x,y]); ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(cx+R*Math.cos(a),cy+R*Math.sin(a)); ctx.stroke();}
+    ctx.beginPath(); for(var i=0;i<n;i++){var p=pts[i]; if(i===0)ctx.moveTo(p[0],p[1]); else ctx.lineTo(p[0],p[1]);}
+    ctx.closePath(); ctx.fillStyle="rgba(37,99,235,0.12)"; ctx.strokeStyle="#1e293b"; ctx.fill(); ctx.stroke();
+  }
+  function bars(ctx,vals){
+    var w=ctx.canvas.width,h=ctx.canvas.height; ctx.clearRect(0,0,w,h);
+    var n=vals.length,bw=w/(n*1.6);
+    for(var i=0;i<n;i++){var v=vals[i]||0,bh=(h-20)*v/100,x=(i+0.3)*w/n,y=h-bh-10; ctx.fillStyle="rgba(15,23,42,0.18)"; ctx.strokeStyle="#0f172a"; ctx.fillRect(x,y,bw,bh); ctx.strokeRect(x,y,bw,bh);}
+  }
+  window.drawRadar=(ctx,data)=>radar(ctx,data.datasets[0].data,data.labels);
+  window.drawBars =(ctx,data)=>bars (ctx,data.datasets[0].data);
+})();
+
+/* ====== Données & banque de propositions ====== */
+const PROFILES=["Garant","Conquérant","Bienveillant","Fiable","Visionnaire","Spontané"];
+const BANK={
+"Garant":["Plan en trois étapes et démarrage immédiat.","Vérifier critères et aligner la méthode.","Découper en blocs 25/5.","Clarifier la consigne et poser la première action.","Sécuriser l’étape critique.","Préparer le matériel puis lancer.","Sommaire clair avant d’agir.","Lister dépendances et sécuriser les blocages.","Checklist minimaliste, cocher la première case.","Prioriser et attaquer le point n°1."],
+"Conquérant":["Choisir le défi prioritaire et le régler.","Jalon mesurable à H+30.","Trancher puis ajuster en avançant.","Prendre le lead et distribuer.","Action immédiate pour un résultat visible.","Neutraliser l’obstacle principal.","Sprint court avec objectif clair.","Afficher un score à battre.","Verrouiller un premier gain concret.","Éliminer la friction clé."],
+"Bienveillant":["Installer un climat calme et démarrer en douceur.","Demander/offrir un bref soutien puis agir.","Auto-encouragement et premier pas atteignable.","Inclure chacun avant d’avancer.","Respirer 2 minutes et se recentrer.","Clarifier les attentes réciproques.","Sécuriser la relation clé puis s’engager.","Transformer la pression en cadence respirée.","Action qui met en confiance.","Aménager un micro-espace serein."],
+"Fiable":["S’aligner sur un engagement réaliste et le tenir.","Clarifier qui fait quoi pour quand.","Vérifier respect des critères/valeurs.","Rappeler la règle du jeu puis agir.","Choisir l’action la plus juste.","Définir un cadre simple et le respecter.","Préciser les limites et tenir le cap.","Valider la cohérence avec ses convictions.","Petit contrat avec soi-même.","Option la plus loyale, puis démarrage."],
+"Visionnaire":["Cadrer l’idée clé seul 10 minutes.","Visualiser le résultat puis écrire l’action 1.","Simplifier le concept jusqu’à l’action.","Mini-prototype et observation.","Schématiser l’objectif → pas concret.","Transformer l’intuition en mesure.","Isoler le principe et le tester.","Croquis rapide puis essai 1.","Réduire l’idée à un geste simple.","Formuler une hypothèse et la vérifier."],
+"Spontané":["Transformer la tâche en jeu, lancer un sprint.","Minuteur 10 minutes pour se lancer.","Commencer par la partie stimulante.","Petit défi personnel et foncer.","Varier la forme pour garder l’envie.","Récompense rapide après le premier bloc.","Chrono et vitesse pour embarquer.","Changer d’angle pour relancer.","Format express et fun.","Ajouter une touche d’originalité."]
+};
+const THEMES=[["Révisions / examens",[
+"Vous avez trois chapitres à revoir ce soir : quelle est votre première action ?","Examen blanc demain : que faites-vous en premier ?","Vous sentez du retard dans vos révisions : que décidez-vous maintenant ?","Devoir à rendre ce soir : par quoi commencez-vous ?","Deux jours avant un contrôle majeur : quelle démarche initiez-vous ?","Vous êtes fatigué(e) mais il faut travailler : comment lancez-vous la machine ?"
+]],["Projet de groupe",[
+"Deux membres sont silencieux et un plan d’action est attendu vendredi midi : que faites-vous d’abord ?","Vous devez répartir les rôles dans un projet collectif : comment procédez-vous ?","Votre groupe est en retard sur la présentation : quelle est votre première démarche ?","Un camarade n’a pas rendu sa part : quelle est votre priorité immédiate ?","Vous devez lancer une réunion de projet : quelle action engagez-vous en premier ?","Rendu demain et l’équipe n’est pas prête : que décidez-vous ?"
+]],["Sport / compétition",[
+"Séance technique importante avant un match ce week-end : par quoi commencez-vous ?","Test chronométré demain : comment vous préparez-vous ?","Pression avant une compétition : quelle première action posez-vous ?","Erreur en match : comment réagissez-vous immédiatement ?","Geste technique à améliorer : que faites-vous en premier ?","Finale décisive : quelle est votre première démarche ?"
+]],["Réseaux sociaux / distractions",[
+"Les notifications vous coupent pendant vos devoirs : que faites-vous en premier ?","Vous perdez du temps sur le téléphone avant de travailler : quelle est votre réaction ?","Vous devez rédiger un devoir mais les réseaux vous tentent : que décidez-vous ?","Environnement bruyant : quelle action posez-vous pour vous concentrer ?","Votre attention décroche pendant une séance d’étude : que faites-vous tout de suite ?","Un ami vous écrit pendant vos révisions : comment réagissez-vous ?"
+]],["Orientation / choix d’avenir",[
+"Vous hésitez entre deux filières : quelle est votre première démarche ?","Vous devez choisir une option importante : que faites-vous en priorité ?","Vous doutez de votre orientation : quelle première action prenez-vous ?","Deux propositions d’avenir vous intéressent : comment tranchez-vous ?","Décision rapide de parcours à prendre : par quoi commencez-vous ?","Vous craignez de regretter un choix : quelle stratégie initiale adoptez-vous ?"
+]],["Prise de parole / oral",[
+"Préparer un oral important avec peu de temps : que faites-vous d’abord ?","Parler devant la classe sans préparation : comment réagissez-vous ?","Stress avant de prendre la parole : quelle est votre première action ?","Convaincre un jury : par quoi commencez-vous ?","Préparer un exposé : quelle est votre première étape ?","Improviser une réponse en public : que faites-vous immédiatement ?"
+]],["Conflits / limites",[
+"On vous demande trop de choses à la fois : comment réagissez-vous en premier ?","Dire non à un ami sans le blesser : que faites-vous en priorité ?","Vous vous sentez débordé(e) par les attentes : quelle première action ?","Un camarade vous met la pression : quelle est votre réponse initiale ?","Désaccord avec un coach/prof : que faites-vous d’abord ?","Vous devez poser une limite claire : comment vous y prenez-vous ?"
+]],["Organisation / temps",[
+"Semaine chargée : par quoi commencez-vous pour garder de l’énergie ?","Plusieurs devoirs à rendre demain : quelle est votre première démarche ?","Organiser vos journées pour tenir vos objectifs : que faites-vous ?","Emploi du temps déséquilibré : que décidez-vous en priorité ?","Retard accumulé : comment redémarrez-vous ?","Rythme trop irrégulier : quelle est votre première action ?"
+]],["Créativité / projets perso",[
+"Vous avez une idée à développer : quelle est votre première démarche ?","Vous voulez lancer un projet personnel : que faites-vous d’abord ?","Beaucoup d’idées en tête : comment démarrez-vous ?","Créer quelque chose de nouveau : quelle est votre première action ?","Trouver une solution originale à un problème : que faites-vous ?","Envie d’innover : quelle est votre première démarche ?"
+]],["Bien-être / énergie",[
+"Vous dormez mal à l’approche des examens : quelle est votre première action ?","Gros coup de fatigue : que décidez-vous ?","Retrouver un rythme de sommeil régulier : par quoi commencez-vous ?","Énergie en baisse : quelle est votre priorité ?","Difficulté à récupérer après un effort : que faites-vous en premier ?","Stress avant de dormir : quelle première démarche adoptez-vous ?"
+]]];
+const QUESTIONS=[];(function(){let id=1;THEMES.forEach(([t,ps])=>{ps.forEach(p=>{const used=new Set();function pick(a){for(let k=0;k<200;k++){let c=a[Math.floor(Math.random()*a.length)];if(!used.has(c)){used.add(c);return c;}}return a[0];}const options=PROFILES.map(pp=>({label:pick(BANK[pp]),profil:pp}));QUESTIONS.push({prompt:(id+". "+p),weight:1,options});id++;});});})();
+
+let answers=new Array(QUESTIONS.length).fill(null), current=0;
+
+/* ====== Narratif (36 combinaisons) — condensé haute densité ====== */
+function section(t, paras=[], bullets=[]){ let h=`<h3>${t}</h3>`; paras.forEach(p=>h+=`<p>${p}</p>`); if(bullets.length){h+=`<ul>${bullets.map(b=>`<li>${b}</li>`).join("")}</ul>`;} return h; }
+function narrative(adn,cap){
+  return [
+    section("Message de bienvenue",[ `Bienvenue. Votre ADN ${adn} constitue votre socle d’énergie durable.`,
+      `Votre dynamique actuelle met en avant un Cap ${cap}. Ce rapport traduit vos préférences en stratégies concrètes (études, sport, social).` ]),
+    section("1) Duo énergétique (ADN & Cap)",[
+      ({"Garant":"Pensée structurée, stabilité, progression méthodique.",
+        "Conquérant":"Énergie d’action, challenge et impact rapide.",
+        "Bienveillant":"Climat serein, qualité de lien, soutien.",
+        "Fiable":"Alignement valeurs–engagements, constance.",
+        "Visionnaire":"Synthèse, imagination utile, prototypage.",
+        "Spontané":"Jeu, variété, rythme embarquant."})[adn],
+      `Le Cap ${cap} colore vos décisions immédiates. Viser l’équilibre : nourrir l’ADN, exprimer le Cap sans excès.`]),
+    section("2) Points forts",[],["Clarté d’intention","Itérations courtes","Décisions en incertitude modérée","Focalisation utile"]),
+    section("3) Besoins psychologiques",[],["Reconnaissance spécifique","Rythme régulier + récup courte","Ambiance adaptée (calme/outillée)","Droit à l’essai (V1 imparfaite)"]),
+    section("4) Communication",["Format Fait → Impact → Besoin → Demande."],["Plan prêt → +1 jour → OK → avant 18h ?","Doute chiffré → risque retard → regard 10 min → 14h ?"]),
+    section("5) Études",[],["Séquences 25/5 + récap 60 s","Fiches 3 idées + 1 exemple","10 QCM/jour","Un jalon par jour"]),
+    section("6) Sport",[],["Respiration 2 min + consigne unique","1 axe/série, score rapide, récup active","Mobilité 8 min + hydratation","Débrief 3/1/1"]),
+    section("7) Social",[],["Alternative claire pour dire non","Canal unique de suivi","Feedback bref et précis"]),
+    section("8) Organisation",[],["3 objectifs hebdo (1/jour)","Timeboxing + minuteur","Vendredi : garder/ajuster/supprimer","Rangement fin de journée"]),
+    section("9) Stress & antidotes",[],["Tension légère → respiration 90 s + 1 micro-pas","Sur-contrôle/impulsivité → séparer enjeu/identité + jalon concret","Blocage → protocole d’urgence (ancrage, choix minimal, soutien ciblé)"]),
+    section("10) Plans 30–60–90",[],["J+30 : rituel 10–15 min + trace visible","J+60 : bilan + feedback pair/coach","J+90 : projet-signature ADN + défi Cap"]),
+    section("Conclusion",["Performance durable = ADN (stabilité) + Cap (élan) + environnement ajusté.","Les petits pas répétés créent les grandes trajectoires."])
+  ].join("");
+}
+const REPORTS=(function(){const R={}; PROFILES.forEach(a=>PROFILES.forEach(c=>{R[`${a}|${c}`]=narrative(a,c);})); return R;})();
+
+/* ====== UI ====== */
+const $=s=>document.querySelector(s);
+document.getElementById('startBtn').onclick=function(){
+  document.getElementById('app').classList.remove('hidden'); renderQ();
+  window.scrollTo({top:document.querySelector('#app').offsetTop,behavior:'smooth'});
+};
+document.addEventListener('DOMContentLoaded',()=>{ const p=document.getElementById('print'); if(p) p.onclick=()=>window.print(); });
+
+function renderQ(){
+  const q=QUESTIONS[current]; if(!Array.isArray(answers[current])) answers[current]=[];
+  const ranked=answers[current]; const rankOf=i=>{const p=ranked.indexOf(i);return p===-1?null:p+1;};
+  const opts=q.options.map((o,i)=>`<div class="option ${rankOf(i)?'selected':''}" data-i="${i}">${o.label}${rankOf(i)?`<span class="rank-badge">${rankOf(i)}</span>`:''}</div>`).join('');
+  const nav=`<div class="nav"><button id="prev" ${current===0?'disabled':''}>Précédent</button><button id="next" ${(ranked.length<3||current===QUESTIONS.length-1)?'disabled':''}>Suivant</button><button id="finish" class="primary" ${(ranked.length<3||current!==QUESTIONS.length-1)?'disabled':''}>Terminer</button><span class="info">Question ${current+1}/${QUESTIONS.length} — Choix : ${ranked.length}</span></div>`;
+  document.getElementById('quiz').innerHTML=`<h3>${q.prompt}</h3><div class="answers">${opts}</div><p>Classez <b>3 à 6</b> réponses (clic pour sélectionner / désélectionner). L’ordre = votre préférence.</p>${nav}`;
+  document.querySelectorAll('.option').forEach(el=>{el.addEventListener('click',()=>{const i=+el.dataset.i;const p=ranked.indexOf(i); if(p===-1){if(ranked.length<6) ranked.push(i);} else {ranked.splice(p,1);} renderQ();});});
+  document.getElementById('prev').onclick=function(){ if(current>0){current--;renderQ();} };
+  document.getElementById('next').onclick=function(){ if(current<QUESTIONS.length-1 && ranked.length>=3){current++;renderQ();} };
+  document.getElementById('finish').onclick=function(){ if(ranked.length>=3){const r=compute();renderReport(r);window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'});} };
+}
+
+/* ====== Scoring ADN / Cap / Caps vécus ====== */
+function compute(){
+  const weights=[6,5,4,3,2,1], P=[...PROFILES];
+  const score=Object.fromEntries(P.map(p=>[p,0])), rank1=Object.fromEntries(P.map(p=>[p,0])), top2=Object.fromEntries(P.map(p=>[p,0]));
+  const Q=QUESTIONS.length;
+  QUESTIONS.forEach((q,qi)=>{const ranked=answers[qi]||[]; ranked.forEach((opt,idx)=>{ const p=q.options[opt].profil; score[p]+=(q.weight||1)*(weights[idx]||0); if(idx===0) rank1[p]+=1; if(idx<=1) top2[p]+=1; }); });
+  const ADN=Object.entries(score).sort((a,b)=>b[1]-a[1])[0][0];
+
+  // Fenêtre récente pour le Cap (dernier tiers min 20 q)
+  const startIdx=Math.max(0,Q-Math.max(20,Math.floor(Q/3)));
+  const winScore=Object.fromEntries(P.map(p=>[p,0])), winTop2=Object.fromEntries(P.map(p=>[p,0])); const winLen=Q-startIdx;
+  for(let qi=startIdx;qi<Q;qi++){ const ranked=answers[qi]||[]; ranked.forEach((opt,idx)=>{ const p=QUESTIONS[qi].options[opt].profil; winScore[p]+=(QUESTIONS[qi].weight||1)*(weights[idx]||0); if(idx<=1) winTop2[p]+=1; }); }
+  let capCandidates=P.filter(p=>p!==ADN).map(p=>[p,winScore[p]]).sort((a,b)=>b[1]-a[1]); let CAP=null;
+  if(capCandidates.length){ const [p1,v1]=capCandidates[0]; const v2=capCandidates[1]?.[1]||0;
+    const condTop2=(winTop2[p1]/Math.max(1,winLen))>=0.30;
+    const condDelta=(v2===0)?true:((v1-v2)/Math.max(1,v2)>=0.05);
+    if(condTop2 && v1>0) CAP=p1;
+  }
+
+  // Caps vécus (optionnels)
+  const lived=P.filter(p=>p!==ADN && p!==CAP).map(function(p){
+    const s=top2[p]/Q; const e=rank1[p]/Q; const meanProxy=(Q-top2[p])/(Q||1)*3; const stable=meanProxy<=2.8;
+    const ok=(s>=0.35 || e>=0.15) && stable; return {p,ok,raw:score[p]};
+  }).filter(x=>x.ok).sort((a,b)=>b.raw-a.raw).map(x=>x.p).slice(0,2);
+
+  // Pourcentages (règles IPP)
+  const ADNraw=Math.max(score[ADN],1); const perc=Object.fromEntries(P.map(p=>[p,Math.round((score[p]/ADNraw)*80)]));
+  perc[ADN]=100; lived.forEach(p=>perc[p]=100); if(CAP) perc[CAP]=Math.max(60,Math.min(95,perc[CAP]));
+  P.forEach(function(p){ if(p!==ADN && p!==CAP && !lived.includes(p)){ perc[p]=Math.min((CAP?perc[CAP]-1:95), perc[p]); } perc[p]=Math.max(0,Math.min(100,perc[p])); });
+  return {ADN,CAP,lived,perc,score};
+}
+
+/* ====== Rapport ====== */
+function narrativeFor(adn, cap){ const key=adn+"|"+(cap||adn); return REPORTS[key] || "<p>Narratif en cours.</p>"; }
+
+function renderReport(r){
+  document.getElementById('report').classList.remove('hidden');
+  document.getElementById('badgeADN').textContent='ADN : '+r.ADN; document.getElementById('badgeCAP').textContent='Cap actuel : '+(r.CAP||r.ADN);
+  document.getElementById('kpiADN').textContent=r.ADN; document.getElementById('kpiCAP').textContent=r.CAP||'—'; document.getElementById('kpiLived').textContent=r.lived.length?r.lived.join(', '):'—';
+
+  const tb=document.querySelector('#resultTable tbody'); tb.innerHTML='';
+  PROFILES.forEach(function(p){ const rep=(p===r.ADN?'❤️':(p===r.CAP?'⭐':(r.lived.includes(p)?'⚪':''))); const tr=document.createElement('tr'); tr.innerHTML='<td>'+p+'</td><td>'+r.perc[p]+'%</td><td>'+rep+'</td>'; tb.appendChild(tr); });
+
+  drawRadar(document.querySelector('#etoile').getContext('2d'),{labels:[...PROFILES],datasets:[{data:PROFILES.map(l=>r.perc[l]||0)}]});
+  drawRadar(document.querySelector('#boussole').getContext('2d'),{labels:["Structuré","Action","Relation","Valeurs","Introspection","Spontanéité"],datasets:[{data:["Garant","Conquérant","Bienveillant","Fiable","Visionnaire","Spontané"].map(l=>r.perc[l]||0)}]});
+  drawBars (document.querySelector('#pyramide').getContext('2d'),{labels:["Niv 1","Niv 2","Niv 3"],datasets:[{data:[30,60,100]}]});
+
+  document.getElementById('welcome').innerHTML = '<p><strong>ADN :</strong> '+r.ADN+' — <strong>Cap actuel :</strong> '+(r.CAP||'—')+' — <strong>Caps vécus :</strong> '+(r.lived.join(', ')||'—')+'</p>';
+  document.getElementById('sections').innerHTML = narrativeFor(r.ADN, r.CAP||r.ADN);
+}
+</script>
+</body>
+</html>
