@@ -1,14 +1,4 @@
-.legend-item {
-  display: flex;
-  align-items: center;
-  margin: 5px 0;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-}
-.color-box {
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  margin-right: 8px;
-  border: 1px solid #000;
-}
+.legend{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:8px}
+.dot{width:12px;height:12px;border-radius:999px;display:inline-block;margin-right:6px}
+.dot.garant{background:#1f77b4}.dot.conq{background:#d62728}.dot.bienv{background:#2ca02c}
+.dot.fiable{background:#6b21a8}.dot.vision{background:#0284c7}.dot.spont{background:#f59e0b}

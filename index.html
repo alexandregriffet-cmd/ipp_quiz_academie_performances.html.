@@ -1,233 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>IPP — Inventaire Psychologique de Performance</title>
-<style>
-:root{--ink:#0f172a;--line:#e5e7eb;--muted:#475569}
-*{box-sizing:border-box}html,body{margin:0;background:#fff;color:var(--ink);font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Arial}
-header.hero{display:flex;flex-direction:column;align-items:center;gap:14px;padding:28px 12px;background:#fff;border-bottom:1px solid var(--line)}
-.logo{width:540px;max-width:92vw;height:auto;object-fit:contain;display:block}
-.subtitle{color:var(--muted)}.rules{max-width:980px}
-.rules ul{margin:8px 0 0 0;padding-left:18px;color:#334155;line-height:1.6}
-.cta{background:var(--ink);color:#fff;border:1px solid var(--ink);border-radius:10px;padding:12px 18px;cursor:pointer}
-.hidden{display:none}main{max-width:1200px;margin:18px auto;padding:0 14px}
-.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:16px}
-.answers{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
-.option{border:1px solid #cbd5e1;background:#f8fafc;border-radius:12px;padding:10px;cursor:pointer;position:relative}
-.option.selected{border-color:#2563eb;background:#eff6ff}
-.rank-badge{position:absolute;top:8px;right:8px;background:#2563eb;color:#fff;border-radius:999px;width:26px;height:26px;display:flex;align-items:center;justify-content:center;font-weight:700}
-.nav{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}.nav .info{margin-left:auto;color:#475569}
-.primary{background:var(--ink);color:#fff;border:1px solid var(--ink);border-radius:10px;padding:8px 12px}
-.grid2{display:grid;grid-template-columns:1.1fr 0.9fr;gap:14px}.center{text-align:center}
-#resultTable{width:100%;border-collapse:collapse;font-size:14px}#resultTable th,#resultTable td{border:1px solid #e2e8f0;padding:8px 10px;text-align:left;vertical-align:top}
-#resultTable th:nth-child(2),#resultTable td:nth-child(2){text-align:right;width:70px}
-.kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0}.kpi .b{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:10px;padding:8px}
-@page { size: A4; margin: 12mm; }.like-a4{width:794px;min-height:1123px;margin:0 auto 16px auto;padding:18px;border:1px solid #e2e8f0;border-radius:10px;background:#fff}
-#pgNarratif h3{margin:18px 0 6px}#pgNarratif p{line-height:1.6;margin:6px 0}
-.toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}footer{padding:12px;text-align:center;color:#64748b}
-.badge{display:inline-block;padding:2px 8px;border-radius:999px;background:#eef2ff;border:1px solid #c7d2fe;color:#1e293b;font-size:12px;margin-left:6px}
-blockquote{background:#f8fafc;border-left:4px solid #94a3b8;margin:8px 0;padding:8px 10px;border-radius:6px}
-ul{padding-left:18px}.dot{width:12px;height:12px;border-radius:50%;display:inline-block}
-.dot.garant{background:#1f77b4}.dot.conq{background:#d62728}.dot.bienv{background:#2ca02c}.dot.fiable{background:#6b21a8}.dot.vision{background:#0284c7}.dot.spont{background:#f59e0b}
-.legend{display:flex;gap:10px;justify-content:center;margin:6px 0 12px}hr.sep{border:0;border-top:1px solid #e2e8f0;margin:10px 0}
-@media print{ header.hero, .toolbar button, #quiz { display: none !important; } body{ background:#fff } .like-a4{ page-break-after:always; box-shadow:none; border:0 } }
-</style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>IPP Jeunes — Rapport</title>
+  <link rel="stylesheet" href="legend_colors.css">
+  <style>
+    body{margin:0;background:#fff;color:#0f172a;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial}
+    .wrap{max-width:980px;margin:0 auto;padding:12px}
+    h1{font-size:20px;margin:10px 0 12px}
+    .card{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:12px;margin-bottom:12px}
+    .center{text-align:center}
+    canvas{display:block;margin:0 auto;max-width:100%;height:auto}
+    .legend{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:8px}
+    .dot{width:12px;height:12px;border-radius:999px;display:inline-block;margin-right:6px}
+    .dot.garant{background:#1f77b4}.dot.conq{background:#d62728}.dot.bienv{background:#2ca02c}
+    .dot.fiable{background:#6b21a8}.dot.vision{background:#0284c7}.dot.spont{background:#f59e0b}
+    .small{color:#475569;font-size:13px;text-align:center;margin-top:6px}
+  </style>
 </head>
 <body>
-<header class="hero">
-  <img class="logo" alt="Académie de Performances — Alexandre Griffet" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAQDAwMDAgQDAwMEBAQFBgoGBgUFBgwICQcKDgwPDg4MDQ0PERYTDxAVEQ0NExoTFRcYGRkZDxIbHRsYHRYYGRj/2wBDAQQEBAYFBgsGBgsYEA0QGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBj/wAARCADoA4QDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD7+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAGnrRQetFADqKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBp60UHrRQA6iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKyfEOu2Hhvw7daxqUmy3t13HHVj2Ue5NOKcnZEykopylsau4etG4etfKHiX4teL/EF9IbbUJdMs8/u7e1baQP9pupNV/DC/EPxdqhstH1vVXKcyyvdOI4wfU5/TrXsrI6qp+0qSUUfPy4ipe09nTi5H1sW9CKUMO5FeKw/CXxu0Qaf4kXyPjkIzkD8S1O/4VL4w/6KZqH5v/8AFVx/VaX/AD9X3M7P7Qrf8+X96PZyw7EUBvUivGf+FS+L+/xM1D83/wDiqF+Evi7eN/xM1Lb32ls/+hUfVaX/AD9X3Mf9oVv+fL+9Hs+RRketeTfE3WdT8JeBNG8M6HqNw2pX0i2iXTPumKgAFs+pJHPvXTeIvC+s614HsdF03xFcabNFsMt0uWeQKuME5B5PNY/V7JSb0bOj65eUoRjdpXt+h2e4etG4eteL/wDCpfGA4b4l6h+LP/8AFUf8Km8Xf9FNv/8Avp//AIutvqtL/n6vuZz/ANoVv+fL+9HtG4etG4eteL/8Km8Xf9FNv/8Avp//AIuj/hU3i8nA+Juof99P/wDFUfVaX/P1fcw/tCt/z5f3o9n3c9RS7h6ivCtX+FvxBstKlutO8d397NGpbyDK6F/YHcea8iPinxUrFW8Q6srKcEG5fg+nWurDZR9Zv7KonY5MRnjwzSq0mrn2lketLXzH8L/iD4jg8eWOk32pXN/ZXr+S0dw5coxHDAnkdOa+mlORXHjcFPCT5JnoZfmEMbBzgrWHUUUVxnoBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ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q/8AATklg5SVpUZP/t4p6T8AdPgvVm1nXWuoFOTDEojDexOScfSul8bePvD/AIF8KtpOjS276h5XlW1rAQRDxgM2OgHp3rFPwKcrtbxnqxHoT1/Wqx/Z4sSxY+I7sk9SYlOaJVqVealia10ulhwoVsPBrDULN9W7ngrMzMXclmY5LHqT3Ne2fATwtcG/uvFd1EUh2fZ7UsMbsnLMPbgD866HR/gJ4asrxJ9Ru7rUdpyIpCEQ/UDrXqttZwWdqltawpFEg2qiDAA9hXRmWcU6lL2NDqYZVkdWNZVq+licdKWiivmT7AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAaetFB60UAOooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACikzzS0AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFJkZ60tABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU3nPSnUUAJRzS0UAJ81HzUtFACfNQM55FLRQAUGiigBPmo+alooAT5qPmpaKAAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFJkCgkUALRRRQAUUUUAFFFFABRRRQAUUd6M84oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAGnrRQetFADqKKKACiiigAooooAKKKKACjIppIxnPFctqPi15tSbSPDNsmp3w/1j7sQwf77Dv7DNVGLlsTKSjudVkUteM/D3xJ4u1n4++KtJ1XVluNP0qNI1jSMKu88nGOuPWvZqutSdJ8rJpVVUV0FFFFZGgUZoqtf3cdjptxezECOGNpGJ9AM0WvoD0OX8Y+PLfw1d2uk2No+p61eH/R7CI/MR3ZvQe9P8A+OrTxzoc93DbSWtzazNb3VvJ1ikUkEfpXnXweaTxPqfiP4sasoY3Mrw2LN/yzgj4wPTpWj+z/ak+Gde1oElNS1aeZD2IDsK7qlCEKcu6t+JxQrSnNdnc9iopO9LXCdoUUUUAFGeaD0rzHxB8X7LRfjfpXw7Fg8kt4oaW5OQI92duPXpV06cqjtFETnGCvI9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FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA09aKD1ooAdRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUANPWig9aKAHUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFADT1ooPWigB1FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA09aKKKAP//Z">
-  <h1>Test IPP — Inventaire Psychologique de Performance</h1>
-  <p class="subtitle">Jeunes • 12–25 ans — Académie de Performances</p>
-  <button id="startBtn" class="cta">Commencer</button>
-  <div class="rules"><ul>
-    <li>Moment calme, sans dérangement.</li>
-    <li>Répondez avec spontanéité — ne suranalysez pas.</li>
-    <li>À chaque question, classez <b>3 à 6</b> propositions (1→6).</li>
-    <li>Durée : jusqu’à 45 minutes.</li>
-  </ul></div>
-</header>
-
-<main id="app" class="hidden">
-  <section id="quiz" class="card"></section>
-  <section id="report" class="card hidden">
-    <div class="toolbar">
-      <h2 style="margin:0">Votre rapport IPP <span id="badgeADN" class="badge"></span><span id="badgeCAP" class="badge"></span></h2>
-      <div><button id="print" class="primary">Exporter PDF</button></div>
-    </div>
-
-    <div class="page like-a4" id="pg1">
-      <h3 class="center">Étoile IPP — ❤️ ADN (100%) • ⭐ Cap (actuel) • ⚪ Caps vécus</h3>
+  <div class="wrap">
+    <h1>Inventaire Psychologique de Performance (Jeunes)</h1>
+    <div class="card">
+      <h3 class="center">Étoile IPP</h3>
+      <canvas id="etoile" width="720" height="420" aria-label="Étoile IPP"></canvas>
       <div class="legend">
-        <span><span class="dot garant"></span> Garant</span>
-        <span><span class="dot conq"></span> Conquérant</span>
-        <span><span class="dot bienv"></span> Bienveillant</span>
-        <span><span class="dot fiable"></span> Fiable</span>
-        <span><span class="dot vision"></span> Visionnaire</span>
-        <span><span class="dot spont"></span> Spontané</span>
+        <span><span class="dot garant"></span>Garant</span>
+        <span><span class="dot conq"></span>Conquérant</span>
+        <span><span class="dot bienv"></span>Bienveillant</span>
+        <span><span class="dot fiable"></span>Fiable</span>
+        <span><span class="dot vision"></span>Visionnaire</span>
+        <span><span class="dot spont"></span>Spontané</span>
       </div>
-      <div class="grid2">
-        <canvas id="etoile" height="380"></canvas>
-        <div>
-          <div class="kpi">
-            <div class="b"><strong>ADN :</strong> <span id="kpiADN"></span></div>
-            <div class="b"><strong>Cap actuel :</strong> <span id="kpiCAP"></span></div>
-            <div class="b"><strong>Caps vécus :</strong> <span id="kpiLived"></span></div>
-          </div>
-          <table id="resultTable"><thead><tr><th>Profil</th><th>%</th><th>Repère</th></tr></thead><tbody></tbody></table>
-        </div>
-      </div>
+      <p class="small">Chaque point coloré = un profil ; le chiffre = votre pourcentage.</p>
     </div>
-
-    <div class="page like-a4" id="pg2">
-      <h3 class="center">Boussole & Pyramide</h3>
-      <div class="grid2">
-        <canvas id="boussole" height="380"></canvas>
-        <canvas id="pyramide" height="380"></canvas>
-      </div>
-      <blockquote><strong>Lecture rapide :</strong> environnements porteurs & montée d’activation maîtrisée.</blockquote>
-    </div>
-
-    <div class="page like-a4" id="pgNarratif">
-      <div id="welcome"></div><hr class="sep"/><div id="sections"></div>
-    </div>
-  </section>
-</main>
-<footer><small>© IPP — Académie de Performances</small></footer>
-
-<script>
-/* ====== Mini‑charts (radar + barres) ====== */
-(function(){
-  function radar(ctx,vals,labels){
-    var w=ctx.canvas.width,h=ctx.canvas.height,cx=w/2,cy=h/2,R=Math.min(w,h)/2-10;
-    ctx.clearRect(0,0,w,h); ctx.strokeStyle="#e5e7eb";
-    for(var r=1;r<=4;r++){ctx.beginPath();ctx.arc(cx,cy,R*r/4,0,6.283);ctx.stroke();}
-    var n=labels.length, pts=[];
-    for(var i=0;i<n;i++){var a=-1.5708+i*6.283/n, v=(vals[i]||0)/100, x=cx+R*v*Math.cos(a), y=cy+R*v*Math.sin(a);
-      pts.push([x,y]); ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(cx+R*Math.cos(a),cy+R*Math.sin(a)); ctx.stroke();}
-    ctx.beginPath(); for(var i=0;i<n;i++){var p=pts[i]; if(i===0)ctx.moveTo(p[0],p[1]); else ctx.lineTo(p[0],p[1]);}
-    ctx.closePath(); ctx.fillStyle="rgba(37,99,235,0.12)"; ctx.strokeStyle="#1e293b"; ctx.fill(); ctx.stroke();
-  }
-  function bars(ctx,vals){
-    var w=ctx.canvas.width,h=ctx.canvas.height; ctx.clearRect(0,0,w,h);
-    var n=vals.length,bw=w/(n*1.6);
-    for(var i=0;i<n;i++){var v=vals[i]||0,bh=(h-20)*v/100,x=(i+0.3)*w/n,y=h-bh-10; ctx.fillStyle="rgba(15,23,42,0.18)"; ctx.strokeStyle="#0f172a"; ctx.fillRect(x,y,bw,bh); ctx.strokeRect(x,y,bw,bh);}
-  }
-  window.drawRadar=(ctx,data)=>radar(ctx,data.datasets[0].data,data.labels);
-  window.drawBars =(ctx,data)=>bars (ctx,data.datasets[0].data);
-})();
-
-/* ====== Banque questions ====== */
-const PROFILES=["Garant","Conquérant","Bienveillant","Fiable","Visionnaire","Spontané"];
-const BANK={
-"Garant":["Plan en trois étapes et démarrage immédiat.","Vérifier critères et aligner la méthode.","Découper en blocs 25/5.","Clarifier la consigne et poser la première action.","Sécuriser l’étape critique.","Préparer le matériel puis lancer.","Sommaire clair avant d’agir.","Lister dépendances et sécuriser les blocages.","Checklist minimaliste, cocher la première case.","Prioriser et attaquer le point n°1."],
-"Conquérant":["Choisir le défi prioritaire et le régler.","Jalon mesurable à H+30.","Trancher puis ajuster en avançant.","Prendre le lead et distribuer.","Action immédiate pour un résultat visible.","Neutraliser l’obstacle principal.","Sprint court avec objectif clair.","Afficher un score à battre.","Verrouiller un premier gain concret.","Éliminer la friction clé."],
-"Bienveillant":["Installer un climat calme et démarrer en douceur.","Demander/offrir un bref soutien puis agir.","Auto-encouragement et premier pas atteignable.","Inclure chacun avant d’avancer.","Respirer 2 minutes et se recentrer.","Clarifier les attentes réciproques.","Sécuriser la relation clé puis s’engager.","Transformer la pression en cadence respirée.","Action qui met en confiance.","Aménager un micro-espace serein."],
-"Fiable":["S’aligner sur un engagement réaliste et le tenir.","Clarifier qui fait quoi pour quand.","Vérifier respect des critères/valeurs.","Rappeler la règle du jeu puis agir.","Choisir l’action la plus juste.","Définir un cadre simple et le respecter.","Préciser les limites et tenir le cap.","Valider la cohérence avec ses convictions.","Petit contrat avec soi-même.","Option la plus loyale, puis démarrage."],
-"Visionnaire":["Cadrer l’idée clé seul 10 minutes.","Visualiser le résultat puis écrire l’action 1.","Simplifier le concept jusqu’à l’action.","Mini-prototype et observation.","Schématiser l’objectif → pas concret.","Transformer l’intuition en mesure.","Isoler le principe et le tester.","Croquis rapide puis essai 1.","Réduire l’idée à un geste simple.","Formuler une hypothèse et la vérifier."],
-"Spontané":["Transformer la tâche en jeu, lancer un sprint.","Minuteur 10 minutes pour se lancer.","Commencer par la partie stimulante.","Petit défi personnel et foncer.","Varier la forme pour garder l’envie.","Récompense rapide après le premier bloc.","Chrono et vitesse pour embarquer.","Changer d’angle pour relancer.","Format express et fun.","Ajouter une touche d’originalité."]
-};
-const THEMES=[["Révisions / examens",[
-"Vous avez trois chapitres à revoir ce soir : quelle est votre première action ?","Examen blanc demain : que faites-vous en premier ?","Vous sentez du retard dans vos révisions : que décidez-vous maintenant ?","Devoir à rendre ce soir : par quoi commencez-vous ?","Deux jours avant un contrôle majeur : quelle démarche initiez-vous ?","Vous êtes fatigué(e) mais il faut travailler : comment lancez-vous la machine ?"
-]],["Projet de groupe",[
-"Deux membres sont silencieux et un plan d’action est attendu vendredi midi : que faites-vous d’abord ?","Vous devez répartir les rôles dans un projet collectif : comment procédez-vous ?","Votre groupe est en retard sur la présentation : quelle est votre première démarche ?","Un camarade n’a pas rendu sa part : quelle est votre priorité immédiate ?","Vous devez lancer une réunion de projet : quelle action engagez-vous en premier ?","Rendu demain et l’équipe n’est pas prête : que décidez-vous ?"
-]],["Sport / compétition",[
-"Séance technique importante avant un match ce week-end : par quoi commencez-vous ?","Test chronométré demain : comment vous préparez-vous ?","Pression avant une compétition : quelle première action posez-vous ?","Erreur en match : comment réagissez-vous immédiatement ?","Geste technique à améliorer : que faites-vous en premier ?","Finale décisive : quelle est votre première démarche ?"
-]],["Réseaux sociaux / distractions",[
-"Les notifications vous coupent pendant vos devoirs : que faites-vous en premier ?","Vous perdez du temps sur le téléphone avant de travailler : quelle est votre réaction ?","Vous devez rédiger un devoir mais les réseaux vous tentent : que décidez-vous ?","Environnement bruyant : quelle action posez-vous pour vous concentrer ?","Votre attention décroche pendant une séance d’étude : que faites-vous tout de suite ?","Un ami vous écrit pendant vos révisions : comment réagissez-vous ?"
-]],["Orientation / choix d’avenir",[
-"Vous hésitez entre deux filières : quelle est votre première démarche ?","Vous devez choisir une option importante : que faites-vous en priorité ?","Vous doutez de votre orientation : quelle première action prenez-vous ?","Deux propositions d’avenir vous intéressent : comment tranchez-vous ?","Décision rapide de parcours à prendre : par quoi commencez-vous ?","Vous craignez de regretter un choix : quelle stratégie initiale adoptez-vous ?"
-]],["Prise de parole / oral",[
-"Préparer un oral important avec peu de temps : que faites-vous d’abord ?","Parler devant la classe sans préparation : comment réagissez-vous ?","Stress avant de prendre la parole : quelle est votre première action ?","Convaincre un jury : par quoi commencez-vous ?","Préparer un exposé : quelle est votre première étape ?","Improviser une réponse en public : que faites-vous immédiatement ?"
-]],["Conflits / limites",[
-"On vous demande trop de choses à la fois : comment réagissez-vous en premier ?","Dire non à un ami sans le blesser : que faites-vous en priorité ?","Vous vous sentez débordé(e) par les attentes : quelle première action ?","Un camarade vous met la pression : quelle est votre réponse initiale ?","Désaccord avec un coach/prof : que faites-vous d’abord ?","Vous devez poser une limite claire : comment vous y prenez-vous ?"
-]],["Organisation / temps",[
-"Semaine chargée : par quoi commencez-vous pour garder de l’énergie ?","Plusieurs devoirs à rendre demain : quelle est votre première démarche ?","Organiser vos journées pour tenir vos objectifs : que faites-vous ?","Emploi du temps déséquilibré : que décidez-vous en priorité ?","Retard accumulé : comment redémarrez-vous ?","Rythme trop irrégulier : quelle est votre première action ?"
-]],["Créativité / projets perso",[
-"Vous avez une idée à développer : quelle est votre première démarche ?","Vous voulez lancer un projet personnel : que faites-vous d’abord ?","Beaucoup d’idées en tête : comment démarrez-vous ?","Créer quelque chose de nouveau : quelle est votre première action ?","Trouver une solution originale à un problème : que faites-vous ?","Envie d’innover : quelle est votre première démarche ?"
-]],["Bien-être / énergie",[
-"Vous dormez mal à l’approche des examens : quelle est votre première action ?","Gros coup de fatigue : que décidez-vous ?","Retrouver un rythme de sommeil régulier : par quoi commencez-vous ?","Énergie en baisse : quelle est votre priorité ?","Difficulté à récupérer après un effort : que faites-vous en premier ?","Stress avant de dormir : quelle première démarche adoptez-vous ?"
-]]];
-const QUESTIONS=[];(function(){let id=1;THEMES.forEach(([t,ps])=>{ps.forEach(p=>{const used=new Set();function pick(a){for(let k=0;k<200;k++){let c=a[Math.floor(Math.random()*a.length)];if(!used.has(c)){used.add(c);return c;}}return a[0];}const options=PROFILES.map(pp=>({label:pick(BANK[pp]),profil:pp}));QUESTIONS.push({prompt:(id+". "+p),weight:1,options});id++;});});})();
-
-let answers=new Array(QUESTIONS.length).fill(null), current=0;
-let REPORTS = {};
-fetch('reports.json').then(r=>r.json()).then(j=>{REPORTS=j;});
-
-const $=s=>document.querySelector(s);
-document.getElementById('startBtn').onclick=function(){
-  document.getElementById('app').classList.remove('hidden'); renderQ();
-  window.scrollTo({top:document.querySelector('#app').offsetTop,behavior:'smooth'});
-};
-document.addEventListener('DOMContentLoaded',()=>{ const p=document.getElementById('print'); if(p) p.onclick=()=>window.print(); });
-
-function renderQ(){
-  const q=QUESTIONS[current]; if(!Array.isArray(answers[current])) answers[current]=[];
-  const ranked=answers[current]; const rankOf=i=>{const p=ranked.indexOf(i);return p===-1?null:p+1;};
-  const opts=q.options.map((o,i)=>`<div class="option ${rankOf(i)?'selected':''}" data-i="${i}">${o.label}${rankOf(i)?`<span class="rank-badge">${rankOf(i)}</span>`:''}</div>`).join('');
-  const nav=`<div class="nav"><button id="prev" ${current===0?'disabled':''}>Précédent</button><button id="next" ${(ranked.length<3||current===QUESTIONS.length-1)?'disabled':''}>Suivant</button><button id="finish" class="primary" ${(ranked.length<3||current!==QUESTIONS.length-1)?'disabled':''}>Terminer</button><span class="info">Question ${current+1}/${QUESTIONS.length} — Choix : ${ranked.length}</span></div>`;
-  document.getElementById('quiz').innerHTML=`<h3>${q.prompt}</h3><div class="answers">${opts}</div><p>Classez <b>3 à 6</b> réponses (clic pour sélectionner / désélectionner). L’ordre = votre préférence.</p>${nav}`;
-  document.querySelectorAll('.option').forEach(el=>{el.addEventListener('click',()=>{const i=+el.dataset.i;const p=ranked.indexOf(i); if(p===-1){if(ranked.length<6) ranked.push(i);} else {ranked.splice(p,1);} renderQ();});});
-  document.getElementById('prev').onclick=function(){ if(current>0){current--;renderQ();} };
-  document.getElementById('next').onclick=function(){ if(current<QUESTIONS.length-1 && ranked.length>=3){current++;renderQ();} };
-  document.getElementById('finish').onclick=function(){ if(ranked.length>=3){const r=compute();renderReport(r);window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'});} };
-}
-
-function compute(){
-  const weights=[6,5,4,3,2,1], P=[...PROFILES];
-  const score=Object.fromEntries(P.map(p=>[p,0])), rank1=Object.fromEntries(P.map(p=>[p,0])), top2=Object.fromEntries(P.map(p=>[p,0]));
-  const Q=QUESTIONS.length;
-  QUESTIONS.forEach((q,qi)=>{const ranked=answers[qi]||[]; ranked.forEach((opt,idx)=>{ const p=q.options[opt].profil; score[p]+=(q.weight||1)*(weights[idx]||0); if(idx===0) rank1[p]+=1; if(idx<=1) top2[p]+=1; }); });
-  const ADN=Object.entries(score).sort((a,b)=>b[1]-a[1])[0][0];
-
-  const startIdx=Math.max(0,Q-Math.max(20,Math.floor(Q/3)));
-  const winScore=Object.fromEntries(P.map(p=>[p,0])), winTop2=Object.fromEntries(P.map(p=>[p,0])); const winLen=Q-startIdx;
-  for(let qi=startIdx;qi<Q;qi++){ const ranked=answers[qi]||[]; ranked.forEach((opt,idx)=>{ const p=QUESTIONS[qi].options[opt].profil; winScore[p]+=(QUESTIONS[qi].weight||1)*(weights[idx]||0); if(idx<=1) winTop2[p]+=1; }); }
-  let capCandidates=P.filter(p=>p!==ADN).map(p=>[p,winScore[p]]).sort((a,b)=>b[1]-a[1]); let CAP=null;
-  if(capCandidates.length){ const [p1,v1]=capCandidates[0]; const v2=capCandidates[1]?.[1]||0;
-    const condTop2=(winTop2[p1]/Math.max(1,winLen))>=0.30;
-    const condDelta=(v2===0)?true:((v1-v2)/Math.max(1,v2)>=0.05);
-    if(condTop2 && v1>0) CAP=p1;
-  }
-
-  const lived=P.filter(p=>p!==ADN && p!==CAP).map(function(p){
-    const s=top2[p]/Q; const e=rank1[p]/Q; const meanProxy=(Q-top2[p])/(Q||1)*3; const stable=meanProxy<=2.8;
-    const ok=(s>=0.35 || e>=0.15) && stable; return {p,ok,raw:score[p]};
-  }).filter(x=>x.ok).sort((a,b)=>b.raw-a.raw).map(x=>x.p).slice(0,2);
-
-  const ADNraw=Math.max(score[ADN],1); const perc=Object.fromEntries(P.map(p=>[p,Math.round((score[p]/ADNraw)*80)]));
-  perc[ADN]=100; lived.forEach(p=>perc[p]=100); if(CAP) perc[CAP]=Math.max(60,Math.min(95,perc[CAP]));
-  P.forEach(function(p){ if(p!==ADN && p!==CAP && !lived.includes(p)){ perc[p]=Math.min((CAP?perc[CAP]-1:95), perc[p]); } perc[p]=Math.max(0,Math.min(100,perc[p])); });
-  return {ADN,CAP,lived,perc,score};
-}
-
-function narrativeFor(adn, cap){
-  const key=adn+"|"+(cap||adn); const R=REPORTS[key];
-  if(!R) return "<p>Narratif en chargement…</p>";
-  let html="";
-  (R.sections||[]).forEach(s=>{
-    if(s.title) html+=`<h3>${s.title}</h3>`;
-    if(s.body) s.body.forEach(p=>html+=`<p>${p}</p>`);
-    if(s.list) html+=`<ul>${(s.list||[]).map(x=>`<li>${x}</li>`).join("")}</ul>`;
-  });
-  return html;
-}
-
-function renderReport(r){
-  document.getElementById('report').classList.remove('hidden');
-  document.getElementById('badgeADN').textContent='ADN : '+r.ADN; document.getElementById('badgeCAP').textContent='Cap actuel : '+(r.CAP||r.ADN);
-  document.getElementById('kpiADN').textContent=r.ADN; document.getElementById('kpiCAP').textContent=r.CAP||'—'; document.getElementById('kpiLived').textContent=r.lived.length?r.lived.join(', '):'—';
-
-  const tb=document.querySelector('#resultTable tbody'); tb.innerHTML='';
-  PROFILES.forEach(function(p){ const rep=(p===r.ADN?'❤️':(p===r.CAP?'⭐':(r.lived.includes(p)?'⚪':''))); const tr=document.createElement('tr'); tr.innerHTML='<td>'+p+'</td><td>'+r.perc[p]+'%</td><td>'+rep+'</td>'; tb.appendChild(tr); });
-
-  drawRadar(document.querySelector('#etoile').getContext('2d'),{labels:[...PROFILES],datasets:[{data:PROFILES.map(l=>r.perc[l]||0)}]});
-  drawRadar(document.querySelector('#boussole').getContext('2d'),{labels:["Structuré","Action","Relation","Valeurs","Introspection","Spontanéité"],datasets:[{data:["Garant","Conquérant","Bienveillant","Fiable","Visionnaire","Spontané"].map(l=>r.perc[l]||0)}]});
-  drawBars (document.querySelector('#pyramide').getContext('2d'),{labels:["Niv 1","Niv 2","Niv 3"],datasets:[{data:[30,60,100]}]});
-
-  document.getElementById('welcome').innerHTML = '<p><strong>ADN :</strong> '+r.ADN+' — <strong>Cap actuel :</strong> '+(r.CAP||'—')+' — <strong>Caps vécus :</strong> '+(r.lived.join(', ')||'—')+'</p>';
-  document.getElementById('sections').innerHTML = narrativeFor(r.ADN, r.CAP||r.ADN);
-}
-</script>
+  </div>
+  <script src="visuals_star.js"></script>
+  <script>
+    // Exemple : à remplacer par vos % calculés (ordre exact requis)
+    const valeurs = [25, 18, 22, 28, 30, 15]; // Garant, Conquérant, Bienveillant, Fiable, Visionnaire, Spontané
+    drawRadarStar(document.getElementById('etoile').getContext('2d'),
+                  ['Garant','Conquérant','Bienveillant','Fiable','Visionnaire','Spontané'],
+                  valeurs);
+  </script>
 </body>
 </html>
