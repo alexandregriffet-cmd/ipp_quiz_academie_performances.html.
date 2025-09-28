@@ -1,0 +1,14 @@
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.color-box {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 8px;
+  border: 1px solid #000;
+}
