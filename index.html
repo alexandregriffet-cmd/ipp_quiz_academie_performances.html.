@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>IPP Jeunes — Rapport</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test IPP — Inventaire Psychologique de Performance</title>
   <link rel="stylesheet" href="legend_colors.css">
   <style>
-    body{margin:0;background:#fff;color:#0f172a;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial}
-    .wrap{max-width:980px;margin:0 auto;padding:12px}
-    h1{font-size:20px;margin:10px 0 12px}
-    .card{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:12px;margin-bottom:12px}
-    .center{text-align:center}
-    canvas{display:block;margin:0 auto;max-width:100%;height:auto}
+    :root{--bg:#ffffff;--fg:#0f172a;--muted:#475569;--primary:#0b132b;--card:#ffffff;--border:#e2e8f0;}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial}
+    .wrap{max-width:980px;margin:0 auto;padding:16px}
+    h1{font-size:28px;margin:12px 0 4px}
+    .sub{color:var(--muted);margin:0 0 18px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;margin:14px 0}
+    .btn{background:#111827;color:#fff;border:none;border-radius:10px;padding:12px 18px;font-size:16px;cursor:pointer}
+    .btn[disabled]{opacity:.5;cursor:not-allowed}
+    .grid{display:grid;gap:12px}
+    @media(min-width:720px){.grid{grid-template-columns:repeat(2,1fr)}}
+    .opt{border:1px solid var(--border);border-radius:12px;padding:12px;background:#f8fafc;cursor:pointer;position:relative}
+    .opt.selected{background:#e0f2fe;border-color:#93c5fd}
+    .pill{position:absolute;top:8px;right:8px;display:inline-block;background:#111827;color:#fff;border-radius:999px;padding:2px 8px;font-size:12px}
+    .prog{color:var(--muted);font-size:14px}
     .legend{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:8px}
     .dot{width:12px;height:12px;border-radius:999px;display:inline-block;margin-right:6px}
     .dot.garant{background:#1f77b4}.dot.conq{background:#d62728}.dot.bienv{background:#2ca02c}
     .dot.fiable{background:#6b21a8}.dot.vision{background:#0284c7}.dot.spont{background:#f59e0b}
-    .small{color:#475569;font-size:13px;text-align:center;margin-top:6px}
+    .hdr{display:flex;justify-content:center;margin:10px 0 16px}
+    .hdr img{max-height:64px}
+    .a4{width:794px;max-width:100%}
+    .actions{display:flex;gap:10px;justify-content:flex-end;margin-top:12px}
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Inventaire Psychologique de Performance (Jeunes)</h1>
-    <div class="card">
-      <h3 class="center">Étoile IPP</h3>
+    <div class="hdr"><img src="logo_entreprise.jpg" alt="Logo" onerror="this.style.display='none'"></div>
+    <h1>Inventaire Psychologique de Performance</h1>
+    <p class="sub">Académie de Performances</p>
+
+    <div id="welcome" class="card">
+      <p><strong>Règles de passation</strong></p>
+      <ul>
+        <li>Installez-vous dans un moment calme, sans dérangement.</li>
+        <li>Répondez avec spontanéité : classez vos réponses par priorité (1→6).</li>
+        <li>Minimum 3 choix par question pour continuer.</li>
+        <li>Durée : jusqu’à 45 minutes.</li>
+      </ul>
+      <button id="startBtn" class="btn">Commencer</button>
+    </div>
+
+    <div id="quiz" class="card" style="display:none"></div>
+    <div id="results" class="card a4" style="display:none">
+      <h2>Résultats</h2>
       <canvas id="etoile" width="720" height="420" aria-label="Étoile IPP"></canvas>
       <div class="legend">
         <span><span class="dot garant"></span>Garant</span>
@@ -33,16 +60,16 @@
         <span><span class="dot vision"></span>Visionnaire</span>
         <span><span class="dot spont"></span>Spontané</span>
       </div>
-      <p class="small">Chaque point coloré = un profil ; le chiffre = votre pourcentage.</p>
+      <div id="summary"></div>
+      <div class="actions">
+        <button id="pdfBtn" class="btn">Exporter en PDF</button>
+      </div>
     </div>
   </div>
+
   <script src="visuals_star.js"></script>
-  <script>
-    // Exemple : à remplacer par vos % calculés (ordre exact requis)
-    const valeurs = [25, 18, 22, 28, 30, 15]; // Garant, Conquérant, Bienveillant, Fiable, Visionnaire, Spontané
-    drawRadarStar(document.getElementById('etoile').getContext('2d'),
-                  ['Garant','Conquérant','Bienveillant','Fiable','Visionnaire','Spontané'],
-                  valeurs);
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script src="quiz_engine.js"></script>
 </body>
 </html>
