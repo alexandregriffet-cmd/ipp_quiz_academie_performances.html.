@@ -1,0 +1,27 @@
+
+PATCH VISUELS — IPP Jeunes (aligné sur Adultes)
+
+FICHIERS À AJOUTER (à la racine du dépôt Pages, au même niveau que index.html) :
+  1) visuals_patch.js
+  2) print_header.css
+
+ÉTAPES :
+  A) Copiez ces deux fichiers à la racine de votre dépôt GitHub Pages (branche main).
+  B) Dans index.html, vérifiez :
+     - dans <head> : <link rel="stylesheet" href="print_header.css">
+     - avant </body> : <script src="visuals_patch.js"></script>
+  C) Assurez-vous que vos trois canvases existent dans la section Résultats :
+     <canvas id="etoile" height="420"></canvas>
+     <canvas id="boussole" height="420"></canvas>
+     <canvas id="pyramide" height="420"></canvas>
+     (L'appel au rendu doit utiliser :
+       drawRadarStar(ctxEtoile, ['Garant','Conquérant','Bienveillant','Fiable','Visionnaire','Spontané'], [..%..]);
+       drawCompass(ctxBoussole, percObject);
+       drawPyramid(ctxPyramide);
+     )
+
+CE QUE LE PATCH APPORTE :
+  - Étoile radar nette avec légendes/couleurs par profil + badges de %.
+  - Boussole (Seul/Groupe – Interne/Externe) avec point de position.
+  - Pyramide 3 niveaux (Confort / Défi / Tension).
+  - CSS d'entête PDF identique à la version Adultes (logo en en-tête).
